@@ -1,0 +1,1286 @@
+[
+  {
+    "abbr": "ISO",
+    "full": "International Organization for Standardization",
+    "ja": "国際標準化機構",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "IEC",
+    "full": "International Electrotechnical Commission",
+    "ja": "国際電気標準会議",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "ITU",
+    "full": "International Telecommunication Union",
+    "ja": "国際電気通信連合",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "ITU-T",
+    "full": "ITU Telecommunication Standardization Sector",
+    "ja": "ITUの電気通信標準化部門",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "IEEE",
+    "full": "Institute of Electrical and Electronics Engineers",
+    "ja": "米国電気電子学会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "IETF",
+    "full": "Internet Engineering Task Force",
+    "ja": "インターネット技術標準化タスクフォース",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "W3C",
+    "full": "World Wide Web Consortium",
+    "ja": "Web技術の標準化団体",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "JISC",
+    "full": "Japanese Industrial Standards Committee",
+    "ja": "日本産業標準調査会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "ANSI",
+    "full": "American National Standards Institute",
+    "ja": "米国国家規格協会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "NIST",
+    "full": "National Institute of Standards and Technology",
+    "ja": "米国国立標準技術研究所",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "IPA",
+    "full": "Information-technology Promotion Agency, Japan",
+    "ja": "情報処理推進機構",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "ENISA",
+    "full": "European Union Agency for Cybersecurity",
+    "ja": "欧州連合サイバーセキュリティ機関",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "JIPDEC",
+    "full": "Japan Institute for Promotion of Digital Economy and Community",
+    "ja": "日本情報経済社会推進協会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "JAB",
+    "full": "Japan Accreditation Board",
+    "ja": "日本適合性認定協会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "ISMS-AC",
+    "full": "Information Management System Accreditation Center",
+    "ja": "情報マネジメントシステム認定センター",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "JTC",
+    "full": "Joint Technical Committee",
+    "ja": "合同技術委員会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "SC",
+    "full": "Subcommittee",
+    "ja": "分科委員会",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "WSC",
+    "full": "World Standards Cooperation",
+    "ja": "世界標準協力",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "JIS",
+    "full": "Japanese Industrial Standards",
+    "ja": "日本産業規格",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "RFC",
+    "full": "Request for Comments",
+    "ja": "インターネット技術仕様などの文書体系",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "FIPS",
+    "full": "Federal Information Processing Standards",
+    "ja": "米国連邦情報処理規格",
+    "cat": "標準化"
+  },
+  {
+    "abbr": "ISMS",
+    "full": "Information Security Management System",
+    "ja": "情報セキュリティマネジメントシステム",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "CSF",
+    "full": "Cybersecurity Framework",
+    "ja": "サイバーセキュリティフレームワーク",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "PP",
+    "full": "Protection Profile",
+    "ja": "セキュリティ評価の保護プロファイル",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "ST",
+    "full": "Security Target",
+    "ja": "セキュリティ評価対象のセキュリティターゲット",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "EAL",
+    "full": "Evaluation Assurance Level",
+    "ja": "評価保証レベル",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "CC",
+    "full": "Common Criteria",
+    "ja": "ITセキュリティ評価の共通基準",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "SLCP",
+    "full": "Software Life Cycle Process",
+    "ja": "ソフトウェアライフサイクルプロセス",
+    "cat": "開発"
+  },
+  {
+    "abbr": "SSDLC",
+    "full": "Secure Software Development Life Cycle",
+    "ja": "セキュアソフトウェア開発ライフサイクル",
+    "cat": "開発"
+  },
+  {
+    "abbr": "SOA",
+    "full": "Service-Oriented Architecture",
+    "ja": "サービス指向アーキテクチャ",
+    "cat": "開発"
+  },
+  {
+    "abbr": "SOAP",
+    "full": "Simple Object Access Protocol",
+    "ja": "XMLベースのメッセージ交換プロトコル",
+    "cat": "開発"
+  },
+  {
+    "abbr": "WSDL",
+    "full": "Web Services Description Language",
+    "ja": "Webサービスのインターフェース記述言語",
+    "cat": "開発"
+  },
+  {
+    "abbr": "UDDI",
+    "full": "Universal Description, Discovery and Integration",
+    "ja": "Webサービスの登録・検索仕様",
+    "cat": "開発"
+  },
+  {
+    "abbr": "ESB",
+    "full": "Enterprise Service Bus",
+    "ja": "サービス間の連携基盤",
+    "cat": "開発"
+  },
+  {
+    "abbr": "REST",
+    "full": "Representational State Transfer",
+    "ja": "Web API設計に使われるアーキテクチャスタイル",
+    "cat": "開発"
+  },
+  {
+    "abbr": "API",
+    "full": "Application Programming Interface",
+    "ja": "ソフトウェア機能を利用するためのインターフェース",
+    "cat": "開発"
+  },
+  {
+    "abbr": "SDLC",
+    "full": "Software Development Life Cycle",
+    "ja": "ソフトウェア開発ライフサイクル",
+    "cat": "開発"
+  },
+  {
+    "abbr": "CI",
+    "full": "Continuous Integration",
+    "ja": "継続的インテグレーション",
+    "cat": "開発"
+  },
+  {
+    "abbr": "CD",
+    "full": "Continuous Delivery / Continuous Deployment",
+    "ja": "継続的デリバリー／継続的デプロイ",
+    "cat": "開発"
+  },
+  {
+    "abbr": "SAST",
+    "full": "Static Application Security Testing",
+    "ja": "静的アプリケーションセキュリティテスト",
+    "cat": "開発"
+  },
+  {
+    "abbr": "DAST",
+    "full": "Dynamic Application Security Testing",
+    "ja": "動的アプリケーションセキュリティテスト",
+    "cat": "開発"
+  },
+  {
+    "abbr": "SBOM",
+    "full": "Software Bill of Materials",
+    "ja": "ソフトウェア部品表",
+    "cat": "開発"
+  },
+  {
+    "abbr": "RACI",
+    "full": "Responsible, Accountable, Consulted, Informed",
+    "ja": "実行責任・最終責任・相談先・報告先",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "RAID",
+    "full": "Redundant Array of Independent Disks",
+    "ja": "複数ディスクによる冗長化・高速化技術",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "XOR",
+    "full": "Exclusive OR",
+    "ja": "排他的論理和",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "CPU",
+    "full": "Central Processing Unit",
+    "ja": "中央処理装置",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "GPU",
+    "full": "Graphics Processing Unit",
+    "ja": "画像処理装置・並列演算プロセッサ",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "SSD",
+    "full": "Solid State Drive",
+    "ja": "半導体メモリを用いた記憶装置",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "HDD",
+    "full": "Hard Disk Drive",
+    "ja": "磁気ディスク装置",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "DMA",
+    "full": "Direct Memory Access",
+    "ja": "CPUを介さない直接メモリアクセス",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "IOMMU",
+    "full": "Input-Output Memory Management Unit",
+    "ja": "入出力機器のメモリアドレス変換・保護機構",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "NIC",
+    "full": "Network Interface Card",
+    "ja": "ネットワークインターフェースカード",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "VLIW",
+    "full": "Very Long Instruction Word",
+    "ja": "複数演算を一つの長い命令語にまとめる方式",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "TEE",
+    "full": "Trusted Execution Environment",
+    "ja": "隔離された信頼できる実行環境",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "TPM",
+    "full": "Trusted Platform Module",
+    "ja": "暗号鍵管理などを行うセキュリティチップ",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "HSM",
+    "full": "Hardware Security Module",
+    "ja": "暗号鍵を保護・処理する専用ハードウェア",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "OS",
+    "full": "Operating System",
+    "ja": "基本ソフトウェア",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "VM",
+    "full": "Virtual Machine",
+    "ja": "仮想マシン",
+    "cat": "基礎技術"
+  },
+  {
+    "abbr": "IDS",
+    "full": "Intrusion Detection System",
+    "ja": "侵入検知システム",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "IPS",
+    "full": "Intrusion Prevention System",
+    "ja": "侵入防止システム",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "EDR",
+    "full": "Endpoint Detection and Response",
+    "ja": "エンドポイントでの検知・対応",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "XDR",
+    "full": "Extended Detection and Response",
+    "ja": "複数領域を横断する検知・対応",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "NDR",
+    "full": "Network Detection and Response",
+    "ja": "ネットワークでの検知・対応",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "SIEM",
+    "full": "Security Information and Event Management",
+    "ja": "セキュリティ情報・イベント管理",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "SOAR",
+    "full": "Security Orchestration, Automation and Response",
+    "ja": "セキュリティ対応の統合・自動化",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "UEBA",
+    "full": "User and Entity Behavior Analytics",
+    "ja": "ユーザー・エンティティ行動分析",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "SOC",
+    "full": "Security Operations Center",
+    "ja": "セキュリティ監視・運用拠点",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "CSIRT",
+    "full": "Computer Security Incident Response Team",
+    "ja": "コンピュータセキュリティインシデント対応チーム",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "IOC",
+    "full": "Indicator of Compromise",
+    "ja": "侵害の痕跡・指標",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "TTP",
+    "full": "Tactics, Techniques and Procedures",
+    "ja": "攻撃者の戦術・技術・手順",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "DLP",
+    "full": "Data Loss Prevention",
+    "ja": "情報漏えい防止",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "CASB",
+    "full": "Cloud Access Security Broker",
+    "ja": "クラウド利用の可視化・制御基盤",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "WAF",
+    "full": "Web Application Firewall",
+    "ja": "Webアプリケーションを守るファイアウォール",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "FW",
+    "full": "Firewall",
+    "ja": "ファイアウォール",
+    "cat": "検知・対応"
+  },
+  {
+    "abbr": "CVE",
+    "full": "Common Vulnerabilities and Exposures",
+    "ja": "公表された脆弱性の識別子体系",
+    "cat": "脆弱性"
+  },
+  {
+    "abbr": "CWE",
+    "full": "Common Weakness Enumeration",
+    "ja": "ソフトウェアの弱点分類",
+    "cat": "脆弱性"
+  },
+  {
+    "abbr": "CVSS",
+    "full": "Common Vulnerability Scoring System",
+    "ja": "脆弱性の深刻度評価方式",
+    "cat": "脆弱性"
+  },
+  {
+    "abbr": "KEV",
+    "full": "Known Exploited Vulnerabilities",
+    "ja": "悪用が確認された脆弱性のカタログ",
+    "cat": "脆弱性"
+  },
+  {
+    "abbr": "EPSS",
+    "full": "Exploit Prediction Scoring System",
+    "ja": "脆弱性が悪用される可能性を予測する指標",
+    "cat": "脆弱性"
+  },
+  {
+    "abbr": "CPE",
+    "full": "Common Platform Enumeration",
+    "ja": "製品・プラットフォームの識別体系",
+    "cat": "脆弱性"
+  },
+  {
+    "abbr": "SLA",
+    "full": "Service Level Agreement",
+    "ja": "サービス品質に関する合意",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "SLO",
+    "full": "Service Level Objective",
+    "ja": "サービスレベル目標",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "BCP",
+    "full": "Business Continuity Plan",
+    "ja": "事業継続計画",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "BCM",
+    "full": "Business Continuity Management",
+    "ja": "事業継続マネジメント",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "RTO",
+    "full": "Recovery Time Objective",
+    "ja": "目標復旧時間",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "RPO",
+    "full": "Recovery Point Objective",
+    "ja": "目標復旧時点",
+    "cat": "セキュリティ管理"
+  },
+  {
+    "abbr": "TCP",
+    "full": "Transmission Control Protocol",
+    "ja": "信頼性のある転送を行うトランスポートプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "UDP",
+    "full": "User Datagram Protocol",
+    "ja": "コネクションレス型トランスポートプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "IP",
+    "full": "Internet Protocol",
+    "ja": "インターネットプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "DNS",
+    "full": "Domain Name System",
+    "ja": "ドメイン名を管理・名前解決する仕組み",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "DHCP",
+    "full": "Dynamic Host Configuration Protocol",
+    "ja": "IPアドレスなどを自動設定するプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "HTTP",
+    "full": "Hypertext Transfer Protocol",
+    "ja": "Webの転送プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "HTTPS",
+    "full": "Hypertext Transfer Protocol Secure",
+    "ja": "TLSで保護されたHTTP",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "TLS",
+    "full": "Transport Layer Security",
+    "ja": "通信を保護する暗号プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "SSL",
+    "full": "Secure Sockets Layer",
+    "ja": "TLSの前身となる暗号通信プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "VPN",
+    "full": "Virtual Private Network",
+    "ja": "仮想プライベートネットワーク",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "IPsec",
+    "full": "Internet Protocol Security",
+    "ja": "IP層で通信を保護するプロトコル群",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "IKE",
+    "full": "Internet Key Exchange",
+    "ja": "IPsecの鍵交換・SA確立プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "SA",
+    "full": "Security Association",
+    "ja": "IPsecで通信保護条件を表す論理的な関係",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "OSPF",
+    "full": "Open Shortest Path First",
+    "ja": "リンクステート型の経路制御プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "BGP",
+    "full": "Border Gateway Protocol",
+    "ja": "AS間の経路制御プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "QUIC",
+    "full": "QUIC",
+    "ja": "UDPを基盤とする暗号化されたトランスポートプロトコル（現在は展開形を正式名称としない）",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "LAN",
+    "full": "Local Area Network",
+    "ja": "構内ネットワーク",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "WAN",
+    "full": "Wide Area Network",
+    "ja": "広域ネットワーク",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "NAT",
+    "full": "Network Address Translation",
+    "ja": "IPアドレス変換",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "NAPT",
+    "full": "Network Address Port Translation",
+    "ja": "IPアドレスとポート番号の変換",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "ARP",
+    "full": "Address Resolution Protocol",
+    "ja": "IPv4アドレスからMACアドレスを調べるプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "ICMP",
+    "full": "Internet Control Message Protocol",
+    "ja": "IPの制御・エラー通知プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "SMTP",
+    "full": "Simple Mail Transfer Protocol",
+    "ja": "メール送信・転送プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "IMAP",
+    "full": "Internet Message Access Protocol",
+    "ja": "メールサーバ上でメールを管理するプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "POP3",
+    "full": "Post Office Protocol version 3",
+    "ja": "メールを受信するプロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "SNMP",
+    "full": "Simple Network Management Protocol",
+    "ja": "ネットワーク機器の監視・管理",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "NTP",
+    "full": "Network Time Protocol",
+    "ja": "時刻同期プロトコル",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "MAC",
+    "full": "Media Access Control",
+    "ja": "データリンク層の媒体アクセス制御",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "VLAN",
+    "full": "Virtual Local Area Network",
+    "ja": "仮想LAN",
+    "cat": "ネットワーク"
+  },
+  {
+    "abbr": "AAA",
+    "full": "Authentication, Authorization and Accounting",
+    "ja": "認証・認可・課金（利用記録）",
+    "cat": "認証"
+  },
+  {
+    "abbr": "RADIUS",
+    "full": "Remote Authentication Dial-In User Service",
+    "ja": "ネットワークアクセスの認証・認可・利用記録",
+    "cat": "認証"
+  },
+  {
+    "abbr": "EAP",
+    "full": "Extensible Authentication Protocol",
+    "ja": "拡張認証プロトコル",
+    "cat": "認証"
+  },
+  {
+    "abbr": "NAS",
+    "full": "Network Access Server",
+    "ja": "ネットワークアクセスサーバ",
+    "cat": "認証"
+  },
+  {
+    "abbr": "TACACS+",
+    "full": "Terminal Access Controller Access-Control System Plus",
+    "ja": "ネットワーク機器管理向けAAAプロトコル",
+    "cat": "認証"
+  },
+  {
+    "abbr": "MFA",
+    "full": "Multi-Factor Authentication",
+    "ja": "多要素認証",
+    "cat": "認証"
+  },
+  {
+    "abbr": "2FA",
+    "full": "Two-Factor Authentication",
+    "ja": "二要素認証",
+    "cat": "認証"
+  },
+  {
+    "abbr": "SSO",
+    "full": "Single Sign-On",
+    "ja": "シングルサインオン",
+    "cat": "認証"
+  },
+  {
+    "abbr": "SAML",
+    "full": "Security Assertion Markup Language",
+    "ja": "認証・認可情報の交換に使うXML規格",
+    "cat": "認証"
+  },
+  {
+    "abbr": "OIDC",
+    "full": "OpenID Connect",
+    "ja": "OAuth 2.0を基盤とする認証レイヤー",
+    "cat": "認証"
+  },
+  {
+    "abbr": "OAuth",
+    "full": "Open Authorization",
+    "ja": "権限委譲のための枠組み（通称の展開形）",
+    "cat": "認証"
+  },
+  {
+    "abbr": "FIDO",
+    "full": "Fast IDentity Online",
+    "ja": "パスワードレス認証などの標準化を進める枠組み",
+    "cat": "認証"
+  },
+  {
+    "abbr": "PKI",
+    "full": "Public Key Infrastructure",
+    "ja": "公開鍵基盤",
+    "cat": "認証"
+  },
+  {
+    "abbr": "CA",
+    "full": "Certification Authority",
+    "ja": "電子証明書を発行する認証局",
+    "cat": "認証"
+  },
+  {
+    "abbr": "CRL",
+    "full": "Certificate Revocation List",
+    "ja": "証明書失効リスト",
+    "cat": "認証"
+  },
+  {
+    "abbr": "OCSP",
+    "full": "Online Certificate Status Protocol",
+    "ja": "証明書の失効状態確認プロトコル",
+    "cat": "認証"
+  },
+  {
+    "abbr": "OTP",
+    "full": "One-Time Password",
+    "ja": "ワンタイムパスワード",
+    "cat": "認証"
+  },
+  {
+    "abbr": "MITM",
+    "full": "Man-in-the-Middle",
+    "ja": "中間者攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "MITB",
+    "full": "Man-in-the-Browser",
+    "ja": "ブラウザ内部に介入する攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "DDoS",
+    "full": "Distributed Denial of Service",
+    "ja": "分散型サービス妨害攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "DoS",
+    "full": "Denial of Service",
+    "ja": "サービス妨害攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "SQLi",
+    "full": "SQL Injection",
+    "ja": "SQLインジェクション",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "XSS",
+    "full": "Cross-Site Scripting",
+    "ja": "クロスサイトスクリプティング",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "CSRF",
+    "full": "Cross-Site Request Forgery",
+    "ja": "クロスサイトリクエストフォージェリ",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "SSRF",
+    "full": "Server-Side Request Forgery",
+    "ja": "サーバサイドリクエストフォージェリ",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "RCE",
+    "full": "Remote Code Execution",
+    "ja": "遠隔からのコード実行",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "APT",
+    "full": "Advanced Persistent Threat",
+    "ja": "高度で持続的な標的型攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "フェールセーフ",
+    "full": "Fail Safe",
+    "ja": "障害発生時に安全側へ移行する設計",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "フェールソフト",
+    "full": "Fail Soft",
+    "ja": "障害時に機能を縮退させて運転を継続",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "フォールトトレランス",
+    "full": "Fault Tolerance",
+    "ja": "一部の故障があっても必要な機能を維持",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "フォールトアボイダンス",
+    "full": "Fault Avoidance",
+    "ja": "設計や品質管理によって故障を未然に防止",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "フールプルーフ",
+    "full": "Foolproof",
+    "ja": "誤操作をしても事故につながらない設計",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "フェールオーバー",
+    "full": "Failover",
+    "ja": "主系の障害時に待機系へ処理を切替",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "フェールバック",
+    "full": "Failback",
+    "ja": "障害復旧後に元の系へ処理を戻す",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "グレースフルデグラデーション",
+    "full": "Graceful Degradation",
+    "ja": "性能や機能を段階的に落として動作を継続",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "デュアルシステム",
+    "full": "Dual System",
+    "ja": "二系統で同一処理を実行し結果を照合",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "デュプレックスシステム",
+    "full": "Duplex System",
+    "ja": "主系と待機系を備える冗長化構成",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "ホットスタンバイ",
+    "full": "Hot Standby",
+    "ja": "待機系を即座に引き継げる状態に維持",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "ウォームスタンバイ",
+    "full": "Warm Standby",
+    "ja": "一部準備した待機系を障害後に立ち上げる",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "コールドスタンバイ",
+    "full": "Cold Standby",
+    "ja": "通常停止の待機系を障害時に起動",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "アクティブ・アクティブ",
+    "full": "Active-Active",
+    "ja": "複数の稼働系が通常時から処理を担当",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "アクティブ・スタンバイ",
+    "full": "Active-Standby",
+    "ja": "稼働系と障害時用の待機系を設ける",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "直列システム",
+    "full": "Series System",
+    "ja": "全構成要素が動作して初めて全体が稼働",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "並列システム",
+    "full": "Parallel System",
+    "ja": "いずれかの系が動けば全体を稼働可能",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "冗長化",
+    "full": "Redundancy",
+    "ja": "予備装置や経路を設け単一故障の影響を抑える",
+    "cat": "信頼性・可用性"
+  },
+  {
+    "abbr": "ミラーリング",
+    "full": "Mirroring",
+    "ja": "同一データを複数ディスクに複製",
+    "cat": "ストレージ"
+  },
+  {
+    "abbr": "ストライピング",
+    "full": "Striping",
+    "ja": "データを分割して複数ディスクへ分散",
+    "cat": "ストレージ"
+  },
+  {
+    "abbr": "パリティ",
+    "full": "Parity",
+    "ja": "データ故障時の復元に利用する冗長情報",
+    "cat": "ストレージ"
+  },
+  {
+    "abbr": "リビルド",
+    "full": "Rebuild",
+    "ja": "故障ディスク交換後に冗長情報からデータを再構築",
+    "cat": "ストレージ"
+  },
+  {
+    "abbr": "アノマリ検知",
+    "full": "Anomaly Detection",
+    "ja": "正常な振る舞いからの逸脱を検出",
+    "cat": "検知・監視"
+  },
+  {
+    "abbr": "シグネチャベース検知",
+    "full": "Signature-Based Detection",
+    "ja": "既知の攻撃パターンに照合して検出",
+    "cat": "検知・監視"
+  },
+  {
+    "abbr": "偽陽性",
+    "full": "False Positive",
+    "ja": "正常なものを異常と誤判定",
+    "cat": "検知・監視"
+  },
+  {
+    "abbr": "偽陰性",
+    "full": "False Negative",
+    "ja": "異常なものを正常と誤判定して見逃す",
+    "cat": "検知・監視"
+  },
+  {
+    "abbr": "真陽性",
+    "full": "True Positive",
+    "ja": "異常を正しく異常と判断",
+    "cat": "検知・監視"
+  },
+  {
+    "abbr": "真陰性",
+    "full": "True Negative",
+    "ja": "正常を正しく正常と判断",
+    "cat": "検知・監視"
+  },
+  {
+    "abbr": "ソフトウェアライフサイクルプロセス",
+    "full": "Software Life Cycle Processes",
+    "ja": "取得から開発・運用・保守・廃棄までの活動体系",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "ソフトウェア実装プロセス",
+    "full": "Software Implementation Process",
+    "ja": "要求分析・設計・構築・結合・適格性確認を含む",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "ソフトウェア方式設計",
+    "full": "Software Architectural Design",
+    "ja": "ソフトウェア全体の構造とインターフェースの設計",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "ソフトウェア詳細設計",
+    "full": "Software Detailed Design",
+    "ja": "構成要素の内部処理とデータ構造を設計",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "ソフトウェア結合",
+    "full": "Software Integration",
+    "ja": "構成要素を組み合わせ相互の動作を確認",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "適格性確認テスト",
+    "full": "Qualification Testing",
+    "ja": "ソフトウェアが定められた要求を満たすか試験",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "検証",
+    "full": "Verification",
+    "ja": "仕様に正しく従って作られているか確認",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "妥当性確認",
+    "full": "Validation",
+    "ja": "利用目的や利用者のニーズを満たすか確認",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "シフトレフト",
+    "full": "Shift Left",
+    "ja": "テストやセキュリティ対策を開発の早期から実施",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "ウォーターフォール",
+    "full": "Waterfall Model",
+    "ja": "工程を原則として順に進める開発モデル",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "アジャイル",
+    "full": "Agile Development",
+    "ja": "短い反復で開発し変化に柔軟に対応",
+    "cat": "開発・管理"
+  },
+  {
+    "abbr": "疎結合",
+    "full": "Loose Coupling",
+    "ja": "サービスや部品間の依存を小さくする設計",
+    "cat": "アーキテクチャ"
+  },
+  {
+    "abbr": "マイクロサービス",
+    "full": "Microservices",
+    "ja": "小さな独立サービスで構成するアーキテクチャ",
+    "cat": "アーキテクチャ"
+  },
+  {
+    "abbr": "サービス指向アーキテクチャ",
+    "full": "Service-Oriented Architecture",
+    "ja": "業務機能を独立サービスとして公開し組み合わせる",
+    "cat": "アーキテクチャ"
+  },
+  {
+    "abbr": "ゼロトラスト",
+    "full": "Zero Trust",
+    "ja": "ネットワーク位置だけで信頼せず都度検証",
+    "cat": "セキュリティ設計"
+  },
+  {
+    "abbr": "最小権限の原則",
+    "full": "Principle of Least Privilege",
+    "ja": "利用者やプロセスに必要最小限の権限だけ付与",
+    "cat": "セキュリティ設計"
+  },
+  {
+    "abbr": "多要素認証",
+    "full": "Multi-Factor Authentication",
+    "ja": "異なる種類の認証要素を二つ以上使う",
+    "cat": "認証"
+  },
+  {
+    "abbr": "リモートアテステーション",
+    "full": "Remote Attestation",
+    "ja": "遠隔から実行環境の状態や正当性を検証",
+    "cat": "先端技術"
+  },
+  {
+    "abbr": "信頼できる実行環境",
+    "full": "Trusted Execution Environment",
+    "ja": "保護された領域でコードとデータを実行",
+    "cat": "先端技術"
+  },
+  {
+    "abbr": "コンフィデンシャルコンピューティング",
+    "full": "Confidential Computing",
+    "ja": "処理中のデータも保護する計算技術",
+    "cat": "先端技術"
+  },
+  {
+    "abbr": "エアギャップ",
+    "full": "Air Gap",
+    "ja": "ネットワークから物理的または論理的に分離する",
+    "cat": "セキュリティ設計"
+  },
+  {
+    "abbr": "シャドーIT",
+    "full": "Shadow IT",
+    "ja": "組織の承認・管理外で使われるIT資産やサービス",
+    "cat": "運用・管理"
+  },
+  {
+    "abbr": "カミンスキー攻撃",
+    "full": "Kaminsky Attack",
+    "ja": "DNSキャッシュ汚染を高確率化する攻撃手法",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "中間者攻撃",
+    "full": "Man-in-the-Middle Attack",
+    "ja": "通信の中間に介入して盗聴・改ざんする",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "ブラウザ内中間者攻撃",
+    "full": "Man-in-the-Browser Attack",
+    "ja": "ブラウザ内部に介入して通信内容などを改ざん",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "コネクトバック",
+    "full": "Connect-Back",
+    "ja": "侵害先から攻撃者側へ逆向き接続を開始する方式",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "コピーオンライト",
+    "full": "Copy-on-Write",
+    "ja": "書き込み時に初めてデータの複製を作る",
+    "cat": "OS・計算機"
+  },
+  {
+    "abbr": "メモリインタリーブ",
+    "full": "Memory Interleaving",
+    "ja": "複数メモリバンクにアクセスを分散し性能を向上",
+    "cat": "OS・計算機"
+  },
+  {
+    "abbr": "ダイレクトメモリアクセス",
+    "full": "Direct Memory Access",
+    "ja": "CPUを介さず周辺機器が主記憶とデータ転送",
+    "cat": "OS・計算機"
+  },
+  {
+    "abbr": "先入れ先出し",
+    "full": "First In, First Out",
+    "ja": "先に入れたデータを先に取り出す方式",
+    "cat": "アルゴリズム"
+  },
+  {
+    "abbr": "最長未使用ページ置換",
+    "full": "Least Recently Used",
+    "ja": "最も長く参照されないページを置換",
+    "cat": "アルゴリズム"
+  },
+  {
+    "abbr": "アムダールの法則",
+    "full": "Amdahl's Law",
+    "ja": "並列化できない部分が高速化の上限を決める",
+    "cat": "性能評価"
+  },
+  {
+    "abbr": "カルノー図",
+    "full": "Karnaugh Map",
+    "ja": "論理関数を視覚的に簡単化する表",
+    "cat": "論理回路"
+  },
+  {
+    "abbr": "情報理論的安全性",
+    "full": "Information-Theoretic Security",
+    "ja": "計算能力に依存せず暗号の安全性が保証される性質",
+    "cat": "暗号"
+  },
+  {
+    "abbr": "パスキー",
+    "full": "Passkey",
+    "ja": "公開鍵暗号によるフィッシング耐性のある認証資格情報",
+    "cat": "認証"
+  },
+  {
+    "abbr": "電子署名",
+    "full": "Digital Signature",
+    "ja": "改ざん検出と署名者の正当性確認に用いる暗号技術",
+    "cat": "暗号"
+  },
+  {
+    "abbr": "公開鍵暗号",
+    "full": "Public-Key Cryptography",
+    "ja": "暗号化と復号などに公開鍵・秘密鍵の対を利用",
+    "cat": "暗号"
+  },
+  {
+    "abbr": "共通鍵暗号",
+    "full": "Symmetric-Key Cryptography",
+    "ja": "暗号化と復号に同じ秘密鍵を用いる",
+    "cat": "暗号"
+  },
+  {
+    "abbr": "ハッシュ関数",
+    "full": "Hash Function",
+    "ja": "入力から固定長などの要約値を計算",
+    "cat": "暗号"
+  },
+  {
+    "abbr": "SQLインジェクション",
+    "full": "SQL Injection",
+    "ja": "入力を通じて不正なSQLを実行させる攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "クロスサイトスクリプティング",
+    "full": "Cross-Site Scripting",
+    "ja": "Webページに悪意あるスクリプトを混入させる攻撃",
+    "cat": "攻撃"
+  },
+  {
+    "abbr": "インシデント対応",
+    "full": "Incident Response",
+    "ja": "検知・分析・封じ込め・復旧などの対応活動",
+    "cat": "運用・管理"
+  },
+  {
+    "abbr": "リスクアセスメント",
+    "full": "Risk Assessment",
+    "ja": "リスクの特定・分析・評価を行う",
+    "cat": "運用・管理"
+  },
+  {
+    "abbr": "セキュリティバイデザイン",
+    "full": "Security by Design",
+    "ja": "設計初期からセキュリティを組み込む考え方",
+    "cat": "セキュリティ設計"
+  }
+]
