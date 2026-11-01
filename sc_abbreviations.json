@@ -3,1284 +3,1498 @@
     "abbr": "ISO",
     "full": "International Organization for Standardization",
     "ja": "国際標準化機構",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "国際標準化機構。幅広い分野の国際規格を策定し、IECと協力してIT分野のISO/IEC規格も策定する。ISO自身が企業のISMS認証を発行するわけではない。"
   },
   {
     "abbr": "IEC",
     "full": "International Electrotechnical Commission",
     "ja": "国際電気標準会議",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "国際電気標準会議。電気・電子分野を中心に国際標準を策定する。ISOと共同でJTC 1を通じ情報技術分野の規格策定にも関与する。"
   },
   {
     "abbr": "ITU",
     "full": "International Telecommunication Union",
     "ja": "国際電気通信連合",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "International Telecommunication Union。国際電気通信連合。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "ITU-T",
     "full": "ITU Telecommunication Standardization Sector",
     "ja": "ITUの電気通信標準化部門",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "ITU Telecommunication Standardization Sector。ITUの電気通信標準化部門。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "IEEE",
     "full": "Institute of Electrical and Electronics Engineers",
     "ja": "米国電気電子学会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Institute of Electrical and Electronics Engineers。米国電気電子学会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "IETF",
     "full": "Internet Engineering Task Force",
     "ja": "インターネット技術標準化タスクフォース",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Internet Engineering Task Force。インターネット技術標準化タスクフォース。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "W3C",
     "full": "World Wide Web Consortium",
     "ja": "Web技術の標準化団体",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "World Wide Web Consortium。Web技術の標準化団体。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "JISC",
     "full": "Japanese Industrial Standards Committee",
     "ja": "日本産業標準調査会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Japanese Industrial Standards Committee。日本産業標準調査会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "ANSI",
     "full": "American National Standards Institute",
     "ja": "米国国家規格協会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "American National Standards Institute。米国国家規格協会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "NIST",
     "full": "National Institute of Standards and Technology",
     "ja": "米国国立標準技術研究所",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "National Institute of Standards and Technology。米国国立標準技術研究所。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "IPA",
     "full": "Information-technology Promotion Agency, Japan",
     "ja": "情報処理推進機構",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Information-technology Promotion Agency, Japan。情報処理推進機構。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "ENISA",
     "full": "European Union Agency for Cybersecurity",
     "ja": "欧州連合サイバーセキュリティ機関",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "European Union Agency for Cybersecurity。欧州連合サイバーセキュリティ機関。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "JIPDEC",
     "full": "Japan Institute for Promotion of Digital Economy and Community",
     "ja": "日本情報経済社会推進協会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Japan Institute for Promotion of Digital Economy and Community。日本情報経済社会推進協会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "JAB",
     "full": "Japan Accreditation Board",
     "ja": "日本適合性認定協会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Japan Accreditation Board。日本適合性認定協会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "ISMS-AC",
     "full": "Information Management System Accreditation Center",
     "ja": "情報マネジメントシステム認定センター",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Information Management System Accreditation Center。情報マネジメントシステム認定センター。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "JTC",
     "full": "Joint Technical Committee",
     "ja": "合同技術委員会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Joint Technical Committee。合同技術委員会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "SC",
     "full": "Subcommittee",
     "ja": "分科委員会",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Subcommittee。分科委員会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "WSC",
     "full": "World Standards Cooperation",
     "ja": "世界標準協力",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "World Standards Cooperation。世界標準協力。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "JIS",
     "full": "Japanese Industrial Standards",
     "ja": "日本産業規格",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Japanese Industrial Standards。日本産業規格。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "RFC",
     "full": "Request for Comments",
     "ja": "インターネット技術仕様などの文書体系",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Request for Comments。インターネット技術仕様などの文書体系。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "FIPS",
     "full": "Federal Information Processing Standards",
     "ja": "米国連邦情報処理規格",
-    "cat": "標準化"
+    "cat": "標準化",
+    "detail": "Federal Information Processing Standards。米国連邦情報処理規格。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
   },
   {
     "abbr": "ISMS",
     "full": "Information Security Management System",
     "ja": "情報セキュリティマネジメントシステム",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Information Security Management System。情報セキュリティマネジメントシステム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CSF",
     "full": "Cybersecurity Framework",
     "ja": "サイバーセキュリティフレームワーク",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Cybersecurity Framework。サイバーセキュリティフレームワーク。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "PP",
     "full": "Protection Profile",
     "ja": "セキュリティ評価の保護プロファイル",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Protection Profile。セキュリティ評価の保護プロファイル。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ST",
     "full": "Security Target",
     "ja": "セキュリティ評価対象のセキュリティターゲット",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Security Target。セキュリティ評価対象のセキュリティターゲット。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "EAL",
     "full": "Evaluation Assurance Level",
     "ja": "評価保証レベル",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Evaluation Assurance Level。評価保証レベル。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CC",
     "full": "Common Criteria",
     "ja": "ITセキュリティ評価の共通基準",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Common Criteria。ITセキュリティ評価の共通基準。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SLCP",
     "full": "Software Life Cycle Process",
     "ja": "ソフトウェアライフサイクルプロセス",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "企画・取得・開発・運用・保守・廃棄までのソフトウェアの生涯にわたる活動を体系化する。代表規格はISO/IEC/IEEE 12207。開発手法であるウォーターフォールやアジャイルとは別概念。"
   },
   {
     "abbr": "SSDLC",
     "full": "Secure Software Development Life Cycle",
     "ja": "セキュアソフトウェア開発ライフサイクル",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Secure Software Development Life Cycle。セキュアソフトウェア開発ライフサイクル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "SOA",
     "full": "Service-Oriented Architecture",
     "ja": "サービス指向アーキテクチャ",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "業務機能を独立したサービスとして公開し、明確なインターフェースを介して組み合わせる設計思想。疎結合と再利用性が重要で、SOAPは必須ではない。"
   },
   {
     "abbr": "SOAP",
     "full": "Simple Object Access Protocol",
     "ja": "XMLベースのメッセージ交換プロトコル",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Simple Object Access Protocol。XMLベースのメッセージ交換プロトコル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "WSDL",
     "full": "Web Services Description Language",
     "ja": "Webサービスのインターフェース記述言語",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Web Services Description Language。Webサービスのインターフェース記述言語。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "UDDI",
     "full": "Universal Description, Discovery and Integration",
     "ja": "Webサービスの登録・検索仕様",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Universal Description, Discovery and Integration。Webサービスの登録・検索仕様。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "ESB",
     "full": "Enterprise Service Bus",
     "ja": "サービス間の連携基盤",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Enterprise Service Bus。サービス間の連携基盤。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "REST",
     "full": "Representational State Transfer",
     "ja": "Web API設計に使われるアーキテクチャスタイル",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Representational State Transfer。Web API設計に使われるアーキテクチャスタイル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "API",
     "full": "Application Programming Interface",
     "ja": "ソフトウェア機能を利用するためのインターフェース",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Application Programming Interface。ソフトウェア機能を利用するためのインターフェース。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "SDLC",
     "full": "Software Development Life Cycle",
     "ja": "ソフトウェア開発ライフサイクル",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Software Development Life Cycle。ソフトウェア開発ライフサイクル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "CI",
     "full": "Continuous Integration",
     "ja": "継続的インテグレーション",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Continuous Integration。継続的インテグレーション。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "CD",
     "full": "Continuous Delivery / Continuous Deployment",
     "ja": "継続的デリバリー／継続的デプロイ",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Continuous Delivery / Continuous Deployment。継続的デリバリー／継続的デプロイ。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "SAST",
     "full": "Static Application Security Testing",
     "ja": "静的アプリケーションセキュリティテスト",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Static Application Security Testing。静的アプリケーションセキュリティテスト。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "DAST",
     "full": "Dynamic Application Security Testing",
     "ja": "動的アプリケーションセキュリティテスト",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Dynamic Application Security Testing。動的アプリケーションセキュリティテスト。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "SBOM",
     "full": "Software Bill of Materials",
     "ja": "ソフトウェア部品表",
-    "cat": "開発"
+    "cat": "開発",
+    "detail": "Software Bill of Materials。ソフトウェア部品表。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
   },
   {
     "abbr": "RACI",
     "full": "Responsible, Accountable, Consulted, Informed",
     "ja": "実行責任・最終責任・相談先・報告先",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Responsible, Accountable, Consulted, Informed。実行責任・最終責任・相談先・報告先。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "RAID",
     "full": "Redundant Array of Independent Disks",
     "ja": "複数ディスクによる冗長化・高速化技術",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "複数ディスクを組み合わせ、性能向上や耐障害性を実現する技術。RAID 0は冗長性なし、RAID 1は複製、RAID 5は1台故障、RAID 6は2台故障に対応。RAIDはバックアップの代替ではない。"
   },
   {
     "abbr": "XOR",
     "full": "Exclusive OR",
     "ja": "排他的論理和",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Exclusive OR。排他的論理和。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CPU",
     "full": "Central Processing Unit",
     "ja": "中央処理装置",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Central Processing Unit。中央処理装置。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "GPU",
     "full": "Graphics Processing Unit",
     "ja": "画像処理装置・並列演算プロセッサ",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Graphics Processing Unit。画像処理装置・並列演算プロセッサ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SSD",
     "full": "Solid State Drive",
     "ja": "半導体メモリを用いた記憶装置",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Solid State Drive。半導体メモリを用いた記憶装置。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "HDD",
     "full": "Hard Disk Drive",
     "ja": "磁気ディスク装置",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Hard Disk Drive。磁気ディスク装置。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "DMA",
     "full": "Direct Memory Access",
     "ja": "CPUを介さない直接メモリアクセス",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Direct Memory Access。CPUを介さない直接メモリアクセス。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "IOMMU",
     "full": "Input-Output Memory Management Unit",
     "ja": "入出力機器のメモリアドレス変換・保護機構",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Input-Output Memory Management Unit。入出力機器のメモリアドレス変換・保護機構。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "NIC",
     "full": "Network Interface Card",
     "ja": "ネットワークインターフェースカード",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Network Interface Card。ネットワークインターフェースカード。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "VLIW",
     "full": "Very Long Instruction Word",
     "ja": "複数演算を一つの長い命令語にまとめる方式",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Very Long Instruction Word。複数演算を一つの長い命令語にまとめる方式。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "TEE",
     "full": "Trusted Execution Environment",
     "ja": "隔離された信頼できる実行環境",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Trusted Execution Environment。隔離された信頼できる実行環境。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "TPM",
     "full": "Trusted Platform Module",
     "ja": "暗号鍵管理などを行うセキュリティチップ",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Trusted Platform Module。暗号鍵管理などを行うセキュリティチップ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "HSM",
     "full": "Hardware Security Module",
     "ja": "暗号鍵を保護・処理する専用ハードウェア",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Hardware Security Module。暗号鍵を保護・処理する専用ハードウェア。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "OS",
     "full": "Operating System",
     "ja": "基本ソフトウェア",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Operating System。基本ソフトウェア。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "VM",
     "full": "Virtual Machine",
     "ja": "仮想マシン",
-    "cat": "基礎技術"
+    "cat": "基礎技術",
+    "detail": "Virtual Machine。仮想マシン。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "IDS",
     "full": "Intrusion Detection System",
     "ja": "侵入検知システム",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Intrusion Detection System。侵入検知システム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "IPS",
     "full": "Intrusion Prevention System",
     "ja": "侵入防止システム",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Intrusion Prevention System。侵入防止システム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "EDR",
     "full": "Endpoint Detection and Response",
     "ja": "エンドポイントでの検知・対応",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Endpoint Detection and Response。エンドポイントでの検知・対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "XDR",
     "full": "Extended Detection and Response",
     "ja": "複数領域を横断する検知・対応",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Extended Detection and Response。複数領域を横断する検知・対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "NDR",
     "full": "Network Detection and Response",
     "ja": "ネットワークでの検知・対応",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Network Detection and Response。ネットワークでの検知・対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SIEM",
     "full": "Security Information and Event Management",
     "ja": "セキュリティ情報・イベント管理",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Security Information and Event Management。セキュリティ情報・イベント管理。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SOAR",
     "full": "Security Orchestration, Automation and Response",
     "ja": "セキュリティ対応の統合・自動化",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Security Orchestration, Automation and Response。セキュリティ対応の統合・自動化。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "UEBA",
     "full": "User and Entity Behavior Analytics",
     "ja": "ユーザー・エンティティ行動分析",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "User and Entity Behavior Analytics。ユーザー・エンティティ行動分析。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SOC",
     "full": "Security Operations Center",
     "ja": "セキュリティ監視・運用拠点",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Security Operations Center。セキュリティ監視・運用拠点。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CSIRT",
     "full": "Computer Security Incident Response Team",
     "ja": "コンピュータセキュリティインシデント対応チーム",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Computer Security Incident Response Team。コンピュータセキュリティインシデント対応チーム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "IOC",
     "full": "Indicator of Compromise",
     "ja": "侵害の痕跡・指標",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Indicator of Compromise。侵害の痕跡・指標。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "TTP",
     "full": "Tactics, Techniques and Procedures",
     "ja": "攻撃者の戦術・技術・手順",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Tactics, Techniques and Procedures。攻撃者の戦術・技術・手順。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "DLP",
     "full": "Data Loss Prevention",
     "ja": "情報漏えい防止",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Data Loss Prevention。情報漏えい防止。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CASB",
     "full": "Cloud Access Security Broker",
     "ja": "クラウド利用の可視化・制御基盤",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Cloud Access Security Broker。クラウド利用の可視化・制御基盤。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "WAF",
     "full": "Web Application Firewall",
     "ja": "Webアプリケーションを守るファイアウォール",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Web Application Firewall。Webアプリケーションを守るファイアウォール。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "FW",
     "full": "Firewall",
     "ja": "ファイアウォール",
-    "cat": "検知・対応"
+    "cat": "検知・対応",
+    "detail": "Firewall。ファイアウォール。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CVE",
     "full": "Common Vulnerabilities and Exposures",
     "ja": "公表された脆弱性の識別子体系",
-    "cat": "脆弱性"
+    "cat": "脆弱性",
+    "detail": "Common Vulnerabilities and Exposures。公表された脆弱性の識別子体系。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CWE",
     "full": "Common Weakness Enumeration",
     "ja": "ソフトウェアの弱点分類",
-    "cat": "脆弱性"
+    "cat": "脆弱性",
+    "detail": "Common Weakness Enumeration。ソフトウェアの弱点分類。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CVSS",
     "full": "Common Vulnerability Scoring System",
     "ja": "脆弱性の深刻度評価方式",
-    "cat": "脆弱性"
+    "cat": "脆弱性",
+    "detail": "Common Vulnerability Scoring System。脆弱性の深刻度評価方式。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "KEV",
     "full": "Known Exploited Vulnerabilities",
     "ja": "悪用が確認された脆弱性のカタログ",
-    "cat": "脆弱性"
+    "cat": "脆弱性",
+    "detail": "Known Exploited Vulnerabilities。悪用が確認された脆弱性のカタログ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "EPSS",
     "full": "Exploit Prediction Scoring System",
     "ja": "脆弱性が悪用される可能性を予測する指標",
-    "cat": "脆弱性"
+    "cat": "脆弱性",
+    "detail": "Exploit Prediction Scoring System。脆弱性が悪用される可能性を予測する指標。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "CPE",
     "full": "Common Platform Enumeration",
     "ja": "製品・プラットフォームの識別体系",
-    "cat": "脆弱性"
+    "cat": "脆弱性",
+    "detail": "Common Platform Enumeration。製品・プラットフォームの識別体系。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SLA",
     "full": "Service Level Agreement",
     "ja": "サービス品質に関する合意",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Service Level Agreement。サービス品質に関する合意。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "SLO",
     "full": "Service Level Objective",
     "ja": "サービスレベル目標",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Service Level Objective。サービスレベル目標。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "BCP",
     "full": "Business Continuity Plan",
     "ja": "事業継続計画",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Business Continuity Plan。事業継続計画。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "BCM",
     "full": "Business Continuity Management",
     "ja": "事業継続マネジメント",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "Business Continuity Management。事業継続マネジメント。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "RTO",
     "full": "Recovery Time Objective",
     "ja": "目標復旧時間",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "障害後、どれだけの時間以内にサービスを復旧させるかという目標。RPOはデータの復旧時点、RTOは復旧までの時間。"
   },
   {
     "abbr": "RPO",
     "full": "Recovery Point Objective",
     "ja": "目標復旧時点",
-    "cat": "セキュリティ管理"
+    "cat": "セキュリティ管理",
+    "detail": "災害・障害発生時に、どの時点のデータまで復旧するかという目標。例：RPO 1時間なら最大約1時間分のデータ損失を想定する。"
   },
   {
     "abbr": "TCP",
     "full": "Transmission Control Protocol",
     "ja": "信頼性のある転送を行うトランスポートプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Transmission Control Protocol。信頼性のある転送を行うトランスポートプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "UDP",
     "full": "User Datagram Protocol",
     "ja": "コネクションレス型トランスポートプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "User Datagram Protocol。コネクションレス型トランスポートプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "IP",
     "full": "Internet Protocol",
     "ja": "インターネットプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Internet Protocol。インターネットプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "DNS",
     "full": "Domain Name System",
     "ja": "ドメイン名を管理・名前解決する仕組み",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Domain Name System。ドメイン名を管理・名前解決する仕組み。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "DHCP",
     "full": "Dynamic Host Configuration Protocol",
     "ja": "IPアドレスなどを自動設定するプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Dynamic Host Configuration Protocol。IPアドレスなどを自動設定するプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "HTTP",
     "full": "Hypertext Transfer Protocol",
     "ja": "Webの転送プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Hypertext Transfer Protocol。Webの転送プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "HTTPS",
     "full": "Hypertext Transfer Protocol Secure",
     "ja": "TLSで保護されたHTTP",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Hypertext Transfer Protocol Secure。TLSで保護されたHTTP。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "TLS",
     "full": "Transport Layer Security",
     "ja": "通信を保護する暗号プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Transport Layer Security。通信を保護する暗号プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "SSL",
     "full": "Secure Sockets Layer",
     "ja": "TLSの前身となる暗号通信プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Secure Sockets Layer。TLSの前身となる暗号通信プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "VPN",
     "full": "Virtual Private Network",
     "ja": "仮想プライベートネットワーク",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Virtual Private Network。仮想プライベートネットワーク。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "IPsec",
     "full": "Internet Protocol Security",
     "ja": "IP層で通信を保護するプロトコル群",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Internet Protocol Security。IP層で通信を保護するプロトコル群。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "IKE",
     "full": "Internet Key Exchange",
     "ja": "IPsecの鍵交換・SA確立プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Internet Key Exchange。IPsecの鍵交換・SA確立プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "SA",
     "full": "Security Association",
     "ja": "IPsecで通信保護条件を表す論理的な関係",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Security Association。IPsecで通信保護条件を表す論理的な関係。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "OSPF",
     "full": "Open Shortest Path First",
     "ja": "リンクステート型の経路制御プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Open Shortest Path First。リンクステート型の経路制御プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "BGP",
     "full": "Border Gateway Protocol",
     "ja": "AS間の経路制御プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Border Gateway Protocol。AS間の経路制御プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "QUIC",
     "full": "QUIC",
     "ja": "UDPを基盤とする暗号化されたトランスポートプロトコル（現在は展開形を正式名称としない）",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "QUIC。UDPを基盤とする暗号化されたトランスポートプロトコル（現在は展開形を正式名称としない）。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "LAN",
     "full": "Local Area Network",
     "ja": "構内ネットワーク",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Local Area Network。構内ネットワーク。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "WAN",
     "full": "Wide Area Network",
     "ja": "広域ネットワーク",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Wide Area Network。広域ネットワーク。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "NAT",
     "full": "Network Address Translation",
     "ja": "IPアドレス変換",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Network Address Translation。IPアドレス変換。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "NAPT",
     "full": "Network Address Port Translation",
     "ja": "IPアドレスとポート番号の変換",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Network Address Port Translation。IPアドレスとポート番号の変換。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "ARP",
     "full": "Address Resolution Protocol",
     "ja": "IPv4アドレスからMACアドレスを調べるプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Address Resolution Protocol。IPv4アドレスからMACアドレスを調べるプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "ICMP",
     "full": "Internet Control Message Protocol",
     "ja": "IPの制御・エラー通知プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Internet Control Message Protocol。IPの制御・エラー通知プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "SMTP",
     "full": "Simple Mail Transfer Protocol",
     "ja": "メール送信・転送プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Simple Mail Transfer Protocol。メール送信・転送プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "IMAP",
     "full": "Internet Message Access Protocol",
     "ja": "メールサーバ上でメールを管理するプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Internet Message Access Protocol。メールサーバ上でメールを管理するプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "POP3",
     "full": "Post Office Protocol version 3",
     "ja": "メールを受信するプロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Post Office Protocol version 3。メールを受信するプロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "SNMP",
     "full": "Simple Network Management Protocol",
     "ja": "ネットワーク機器の監視・管理",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Simple Network Management Protocol。ネットワーク機器の監視・管理。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "NTP",
     "full": "Network Time Protocol",
     "ja": "時刻同期プロトコル",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Network Time Protocol。時刻同期プロトコル。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "MAC",
     "full": "Media Access Control",
     "ja": "データリンク層の媒体アクセス制御",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Media Access Control。データリンク層の媒体アクセス制御。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "VLAN",
     "full": "Virtual Local Area Network",
     "ja": "仮想LAN",
-    "cat": "ネットワーク"
+    "cat": "ネットワーク",
+    "detail": "Virtual Local Area Network。仮想LAN。通信のどの階層で働くか、通信相手やポート・暗号化の有無を考えると整理しやすい。"
   },
   {
     "abbr": "AAA",
     "full": "Authentication, Authorization and Accounting",
     "ja": "認証・認可・課金（利用記録）",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Authentication, Authorization and Accounting。認証・認可・課金（利用記録）。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "RADIUS",
     "full": "Remote Authentication Dial-In User Service",
     "ja": "ネットワークアクセスの認証・認可・利用記録",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Remote Authentication Dial-In User Service。ネットワークアクセスの認証・認可・利用記録。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "EAP",
     "full": "Extensible Authentication Protocol",
     "ja": "拡張認証プロトコル",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Extensible Authentication Protocol。拡張認証プロトコル。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "NAS",
     "full": "Network Access Server",
     "ja": "ネットワークアクセスサーバ",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Network Access Server。ネットワークアクセスサーバ。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "TACACS+",
     "full": "Terminal Access Controller Access-Control System Plus",
     "ja": "ネットワーク機器管理向けAAAプロトコル",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Terminal Access Controller Access-Control System Plus。ネットワーク機器管理向けAAAプロトコル。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "MFA",
     "full": "Multi-Factor Authentication",
     "ja": "多要素認証",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Multi-Factor Authentication。多要素認証。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "2FA",
     "full": "Two-Factor Authentication",
     "ja": "二要素認証",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Two-Factor Authentication。二要素認証。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "SSO",
     "full": "Single Sign-On",
     "ja": "シングルサインオン",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Single Sign-On。シングルサインオン。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "SAML",
     "full": "Security Assertion Markup Language",
     "ja": "認証・認可情報の交換に使うXML規格",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Security Assertion Markup Language。認証・認可情報の交換に使うXML規格。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "OIDC",
     "full": "OpenID Connect",
     "ja": "OAuth 2.0を基盤とする認証レイヤー",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "OpenID Connect。OAuth 2.0を基盤とする認証レイヤー。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "OAuth",
     "full": "Open Authorization",
     "ja": "権限委譲のための枠組み（通称の展開形）",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Open Authorization。権限委譲のための枠組み（通称の展開形）。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "FIDO",
     "full": "Fast IDentity Online",
     "ja": "パスワードレス認証などの標準化を進める枠組み",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Fast IDentity Online。パスワードレス認証などの標準化を進める枠組み。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "PKI",
     "full": "Public Key Infrastructure",
     "ja": "公開鍵基盤",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Public Key Infrastructure。公開鍵基盤。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "CA",
     "full": "Certification Authority",
     "ja": "電子証明書を発行する認証局",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Certification Authority。電子証明書を発行する認証局。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "CRL",
     "full": "Certificate Revocation List",
     "ja": "証明書失効リスト",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Certificate Revocation List。証明書失効リスト。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "OCSP",
     "full": "Online Certificate Status Protocol",
     "ja": "証明書の失効状態確認プロトコル",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Online Certificate Status Protocol。証明書の失効状態確認プロトコル。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "OTP",
     "full": "One-Time Password",
     "ja": "ワンタイムパスワード",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "One-Time Password。ワンタイムパスワード。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "MITM",
     "full": "Man-in-the-Middle",
     "ja": "中間者攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Man-in-the-Middle。中間者攻撃。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "MITB",
     "full": "Man-in-the-Browser",
     "ja": "ブラウザ内部に介入する攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Man-in-the-Browser。ブラウザ内部に介入する攻撃。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "DDoS",
     "full": "Distributed Denial of Service",
     "ja": "分散型サービス妨害攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Distributed Denial of Service。分散型サービス妨害攻撃。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "DoS",
     "full": "Denial of Service",
     "ja": "サービス妨害攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Denial of Service。サービス妨害攻撃。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "SQLi",
     "full": "SQL Injection",
     "ja": "SQLインジェクション",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "SQL Injection。SQLインジェクション。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "XSS",
     "full": "Cross-Site Scripting",
     "ja": "クロスサイトスクリプティング",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Cross-Site Scripting。クロスサイトスクリプティング。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "CSRF",
     "full": "Cross-Site Request Forgery",
     "ja": "クロスサイトリクエストフォージェリ",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Cross-Site Request Forgery。クロスサイトリクエストフォージェリ。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "SSRF",
     "full": "Server-Side Request Forgery",
     "ja": "サーバサイドリクエストフォージェリ",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Server-Side Request Forgery。サーバサイドリクエストフォージェリ。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "RCE",
     "full": "Remote Code Execution",
     "ja": "遠隔からのコード実行",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Remote Code Execution。遠隔からのコード実行。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "APT",
     "full": "Advanced Persistent Threat",
     "ja": "高度で持続的な標的型攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Advanced Persistent Threat。高度で持続的な標的型攻撃。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "フェールセーフ",
     "full": "Fail Safe",
     "ja": "障害発生時に安全側へ移行する設計",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "故障発生時に危険を避け、安全側の状態に移行する設計。安全側は停止とは限らず、避難口の解錠などもあり得る。フェールソフトとの違いを区別する。"
   },
   {
     "abbr": "フェールソフト",
     "full": "Fail Soft",
     "ja": "障害時に機能を縮退させて運転を継続",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "一部に障害が発生しても機能・性能を縮小してサービスを継続する設計。安全性を優先するフェールセーフと目的が異なる。"
   },
   {
     "abbr": "フォールトトレランス",
     "full": "Fault Tolerance",
     "ja": "一部の故障があっても必要な機能を維持",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "一部の構成要素が故障してもシステムの必要な機能を維持する能力・設計。冗長化や故障時の自動切替によって実現する。"
   },
   {
     "abbr": "フォールトアボイダンス",
     "full": "Fault Avoidance",
     "ja": "設計や品質管理によって故障を未然に防止",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "部品選定、設計レビュー、検査などで故障そのものの発生を予防する考え方。故障が起きても運転を続けるフォールトトレランスと区別。"
   },
   {
     "abbr": "フールプルーフ",
     "full": "Foolproof",
     "ja": "誤操作をしても事故につながらない設計",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "人間の誤操作を想定し、誤操作そのものやその影響を防ぐ設計。機器の扉が閉まらないと動作しないインターロックが例。"
   },
   {
     "abbr": "フェールオーバー",
     "full": "Failover",
     "ja": "主系の障害時に待機系へ処理を切替",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Failover。主系の障害時に待機系へ処理を切替。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "フェールバック",
     "full": "Failback",
     "ja": "障害復旧後に元の系へ処理を戻す",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Failback。障害復旧後に元の系へ処理を戻す。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "グレースフルデグラデーション",
     "full": "Graceful Degradation",
     "ja": "性能や機能を段階的に落として動作を継続",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Graceful Degradation。性能や機能を段階的に落として動作を継続。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "デュアルシステム",
     "full": "Dual System",
     "ja": "二系統で同一処理を実行し結果を照合",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "2つのシステムで同じ処理を並行実行し、結果を照合する方式。結果が不一致なら異常を検出できるが、どちらが正しいか自動判断できるとは限らない。"
   },
   {
     "abbr": "デュプレックスシステム",
     "full": "Duplex System",
     "ja": "主系と待機系を備える冗長化構成",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "主系と待機系を用意し、主系障害時に待機系へ切り替える冗長化方式。デュアルの『同じ処理を照合する』方式と区別。"
   },
   {
     "abbr": "ホットスタンバイ",
     "full": "Hot Standby",
     "ja": "待機系を即座に引き継げる状態に維持",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "待機系を稼働・同期させ、障害時に短時間で切り替えられるよう準備する方式。データ同期や切替判定の設計が重要。"
   },
   {
     "abbr": "ウォームスタンバイ",
     "full": "Warm Standby",
     "ja": "一部準備した待機系を障害後に立ち上げる",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Warm Standby。一部準備した待機系を障害後に立ち上げる。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "コールドスタンバイ",
     "full": "Cold Standby",
     "ja": "通常停止の待機系を障害時に起動",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "待機系を通常停止させ、障害発生後に起動・準備して切り替える方式。比較的低コストだが切替に時間がかかる。"
   },
   {
     "abbr": "アクティブ・アクティブ",
     "full": "Active-Active",
     "ja": "複数の稼働系が通常時から処理を担当",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Active-Active。複数の稼働系が通常時から処理を担当。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "アクティブ・スタンバイ",
     "full": "Active-Standby",
     "ja": "稼働系と障害時用の待機系を設ける",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Active-Standby。稼働系と障害時用の待機系を設ける。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "直列システム",
     "full": "Series System",
     "ja": "全構成要素が動作して初めて全体が稼働",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Series System。全構成要素が動作して初めて全体が稼働。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "並列システム",
     "full": "Parallel System",
     "ja": "いずれかの系が動けば全体を稼働可能",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Parallel System。いずれかの系が動けば全体を稼働可能。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "冗長化",
     "full": "Redundancy",
     "ja": "予備装置や経路を設け単一故障の影響を抑える",
-    "cat": "信頼性・可用性"
+    "cat": "信頼性・可用性",
+    "detail": "Redundancy。予備装置や経路を設け単一故障の影響を抑える。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ミラーリング",
     "full": "Mirroring",
     "ja": "同一データを複数ディスクに複製",
-    "cat": "ストレージ"
+    "cat": "ストレージ",
+    "detail": "Mirroring。同一データを複数ディスクに複製。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ストライピング",
     "full": "Striping",
     "ja": "データを分割して複数ディスクへ分散",
-    "cat": "ストレージ"
+    "cat": "ストレージ",
+    "detail": "Striping。データを分割して複数ディスクへ分散。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "パリティ",
     "full": "Parity",
     "ja": "データ故障時の復元に利用する冗長情報",
-    "cat": "ストレージ"
+    "cat": "ストレージ",
+    "detail": "Parity。データ故障時の復元に利用する冗長情報。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "リビルド",
     "full": "Rebuild",
     "ja": "故障ディスク交換後に冗長情報からデータを再構築",
-    "cat": "ストレージ"
+    "cat": "ストレージ",
+    "detail": "Rebuild。故障ディスク交換後に冗長情報からデータを再構築。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "アノマリ検知",
     "full": "Anomaly Detection",
     "ja": "正常な振る舞いからの逸脱を検出",
-    "cat": "検知・監視"
+    "cat": "検知・監視",
+    "detail": "通常の振る舞いを基準に、そこからの逸脱を検出する方式。未知の攻撃を発見できる可能性がある一方、正常な変化も誤検知し得る。"
   },
   {
     "abbr": "シグネチャベース検知",
     "full": "Signature-Based Detection",
     "ja": "既知の攻撃パターンに照合して検出",
-    "cat": "検知・監視"
+    "cat": "検知・監視",
+    "detail": "Signature-Based Detection。既知の攻撃パターンに照合して検出。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "偽陽性",
     "full": "False Positive",
     "ja": "正常なものを異常と誤判定",
-    "cat": "検知・監視"
+    "cat": "検知・監視",
+    "detail": "False Positive。正常なものを異常と誤判定。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "偽陰性",
     "full": "False Negative",
     "ja": "異常なものを正常と誤判定して見逃す",
-    "cat": "検知・監視"
+    "cat": "検知・監視",
+    "detail": "False Negative。異常なものを正常と誤判定して見逃す。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "真陽性",
     "full": "True Positive",
     "ja": "異常を正しく異常と判断",
-    "cat": "検知・監視"
+    "cat": "検知・監視",
+    "detail": "True Positive。異常を正しく異常と判断。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "真陰性",
     "full": "True Negative",
     "ja": "正常を正しく正常と判断",
-    "cat": "検知・監視"
+    "cat": "検知・監視",
+    "detail": "True Negative。正常を正しく正常と判断。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ソフトウェアライフサイクルプロセス",
     "full": "Software Life Cycle Processes",
     "ja": "取得から開発・運用・保守・廃棄までの活動体系",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Software Life Cycle Processes。取得から開発・運用・保守・廃棄までの活動体系。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ソフトウェア実装プロセス",
     "full": "Software Implementation Process",
     "ja": "要求分析・設計・構築・結合・適格性確認を含む",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "要求分析、方式設計、詳細設計、構築、結合、適格性確認テストなどを含む。『実装』はプログラミングだけを意味しない。"
   },
   {
     "abbr": "ソフトウェア方式設計",
     "full": "Software Architectural Design",
     "ja": "ソフトウェア全体の構造とインターフェースの設計",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Software Architectural Design。ソフトウェア全体の構造とインターフェースの設計。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ソフトウェア詳細設計",
     "full": "Software Detailed Design",
     "ja": "構成要素の内部処理とデータ構造を設計",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Software Detailed Design。構成要素の内部処理とデータ構造を設計。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ソフトウェア結合",
     "full": "Software Integration",
     "ja": "構成要素を組み合わせ相互の動作を確認",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Software Integration。構成要素を組み合わせ相互の動作を確認。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "適格性確認テスト",
     "full": "Qualification Testing",
     "ja": "ソフトウェアが定められた要求を満たすか試験",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Qualification Testing。ソフトウェアが定められた要求を満たすか試験。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "検証",
     "full": "Verification",
     "ja": "仕様に正しく従って作られているか確認",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Verification。仕様に正しく従って作られているか確認。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "妥当性確認",
     "full": "Validation",
     "ja": "利用目的や利用者のニーズを満たすか確認",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Validation。利用目的や利用者のニーズを満たすか確認。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "シフトレフト",
     "full": "Shift Left",
     "ja": "テストやセキュリティ対策を開発の早期から実施",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Shift Left。テストやセキュリティ対策を開発の早期から実施。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ウォーターフォール",
     "full": "Waterfall Model",
     "ja": "工程を原則として順に進める開発モデル",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Waterfall Model。工程を原則として順に進める開発モデル。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "アジャイル",
     "full": "Agile Development",
     "ja": "短い反復で開発し変化に柔軟に対応",
-    "cat": "開発・管理"
+    "cat": "開発・管理",
+    "detail": "Agile Development。短い反復で開発し変化に柔軟に対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "疎結合",
     "full": "Loose Coupling",
     "ja": "サービスや部品間の依存を小さくする設計",
-    "cat": "アーキテクチャ"
+    "cat": "アーキテクチャ",
+    "detail": "Loose Coupling。サービスや部品間の依存を小さくする設計。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "マイクロサービス",
     "full": "Microservices",
     "ja": "小さな独立サービスで構成するアーキテクチャ",
-    "cat": "アーキテクチャ"
+    "cat": "アーキテクチャ",
+    "detail": "Microservices。小さな独立サービスで構成するアーキテクチャ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "サービス指向アーキテクチャ",
     "full": "Service-Oriented Architecture",
     "ja": "業務機能を独立サービスとして公開し組み合わせる",
-    "cat": "アーキテクチャ"
+    "cat": "アーキテクチャ",
+    "detail": "Service-Oriented Architecture。業務機能を独立サービスとして公開し組み合わせる。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ゼロトラスト",
     "full": "Zero Trust",
     "ja": "ネットワーク位置だけで信頼せず都度検証",
-    "cat": "セキュリティ設計"
+    "cat": "セキュリティ設計",
+    "detail": "Zero Trust。ネットワーク位置だけで信頼せず都度検証。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
   },
   {
     "abbr": "最小権限の原則",
     "full": "Principle of Least Privilege",
     "ja": "利用者やプロセスに必要最小限の権限だけ付与",
-    "cat": "セキュリティ設計"
+    "cat": "セキュリティ設計",
+    "detail": "Principle of Least Privilege。利用者やプロセスに必要最小限の権限だけ付与。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
   },
   {
     "abbr": "多要素認証",
     "full": "Multi-Factor Authentication",
     "ja": "異なる種類の認証要素を二つ以上使う",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Multi-Factor Authentication。異なる種類の認証要素を二つ以上使う。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "リモートアテステーション",
     "full": "Remote Attestation",
     "ja": "遠隔から実行環境の状態や正当性を検証",
-    "cat": "先端技術"
+    "cat": "先端技術",
+    "detail": "Remote Attestation。遠隔から実行環境の状態や正当性を検証。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "信頼できる実行環境",
     "full": "Trusted Execution Environment",
     "ja": "保護された領域でコードとデータを実行",
-    "cat": "先端技術"
+    "cat": "先端技術",
+    "detail": "Trusted Execution Environment。保護された領域でコードとデータを実行。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "コンフィデンシャルコンピューティング",
     "full": "Confidential Computing",
     "ja": "処理中のデータも保護する計算技術",
-    "cat": "先端技術"
+    "cat": "先端技術",
+    "detail": "Confidential Computing。処理中のデータも保護する計算技術。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "エアギャップ",
     "full": "Air Gap",
     "ja": "ネットワークから物理的または論理的に分離する",
-    "cat": "セキュリティ設計"
+    "cat": "セキュリティ設計",
+    "detail": "Air Gap。ネットワークから物理的または論理的に分離する。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
   },
   {
     "abbr": "シャドーIT",
     "full": "Shadow IT",
     "ja": "組織の承認・管理外で使われるIT資産やサービス",
-    "cat": "運用・管理"
+    "cat": "運用・管理",
+    "detail": "Shadow IT。組織の承認・管理外で使われるIT資産やサービス。予防・検知・対応・復旧のどの段階で使うかを意識しよう。"
   },
   {
     "abbr": "カミンスキー攻撃",
     "full": "Kaminsky Attack",
     "ja": "DNSキャッシュ汚染を高確率化する攻撃手法",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Kaminsky Attack。DNSキャッシュ汚染を高確率化する攻撃手法。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "中間者攻撃",
     "full": "Man-in-the-Middle Attack",
     "ja": "通信の中間に介入して盗聴・改ざんする",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Man-in-the-Middle Attack。通信の中間に介入して盗聴・改ざんする。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "ブラウザ内中間者攻撃",
     "full": "Man-in-the-Browser Attack",
     "ja": "ブラウザ内部に介入して通信内容などを改ざん",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Man-in-the-Browser Attack。ブラウザ内部に介入して通信内容などを改ざん。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "コネクトバック",
     "full": "Connect-Back",
     "ja": "侵害先から攻撃者側へ逆向き接続を開始する方式",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Connect-Back。侵害先から攻撃者側へ逆向き接続を開始する方式。攻撃が成立する条件、侵入経路、具体的な防御策をセットで覚えよう。"
   },
   {
     "abbr": "コピーオンライト",
     "full": "Copy-on-Write",
     "ja": "書き込み時に初めてデータの複製を作る",
-    "cat": "OS・計算機"
+    "cat": "OS・計算機",
+    "detail": "Copy-on-Write。書き込み時に初めてデータの複製を作る。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "メモリインタリーブ",
     "full": "Memory Interleaving",
     "ja": "複数メモリバンクにアクセスを分散し性能を向上",
-    "cat": "OS・計算機"
+    "cat": "OS・計算機",
+    "detail": "Memory Interleaving。複数メモリバンクにアクセスを分散し性能を向上。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "ダイレクトメモリアクセス",
     "full": "Direct Memory Access",
     "ja": "CPUを介さず周辺機器が主記憶とデータ転送",
-    "cat": "OS・計算機"
+    "cat": "OS・計算機",
+    "detail": "Direct Memory Access。CPUを介さず周辺機器が主記憶とデータ転送。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "先入れ先出し",
     "full": "First In, First Out",
     "ja": "先に入れたデータを先に取り出す方式",
-    "cat": "アルゴリズム"
+    "cat": "アルゴリズム",
+    "detail": "First In, First Out。先に入れたデータを先に取り出す方式。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "最長未使用ページ置換",
     "full": "Least Recently Used",
     "ja": "最も長く参照されないページを置換",
-    "cat": "アルゴリズム"
+    "cat": "アルゴリズム",
+    "detail": "Least Recently Used。最も長く参照されないページを置換。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "アムダールの法則",
     "full": "Amdahl's Law",
     "ja": "並列化できない部分が高速化の上限を決める",
-    "cat": "性能評価"
+    "cat": "性能評価",
+    "detail": "Amdahl's Law。並列化できない部分が高速化の上限を決める。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "カルノー図",
     "full": "Karnaugh Map",
     "ja": "論理関数を視覚的に簡単化する表",
-    "cat": "論理回路"
+    "cat": "論理回路",
+    "detail": "Karnaugh Map。論理関数を視覚的に簡単化する表。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
   },
   {
     "abbr": "情報理論的安全性",
     "full": "Information-Theoretic Security",
     "ja": "計算能力に依存せず暗号の安全性が保証される性質",
-    "cat": "暗号"
+    "cat": "暗号",
+    "detail": "Information-Theoretic Security。計算能力に依存せず暗号の安全性が保証される性質。機密性・完全性・真正性のどれを担保するか、鍵の管理方法を区別しよう。"
   },
   {
     "abbr": "パスキー",
     "full": "Passkey",
     "ja": "公開鍵暗号によるフィッシング耐性のある認証資格情報",
-    "cat": "認証"
+    "cat": "認証",
+    "detail": "Passkey。公開鍵暗号によるフィッシング耐性のある認証資格情報。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
   },
   {
     "abbr": "電子署名",
     "full": "Digital Signature",
     "ja": "改ざん検出と署名者の正当性確認に用いる暗号技術",
-    "cat": "暗号"
+    "cat": "暗号",
+    "detail": "Digital Signature。改ざん検出と署名者の正当性確認に用いる暗号技術。機密性・完全性・真正性のどれを担保するか、鍵の管理方法を区別しよう。"
   },
   {
     "abbr": "公開鍵暗号",
     "full": "Public-Key Cryptography",
     "ja": "暗号化と復号などに公開鍵・秘密鍵の対を利用",
-    "cat": "暗号"
+    "cat": "暗号",
+    "detail": "Public-Key Cryptography。暗号化と復号などに公開鍵・秘密鍵の対を利用。機密性・完全性・真正性のどれを担保するか、鍵の管理方法を区別しよう。"
   },
   {
     "abbr": "共通鍵暗号",
     "full": "Symmetric-Key Cryptography",
     "ja": "暗号化と復号に同じ秘密鍵を用いる",
-    "cat": "暗号"
+    "cat": "暗号",
+    "detail": "Symmetric-Key Cryptography。暗号化と復号に同じ秘密鍵を用いる。機密性・完全性・真正性のどれを担保するか、鍵の管理方法を区別しよう。"
   },
   {
     "abbr": "ハッシュ関数",
     "full": "Hash Function",
     "ja": "入力から固定長などの要約値を計算",
-    "cat": "暗号"
+    "cat": "暗号",
+    "detail": "Hash Function。入力から固定長などの要約値を計算。機密性・完全性・真正性のどれを担保するか、鍵の管理方法を区別しよう。"
   },
   {
     "abbr": "SQLインジェクション",
     "full": "SQL Injection",
     "ja": "入力を通じて不正なSQLを実行させる攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "入力値を通じてSQL文の構造を変え、不正な検索・更新などを行わせる攻撃。プレースホルダを使ったパラメータ化クエリが重要な対策。"
   },
   {
     "abbr": "クロスサイトスクリプティング",
     "full": "Cross-Site Scripting",
     "ja": "Webページに悪意あるスクリプトを混入させる攻撃",
-    "cat": "攻撃"
+    "cat": "攻撃",
+    "detail": "Webページに攻撃者のスクリプトが混入し、閲覧者のブラウザで実行される脆弱性。文脈に応じた出力エスケープやCSPが対策となる。"
   },
   {
     "abbr": "インシデント対応",
     "full": "Incident Response",
     "ja": "検知・分析・封じ込め・復旧などの対応活動",
-    "cat": "運用・管理"
+    "cat": "運用・管理",
+    "detail": "Incident Response。検知・分析・封じ込め・復旧などの対応活動。予防・検知・対応・復旧のどの段階で使うかを意識しよう。"
   },
   {
     "abbr": "リスクアセスメント",
     "full": "Risk Assessment",
     "ja": "リスクの特定・分析・評価を行う",
-    "cat": "運用・管理"
+    "cat": "運用・管理",
+    "detail": "Risk Assessment。リスクの特定・分析・評価を行う。予防・検知・対応・復旧のどの段階で使うかを意識しよう。"
   },
   {
     "abbr": "セキュリティバイデザイン",
     "full": "Security by Design",
     "ja": "設計初期からセキュリティを組み込む考え方",
-    "cat": "セキュリティ設計"
+    "cat": "セキュリティ設計",
+    "detail": "Security by Design。設計初期からセキュリティを組み込む考え方。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
   }
 ]
