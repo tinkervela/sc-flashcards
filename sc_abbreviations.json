@@ -18,175 +18,175 @@
     "full": "International Telecommunication Union",
     "ja": "国際電気通信連合",
     "cat": "標準化",
-    "detail": "International Telecommunication Union。国際電気通信連合。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "国際連合の専門機関で、無線通信・周波数・電気通信などの国際的な調整と標準化を担う。ITU-Rは無線、ITU-Tは電気通信の標準化を担当。IPやHTTPの標準化を担うIETFとは役割が違う。"
   },
   {
     "abbr": "ITU-T",
     "full": "ITU Telecommunication Standardization Sector",
     "ja": "ITUの電気通信標準化部門",
     "cat": "標準化",
-    "detail": "ITU Telecommunication Standardization Sector。ITUの電気通信標準化部門。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "ITUの電気通信標準化部門。X.509（公開鍵証明書）、G.711（音声符号化）、E.164（電話番号）などの勧告を策定する。RFCはIETF系の文書であり、ITU-T勧告と発行主体が異なる。"
   },
   {
     "abbr": "IEEE",
     "full": "Institute of Electrical and Electronics Engineers",
     "ja": "米国電気電子学会",
     "cat": "標準化",
-    "detail": "Institute of Electrical and Electronics Engineers。米国電気電子学会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "電気・電子・情報通信に関する学術・技術団体。IEEE 802.3はEthernet、802.11は無線LAN、802.1Xはポートベースのアクセス制御に関係する。インターネット上位層のRFCを扱うIETFとは対象が異なる。"
   },
   {
     "abbr": "IETF",
     "full": "Internet Engineering Task Force",
     "ja": "インターネット技術標準化タスクフォース",
     "cat": "標準化",
-    "detail": "Internet Engineering Task Force。インターネット技術標準化タスクフォース。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "インターネット技術標準化タスクフォース。技術者による議論を通じTCP/IP、DNS、TLSなどのプロトコル仕様をRFCとして策定する。すべてのRFCがインターネット標準というわけではない。"
   },
   {
     "abbr": "W3C",
     "full": "World Wide Web Consortium",
     "ja": "Web技術の標準化団体",
     "cat": "標準化",
-    "detail": "World Wide Web Consortium。Web技術の標準化団体。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "Web技術の標準化に関わる団体。HTML、CSS、Webアクセシビリティなどの標準化に関与してきた。現在のHTML Living Standardの中心はWHATWG。IETFが通信プロトコルを扱うのと対象が異なる。"
   },
   {
     "abbr": "JISC",
     "full": "Japanese Industrial Standards Committee",
     "ja": "日本産業標準調査会",
     "cat": "標準化",
-    "detail": "Japanese Industrial Standards Committee。日本産業標準調査会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "日本産業標準調査会。JIS（日本産業規格）の制定・改正等の審議を行う。規格を審議する組織であり、個々の会社をISMS認証する認証機関ではない。"
   },
   {
     "abbr": "ANSI",
     "full": "American National Standards Institute",
     "ja": "米国国家規格協会",
     "cat": "標準化",
-    "detail": "American National Standards Institute。米国国家規格協会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "米国の自主的な標準化制度を調整する非営利団体。標準開発組織の認定や米国国家規格の承認などを行う。ANSI自体があらゆる技術仕様を直接作るわけではない。"
   },
   {
     "abbr": "NIST",
     "full": "National Institute of Standards and Technology",
     "ja": "米国国立標準技術研究所",
     "cat": "標準化",
-    "detail": "National Institute of Standards and Technology。米国国立標準技術研究所。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "米国国立標準技術研究所。AESを定めたFIPS 197、SHA-2を定めたFIPS 180-4、サイバーセキュリティフレームワークCSFなどを公表する。規格・ガイドラインを提供する機関であり認証局CAではない。"
   },
   {
     "abbr": "IPA",
     "full": "Information-technology Promotion Agency, Japan",
     "ja": "情報処理推進機構",
     "cat": "標準化",
-    "detail": "Information-technology Promotion Agency, Japan。情報処理推進機構。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "日本の情報処理推進機構。情報処理技術者試験の実施、脆弱性対策情報の提供、情報セキュリティ普及啓発などを担う。JPCERT/CCと連携するが別組織。"
   },
   {
     "abbr": "ENISA",
     "full": "European Union Agency for Cybersecurity",
     "ja": "欧州連合サイバーセキュリティ機関",
     "cat": "標準化",
-    "detail": "European Union Agency for Cybersecurity。欧州連合サイバーセキュリティ機関。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "EUのサイバーセキュリティ機関。域内の安全性向上に向けたガイダンス、演習、協力支援、EUサイバーセキュリティ認証制度の支援などを行う。規制執行を担う各国当局と役割が異なる。"
   },
   {
     "abbr": "JIPDEC",
     "full": "Japan Institute for Promotion of Digital Economy and Community",
     "ja": "日本情報経済社会推進協会",
     "cat": "標準化",
-    "detail": "Japan Institute for Promotion of Digital Economy and Community。日本情報経済社会推進協会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "日本情報経済社会推進協会。プライバシーマーク制度の運営などに関与する。Pマークは個人情報保護マネジメントに関する制度で、ISMS認証（情報セキュリティ全般）とは対象が違う。"
   },
   {
     "abbr": "JAB",
     "full": "Japan Accreditation Board",
     "ja": "日本適合性認定協会",
     "cat": "標準化",
-    "detail": "Japan Accreditation Board。日本適合性認定協会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "日本適合性認定協会。試験所や認証機関などの能力を評価・認定する機関。認定（認証機関の能力を認める）と、認証（組織の規格適合を認める）を区別する。"
   },
   {
     "abbr": "ISMS-AC",
     "full": "Information Management System Accreditation Center",
     "ja": "情報マネジメントシステム認定センター",
     "cat": "標準化",
-    "detail": "Information Management System Accreditation Center。情報マネジメントシステム認定センター。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "ISMSに関する認定機関。ISMS認証を行う認証機関の能力・公平性などを審査し認定する。企業のISMSを直接認証する機関とは別の役割。"
   },
   {
     "abbr": "JTC",
     "full": "Joint Technical Committee",
     "ja": "合同技術委員会",
     "cat": "標準化",
-    "detail": "Joint Technical Committee。合同技術委員会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "ISOとIECが共同で設置する合同技術委員会。代表例はISO/IEC JTC 1（情報技術）で、その下に情報セキュリティを扱うSC 27などが置かれる。組織階層はJTC→SC→WG。"
   },
   {
     "abbr": "SC",
     "full": "Subcommittee",
     "ja": "分科委員会",
     "cat": "標準化",
-    "detail": "Subcommittee。分科委員会。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "標準化の分科委員会（Subcommittee）。ISO/IEC JTC 1のSC 27は情報セキュリティ・サイバーセキュリティ・プライバシー保護の標準化を担当する。WGはさらに具体的な作業部会。"
   },
   {
     "abbr": "WSC",
     "full": "World Standards Cooperation",
     "ja": "世界標準協力",
     "cat": "標準化",
-    "detail": "World Standards Cooperation。世界標準協力。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "World Standards Cooperation。ISO、IEC、ITUの三者による標準化の協力枠組み。重複や不整合の調整、国際標準化の促進を目的とする。単独で技術規格を発行する組織名ではない。"
   },
   {
     "abbr": "JIS",
     "full": "Japanese Industrial Standards",
     "ja": "日本産業規格",
     "cat": "標準化",
-    "detail": "Japanese Industrial Standards。日本産業規格。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "日本産業規格。例：JIS Q 27001はISMSの要求事項を定めるISO/IEC 27001に対応する国内規格。JISCは審議組織、JISは規格そのもの。"
   },
   {
     "abbr": "RFC",
     "full": "Request for Comments",
     "ja": "インターネット技術仕様などの文書体系",
     "cat": "標準化",
-    "detail": "Request for Comments。インターネット技術仕様などの文書体系。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "Request for Comments。インターネット技術の仕様や議論を記した番号付き文書群。例：RFC 8446はTLS 1.3、RFC 9110はHTTP Semantics。Standards Track以外にInformationalなどもある。"
   },
   {
     "abbr": "FIPS",
     "full": "Federal Information Processing Standards",
     "ja": "米国連邦情報処理規格",
     "cat": "標準化",
-    "detail": "Federal Information Processing Standards。米国連邦情報処理規格。組織名と規格番号、策定機関と認証機関の違いを区別しよう。"
+    "detail": "米国連邦情報処理規格。例：FIPS 197はAES、FIPS 180-4はSHA-2。NISTが策定に関与する。ISO/IEC規格やRFCとは規格体系・対象が異なる。"
   },
   {
     "abbr": "ISMS",
     "full": "Information Security Management System",
     "ja": "情報セキュリティマネジメントシステム",
     "cat": "セキュリティ管理",
-    "detail": "Information Security Management System。情報セキュリティマネジメントシステム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "情報セキュリティマネジメントシステム。情報資産のリスクを特定・評価し、管理策を選択して運用・監視・改善する組織的な仕組み。ISO/IEC 27001が要求事項、27002が管理策の参考。個別製品導入だけではISMSとはいえない。"
   },
   {
     "abbr": "CSF",
     "full": "Cybersecurity Framework",
     "ja": "サイバーセキュリティフレームワーク",
     "cat": "セキュリティ管理",
-    "detail": "Cybersecurity Framework。サイバーセキュリティフレームワーク。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "NIST Cybersecurity Framework。CSF 2.0ではGovern・Identify・Protect・Detect・Respond・Recoverの6機能で対策を整理する。組織がリスク管理を改善する枠組みであり、ISO 27001のような認証用要求事項そのものではない。"
   },
   {
     "abbr": "PP",
     "full": "Protection Profile",
     "ja": "セキュリティ評価の保護プロファイル",
     "cat": "セキュリティ管理",
-    "detail": "Protection Profile。セキュリティ評価の保護プロファイル。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Protection Profile。Common Criteriaで、特定の製品類型に期待するセキュリティ要求を実装非依存でまとめる文書。例：ファイアウォール製品に要求する認証・監査など。個別製品の実装に沿うSTと区別。"
   },
   {
     "abbr": "ST",
     "full": "Security Target",
     "ja": "セキュリティ評価対象のセキュリティターゲット",
     "cat": "セキュリティ管理",
-    "detail": "Security Target。セキュリティ評価対象のセキュリティターゲット。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Security Target。Common Criteriaにおいて特定評価対象（TOE）のセキュリティ要求・実現方針を記述する文書。PPが一般的な製品群の要求を示すのに対し、STは特定製品について記述する。"
   },
   {
     "abbr": "EAL",
     "full": "Evaluation Assurance Level",
     "ja": "評価保証レベル",
     "cat": "セキュリティ管理",
-    "detail": "Evaluation Assurance Level。評価保証レベル。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Evaluation Assurance Level。Common Criteriaの評価保証レベル。EAL1～EAL7は評価の厳密さ・保証の水準を表し、『EALが高いほど製品の機能が絶対に安全』を意味しない。評価対象の機能要件と区別。"
   },
   {
     "abbr": "CC",
     "full": "Common Criteria",
     "ja": "ITセキュリティ評価の共通基準",
     "cat": "セキュリティ管理",
-    "detail": "Common Criteria。ITセキュリティ評価の共通基準。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Common Criteria。IT製品のセキュリティ機能と保証を評価する共通基準でISO/IEC 15408に対応。PP・ST・TOE・EALなどの概念を使う。ISMSは組織の管理体制、CCは製品のセキュリティ評価が中心。"
   },
   {
     "abbr": "SLCP",
@@ -200,7 +200,7 @@
     "full": "Secure Software Development Life Cycle",
     "ja": "セキュアソフトウェア開発ライフサイクル",
     "cat": "開発",
-    "detail": "Secure Software Development Life Cycle。セキュアソフトウェア開発ライフサイクル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Secure Software Development Life Cycle。要求・設計・実装・テスト・運用にセキュリティ活動を組み込む。例：設計時の脅威モデリング、実装時のSAST、試験時のDAST、運用時の脆弱性対応。完成後だけで検査する方式と異なる。"
   },
   {
     "abbr": "SOA",
@@ -214,91 +214,91 @@
     "full": "Simple Object Access Protocol",
     "ja": "XMLベースのメッセージ交換プロトコル",
     "cat": "開発",
-    "detail": "Simple Object Access Protocol。XMLベースのメッセージ交換プロトコル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "XML形式のメッセージを交換するWebサービスのプロトコル。Envelope・Header・Bodyからなる。HTTP以外の転送方式も可能で、WSDLによるインターフェース定義と組み合わせられる。RESTはアーキテクチャスタイルでSOAPとは別。"
   },
   {
     "abbr": "WSDL",
     "full": "Web Services Description Language",
     "ja": "Webサービスのインターフェース記述言語",
     "cat": "開発",
-    "detail": "Web Services Description Language。Webサービスのインターフェース記述言語。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Web Services Description Language。SOAPなどのWebサービスが提供する操作、メッセージ、データ型、接続先をXMLで記述する。クライアントコード生成に使える。API仕様のOpenAPI（REST系で利用が多い）と比較される。"
   },
   {
     "abbr": "UDDI",
     "full": "Universal Description, Discovery and Integration",
     "ja": "Webサービスの登録・検索仕様",
     "cat": "開発",
-    "detail": "Universal Description, Discovery and Integration。Webサービスの登録・検索仕様。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Universal Description, Discovery and Integration。Webサービスの提供者・サービス情報を登録し検索するための仕様。SOAP/WSDLと組み合わせたサービス発見を想定したが、現在の一般的なWeb APIで必須ではない。"
   },
   {
     "abbr": "ESB",
     "full": "Enterprise Service Bus",
     "ja": "サービス間の連携基盤",
     "cat": "開発",
-    "detail": "Enterprise Service Bus。サービス間の連携基盤。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Enterprise Service Bus。企業内のサービス間通信を仲介し、メッセージ変換、ルーティング、プロトコル変換などを担う連携基盤。各システムが個別に相互接続する場合より連携を一元化できるが、ESBの集中がボトルネックになり得る。"
   },
   {
     "abbr": "REST",
     "full": "Representational State Transfer",
     "ja": "Web API設計に使われるアーキテクチャスタイル",
     "cat": "開発",
-    "detail": "Representational State Transfer。Web API設計に使われるアーキテクチャスタイル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Representational State Transfer。リソースをURIで識別し、HTTPのGET・POST・PUT・DELETE等とステータスコードを使う設計スタイル。ステートレス性、統一インターフェースなどが重要。RESTはJSONそのものでも特定プロトコル名でもない。"
   },
   {
     "abbr": "API",
     "full": "Application Programming Interface",
     "ja": "ソフトウェア機能を利用するためのインターフェース",
     "cat": "開発",
-    "detail": "Application Programming Interface。ソフトウェア機能を利用するためのインターフェース。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Application Programming Interface。ソフトウェアが別の機能やデータを利用するための約束事。例：ブラウザがSupabaseのREST APIへGET/POSTで学習履歴を取得・保存。Web API以外にOS APIやライブラリAPIもある。"
   },
   {
     "abbr": "SDLC",
     "full": "Software Development Life Cycle",
     "ja": "ソフトウェア開発ライフサイクル",
     "cat": "開発",
-    "detail": "Software Development Life Cycle。ソフトウェア開発ライフサイクル。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Software Development Life Cycle。要求分析・設計・実装・テスト・リリース・保守など開発の一連の工程。ウォーターフォールやアジャイルは進め方の違いであり、SDLC自体はライフサイクル全体を指す。"
   },
   {
     "abbr": "CI",
     "full": "Continuous Integration",
     "ja": "継続的インテグレーション",
     "cat": "開発",
-    "detail": "Continuous Integration。継続的インテグレーション。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Continuous Integration。コードの変更を頻繁に共有ブランチへ統合し、自動ビルド・テストを行う。GitHub Actionsでプッシュごとにテストを走らせる例。CDはその後の配布・デプロイを自動化する概念。"
   },
   {
     "abbr": "CD",
     "full": "Continuous Delivery / Continuous Deployment",
     "ja": "継続的デリバリー／継続的デプロイ",
     "cat": "開発",
-    "detail": "Continuous Delivery / Continuous Deployment。継続的デリバリー／継続的デプロイ。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Continuous Deliveryは常にリリース可能な状態を維持し、公開に人の承認を残し得る。Continuous Deploymentはテストを通った変更を本番へ自動反映する。GitHub Pagesへの自動公開は後者の例。CIは統合・テストが中心。"
   },
   {
     "abbr": "SAST",
     "full": "Static Application Security Testing",
     "ja": "静的アプリケーションセキュリティテスト",
     "cat": "開発",
-    "detail": "Static Application Security Testing。静的アプリケーションセキュリティテスト。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Static Application Security Testing。アプリを実行せずソースコードやバイナリを解析して脆弱性を探す。例：危険な文字列連結SQLを検出。開発初期に導入しやすいが実行時の挙動は検証しきれない。DASTと相補的。"
   },
   {
     "abbr": "DAST",
     "full": "Dynamic Application Security Testing",
     "ja": "動的アプリケーションセキュリティテスト",
     "cat": "開発",
-    "detail": "Dynamic Application Security Testing。動的アプリケーションセキュリティテスト。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Dynamic Application Security Testing。動作中のWebアプリに外部からリクエストを送り、XSSや設定不備などを検査する。ソースコードがなくても実施できるが、内部経路の網羅には限界。SASTと併用する。"
   },
   {
     "abbr": "SBOM",
     "full": "Software Bill of Materials",
     "ja": "ソフトウェア部品表",
     "cat": "開発",
-    "detail": "Software Bill of Materials。ソフトウェア部品表。要求定義・設計・構築・試験・保守のどの工程と関係するかを押さえよう。"
+    "detail": "Software Bill of Materials。アプリに含まれるOSSや依存ライブラリの名称・バージョンなどの構成一覧。Log4jなどの脆弱性公表時に影響製品を特定しやすい。CycloneDX・SPDXなどの形式がある。SBOM自体は脆弱性修正を行わない。"
   },
   {
     "abbr": "RACI",
     "full": "Responsible, Accountable, Consulted, Informed",
     "ja": "実行責任・最終責任・相談先・報告先",
     "cat": "セキュリティ管理",
-    "detail": "Responsible, Accountable, Consulted, Informed。実行責任・最終責任・相談先・報告先。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Responsible（実行担当）・Accountable（最終責任）・Consulted（相談先）・Informed（報告先）を仕事ごとに割り当てる責任分担表。例：薬局の障害対応で委託業者をR、薬局責任者をAとする。RとAの混同に注意。"
   },
   {
     "abbr": "RAID",
@@ -312,280 +312,280 @@
     "full": "Exclusive OR",
     "ja": "排他的論理和",
     "cat": "基礎技術",
-    "detail": "Exclusive OR。排他的論理和。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "排他的論理和。2入力が異なるときだけ1になる（0 XOR 1=1、1 XOR 1=0）。同じビット列を2回XORすると元に戻る性質があり、RAIDのパリティ計算などに使われる。"
   },
   {
     "abbr": "CPU",
     "full": "Central Processing Unit",
     "ja": "中央処理装置",
     "cat": "基礎技術",
-    "detail": "Central Processing Unit。中央処理装置。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Central Processing Unit。命令の取出し・解読・実行、分岐制御など汎用処理を担う。レジスタ、演算器、制御装置、キャッシュ等から構成。GPUが大量の類似演算を並列化するのと得意分野が違う。"
   },
   {
     "abbr": "GPU",
     "full": "Graphics Processing Unit",
     "ja": "画像処理装置・並列演算プロセッサ",
     "cat": "基礎技術",
-    "detail": "Graphics Processing Unit。画像処理装置・並列演算プロセッサ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Graphics Processing Unit。多数の演算器で画像処理や機械学習の行列演算などを並列実行する。並列性が高い計算に向くが、分岐の多い逐次的な制御処理はCPUが適する場合が多い。"
   },
   {
     "abbr": "SSD",
     "full": "Solid State Drive",
     "ja": "半導体メモリを用いた記憶装置",
     "cat": "基礎技術",
-    "detail": "Solid State Drive。半導体メモリを用いた記憶装置。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Solid State Drive。NANDフラッシュ等に保存する補助記憶装置で、回転部品がなくランダムアクセスが高速。書換回数の制約をウェアレベリングで緩和する。HDDと異なり磁気ディスクを回転させない。"
   },
   {
     "abbr": "HDD",
     "full": "Hard Disk Drive",
     "ja": "磁気ディスク装置",
     "cat": "基礎技術",
-    "detail": "Hard Disk Drive。磁気ディスク装置。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Hard Disk Drive。磁気記録を利用した回転ディスクの記憶装置。シーク時間や回転待ちが発生するため小さなランダムI/Oが苦手。大容量当たりの費用に利点がある場合がある。SSDは半導体記憶。"
   },
   {
     "abbr": "DMA",
     "full": "Direct Memory Access",
     "ja": "CPUを介さない直接メモリアクセス",
     "cat": "基礎技術",
-    "detail": "Direct Memory Access。CPUを介さない直接メモリアクセス。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Direct Memory Access。周辺機器と主記憶の間のデータ転送をDMAコントローラー等に任せ、CPUがデータを1語ずつ移送する負担を減らす。転送の設定・完了通知にはCPUが関与。IOMMUはDMAのアクセス先を保護する。"
   },
   {
     "abbr": "IOMMU",
     "full": "Input-Output Memory Management Unit",
     "ja": "入出力機器のメモリアドレス変換・保護機構",
     "cat": "基礎技術",
-    "detail": "Input-Output Memory Management Unit。入出力機器のメモリアドレス変換・保護機構。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Input-Output Memory Management Unit。DMAを行うデバイスのアドレス変換とアクセス制限を担う。仮想化でデバイスをVMへ割り当てる際や、不正DMAによるメモリ読書きを防ぐのに重要。CPU向けMMUとは対象が異なる。"
   },
   {
     "abbr": "NIC",
     "full": "Network Interface Card",
     "ja": "ネットワークインターフェースカード",
     "cat": "基礎技術",
-    "detail": "Network Interface Card。ネットワークインターフェースカード。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Network Interface Card。Ethernetなどに接続するためのネットワークインターフェース。MACアドレスやフレーム送受信を扱い、製品によってチェックサム計算・TCPオフロード等を行う。IPルーティング全体を担う装置ではない。"
   },
   {
     "abbr": "VLIW",
     "full": "Very Long Instruction Word",
     "ja": "複数演算を一つの長い命令語にまとめる方式",
     "cat": "基礎技術",
-    "detail": "Very Long Instruction Word。複数演算を一つの長い命令語にまとめる方式。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Very Long Instruction Word。独立した複数演算をコンパイラが1つの長い命令語に束ねて並列実行する方式。並列性の抽出をハードよりコンパイラへ寄せる。動的に命令を並べ替えるスーパースカラ方式と対比。"
   },
   {
     "abbr": "TEE",
     "full": "Trusted Execution Environment",
     "ja": "隔離された信頼できる実行環境",
     "cat": "基礎技術",
-    "detail": "Trusted Execution Environment。隔離された信頼できる実行環境。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Trusted Execution Environment。通常OSなどから隔離した領域で機密処理を実行する。例：Intel SGXやArm TrustZone。暗号鍵や処理中データを保護するが、サイドチャネル攻撃や実装脆弱性への対策は別途必要。"
   },
   {
     "abbr": "TPM",
     "full": "Trusted Platform Module",
     "ja": "暗号鍵管理などを行うセキュリティチップ",
     "cat": "基礎技術",
-    "detail": "Trusted Platform Module。暗号鍵管理などを行うセキュリティチップ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Trusted Platform Module。鍵の生成・保護、署名、PCRによる起動状態の測定値保持などを担うハードウェアセキュリティ機能。BitLockerの鍵保護などに利用。大量の暗号処理を担うHSMとは主な用途が違う。"
   },
   {
     "abbr": "HSM",
     "full": "Hardware Security Module",
     "ja": "暗号鍵を保護・処理する専用ハードウェア",
     "cat": "基礎技術",
-    "detail": "Hardware Security Module。暗号鍵を保護・処理する専用ハードウェア。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Hardware Security Module。秘密鍵を内部に保護したまま署名・復号などを実行する専用装置。認証局CAの署名鍵、決済システムの鍵管理で利用される。TPMよりサーバー・組織規模の鍵管理用途が中心。"
   },
   {
     "abbr": "OS",
     "full": "Operating System",
     "ja": "基本ソフトウェア",
     "cat": "基礎技術",
-    "detail": "Operating System。基本ソフトウェア。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Operating System。プロセス、メモリ、ファイル、入出力、ユーザー権限等を管理する基本ソフト。例：Windows、Linux、macOS。アプリとハードウェアを仲介し、アクセス制御やプロセス分離も担当。"
   },
   {
     "abbr": "VM",
     "full": "Virtual Machine",
     "ja": "仮想マシン",
     "cat": "基礎技術",
-    "detail": "Virtual Machine。仮想マシン。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Virtual Machine。ハイパーバイザー等の上で仮想CPU・メモリ・ディスクを持つ独立した実行環境。例：KVM、VMware。コンテナは通常ホストOSカーネルを共有する点でVMと異なる。"
   },
   {
     "abbr": "IDS",
     "full": "Intrusion Detection System",
     "ja": "侵入検知システム",
     "cat": "検知・対応",
-    "detail": "Intrusion Detection System。侵入検知システム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Intrusion Detection System。不正アクセスの兆候を検知して警告するシステム。例：不審な通信パターンを検知してSOCへ通知。IPSはネットワーク経路上で通信を遮断できる点が主な違い。"
   },
   {
     "abbr": "IPS",
     "full": "Intrusion Prevention System",
     "ja": "侵入防止システム",
     "cat": "検知・対応",
-    "detail": "Intrusion Prevention System。侵入防止システム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Intrusion Prevention System。通信経路上などで攻撃を検出し、該当パケットの破棄・接続遮断などを行う。IDSは基本的に検知・通知が中心。誤検知による正常通信遮断に注意。"
   },
   {
     "abbr": "EDR",
     "full": "Endpoint Detection and Response",
     "ja": "エンドポイントでの検知・対応",
     "cat": "検知・対応",
-    "detail": "Endpoint Detection and Response。エンドポイントでの検知・対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Endpoint Detection and Response。PCやサーバー上のプロセス・ファイル・接続を監視し、侵入後の不審挙動を検知・調査・隔離する。例：不審なPowerShell実行を追跡。ウイルス対策ソフトより事後対応機能が強い。"
   },
   {
     "abbr": "XDR",
     "full": "Extended Detection and Response",
     "ja": "複数領域を横断する検知・対応",
     "cat": "検知・対応",
-    "detail": "Extended Detection and Response。複数領域を横断する検知・対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Extended Detection and Response。端末、ネットワーク、メール、クラウド等の信号を相関分析し、攻撃の全体像を検知・対応する仕組み。EDRの端末中心の可視性を複数領域へ拡張する。"
   },
   {
     "abbr": "NDR",
     "full": "Network Detection and Response",
     "ja": "ネットワークでの検知・対応",
     "cat": "検知・対応",
-    "detail": "Network Detection and Response。ネットワークでの検知・対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Network Detection and Response。ネットワーク通信のメタデータやパケットを分析し、端末間の不審な横展開・C2通信等を検知する。EDRを導入できないIoT機器の観測にも役立つ。"
   },
   {
     "abbr": "SIEM",
     "full": "Security Information and Event Management",
     "ja": "セキュリティ情報・イベント管理",
     "cat": "検知・対応",
-    "detail": "Security Information and Event Management。セキュリティ情報・イベント管理。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Security Information and Event Management。各種機器・アプリのログを収集・正規化・相関分析し、アラートや調査に用いる。例：VPNログイン失敗と端末検知を組み合わせる。SOARは対応手順の自動化が中心。"
   },
   {
     "abbr": "SOAR",
     "full": "Security Orchestration, Automation and Response",
     "ja": "セキュリティ対応の統合・自動化",
     "cat": "検知・対応",
-    "detail": "Security Orchestration, Automation and Response。セキュリティ対応の統合・自動化。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Security Orchestration, Automation and Response。検知後の処理をプレイブックで連携・自動化する。例：不審メールのURLを調査し、条件が合えば隔離とチケット起票を行う。SIEMはログ集約と検知が中心。"
   },
   {
     "abbr": "UEBA",
     "full": "User and Entity Behavior Analytics",
     "ja": "ユーザー・エンティティ行動分析",
     "cat": "検知・対応",
-    "detail": "User and Entity Behavior Analytics。ユーザー・エンティティ行動分析。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "User and Entity Behavior Analytics。利用者や機器の通常行動を学習し、逸脱を検知する。例：深夜に大量の患者情報をダウンロードするアカウントを警告。未知の異常を拾えるが誤検知もある。"
   },
   {
     "abbr": "SOC",
     "full": "Security Operations Center",
     "ja": "セキュリティ監視・運用拠点",
     "cat": "検知・対応",
-    "detail": "Security Operations Center。セキュリティ監視・運用拠点。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Security Operations Center。ログやアラートを24時間監視・分析することがあるセキュリティ運用組織。インシデントを検知しエスカレーションする。CSIRTはインシデントの封じ込め・復旧調整が中心。"
   },
   {
     "abbr": "CSIRT",
     "full": "Computer Security Incident Response Team",
     "ja": "コンピュータセキュリティインシデント対応チーム",
     "cat": "検知・対応",
-    "detail": "Computer Security Incident Response Team。コンピュータセキュリティインシデント対応チーム。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Computer Security Incident Response Team。侵害発生時の分析・封じ込め・復旧・再発防止を統括・調整する組織。SOCが検知したアラートを引き継ぐこともある。外部への連絡や証拠保全も重要。"
   },
   {
     "abbr": "IOC",
     "full": "Indicator of Compromise",
     "ja": "侵害の痕跡・指標",
     "cat": "検知・対応",
-    "detail": "Indicator of Compromise。侵害の痕跡・指標。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Indicator of Compromise。侵害を示唆する痕跡で、悪性IP、ファイルハッシュ、不審ドメイン等が例。IOCは観測された具体的指標、TTPは攻撃者の行動パターンを表す。"
   },
   {
     "abbr": "TTP",
     "full": "Tactics, Techniques and Procedures",
     "ja": "攻撃者の戦術・技術・手順",
     "cat": "検知・対応",
-    "detail": "Tactics, Techniques and Procedures。攻撃者の戦術・技術・手順。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Tactics, Techniques and Procedures。攻撃者の目的（戦術）、手段（技術）、具体的手順を指す。MITRE ATT&CKの技術分類などで分析する。ハッシュ値のような個別の侵害指標IOCより行動分析に役立つ。"
   },
   {
     "abbr": "DLP",
     "full": "Data Loss Prevention",
     "ja": "情報漏えい防止",
     "cat": "検知・対応",
-    "detail": "Data Loss Prevention。情報漏えい防止。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Data Loss Prevention。機密情報の外部送信・コピーを検知・制御する。例：患者一覧を添付したメール送信をブロック。内容解析やラベルによる制御を利用し、暗号化・アクセス制御と組み合わせる。"
   },
   {
     "abbr": "CASB",
     "full": "Cloud Access Security Broker",
     "ja": "クラウド利用の可視化・制御基盤",
     "cat": "検知・対応",
-    "detail": "Cloud Access Security Broker。クラウド利用の可視化・制御基盤。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Cloud Access Security Broker。SaaS利用を可視化し、ポリシー適用・情報漏えい対策・異常検知等を行う。例：未承認クラウドストレージへのアップロードを制御。SASEの構成要素となる場合がある。"
   },
   {
     "abbr": "WAF",
     "full": "Web Application Firewall",
     "ja": "Webアプリケーションを守るファイアウォール",
     "cat": "検知・対応",
-    "detail": "Web Application Firewall。Webアプリケーションを守るファイアウォール。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Web Application Firewall。HTTP/HTTPSのリクエストを解析しSQLインジェクションやXSSなどの攻撃を遮断する。ネットワーク層中心の一般的なFWとは対象が異なり、脆弱なアプリの修正を代替しない。"
   },
   {
     "abbr": "FW",
     "full": "Firewall",
     "ja": "ファイアウォール",
     "cat": "検知・対応",
-    "detail": "Firewall。ファイアウォール。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Firewall。送信元・宛先IP、ポート、通信状態などの条件で通信を許可・遮断する。ステートフルFWはセッション状態を追跡する。WAFはHTTP内容を解析してWebアプリの攻撃を対象とする。"
   },
   {
     "abbr": "CVE",
     "full": "Common Vulnerabilities and Exposures",
     "ja": "公表された脆弱性の識別子体系",
     "cat": "脆弱性",
-    "detail": "Common Vulnerabilities and Exposures。公表された脆弱性の識別子体系。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Common Vulnerabilities and Exposures。公開された個別の脆弱性を識別する番号体系。例：CVE-2021-44228はLog4Shell。CVE番号は脆弱性の識別であり、深刻度の点数はCVSSで扱う。"
   },
   {
     "abbr": "CWE",
     "full": "Common Weakness Enumeration",
     "ja": "ソフトウェアの弱点分類",
     "cat": "脆弱性",
-    "detail": "Common Weakness Enumeration。ソフトウェアの弱点分類。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Common Weakness Enumeration。ソフトウェアに潜む弱点の種類を分類する。例：CWE-89はSQLインジェクション、CWE-79はXSS。個々の脆弱性インシデント識別CVEとは違う。"
   },
   {
     "abbr": "CVSS",
     "full": "Common Vulnerability Scoring System",
     "ja": "脆弱性の深刻度評価方式",
     "cat": "脆弱性",
-    "detail": "Common Vulnerability Scoring System。脆弱性の深刻度評価方式。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Common Vulnerability Scoring System。攻撃条件や影響などを評価し脆弱性の深刻度を数値化する方式。一般に0.0～10.0で表す。悪用の実績KEVや悪用確率EPSSとは別なので優先順位付けには組み合わせる。"
   },
   {
     "abbr": "KEV",
     "full": "Known Exploited Vulnerabilities",
     "ja": "悪用が確認された脆弱性のカタログ",
     "cat": "脆弱性",
-    "detail": "Known Exploited Vulnerabilities。悪用が確認された脆弱性のカタログ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Known Exploited Vulnerabilities。CISAが公開する実際の悪用が確認された脆弱性のカタログ。CVE単位で列挙。将来の悪用確率を推定するEPSSとは異なり、観測済みの悪用を示す。"
   },
   {
     "abbr": "EPSS",
     "full": "Exploit Prediction Scoring System",
     "ja": "脆弱性が悪用される可能性を予測する指標",
     "cat": "脆弱性",
-    "detail": "Exploit Prediction Scoring System。脆弱性が悪用される可能性を予測する指標。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Exploit Prediction Scoring System。脆弱性が今後一定期間に実際に悪用される確率を推定するモデル。CVSSの影響の深刻さ、KEVの悪用確認事実とは意味が違う。パッチ適用順位の補助になる。"
   },
   {
     "abbr": "CPE",
     "full": "Common Platform Enumeration",
     "ja": "製品・プラットフォームの識別体系",
     "cat": "脆弱性",
-    "detail": "Common Platform Enumeration。製品・プラットフォームの識別体系。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Common Platform Enumeration。ソフトウェア・OS・機器等の製品種別や版を機械可読で識別する体系。脆弱性データベースで影響製品を照合する際に使う。CVEは脆弱性そのもののID。"
   },
   {
     "abbr": "SLA",
     "full": "Service Level Agreement",
     "ja": "サービス品質に関する合意",
     "cat": "セキュリティ管理",
-    "detail": "Service Level Agreement。サービス品質に関する合意。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Service Level Agreement。提供者と利用者の間でサービス品質・責任を合意する。例：月間稼働率99.9%、障害通知時間、違反時の扱い。SLOは目標値で、必ずしも契約上の合意ではない。"
   },
   {
     "abbr": "SLO",
     "full": "Service Level Objective",
     "ja": "サービスレベル目標",
     "cat": "セキュリティ管理",
-    "detail": "Service Level Objective。サービスレベル目標。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Service Level Objective。サービスが達成を目指す信頼性目標。例：月間成功リクエスト率99.95%。SLI（指標）に基づき測定する。SLAは提供者と利用者の合意事項である。"
   },
   {
     "abbr": "BCP",
     "full": "Business Continuity Plan",
     "ja": "事業継続計画",
     "cat": "セキュリティ管理",
-    "detail": "Business Continuity Plan。事業継続計画。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Business Continuity Plan。地震・停電・サイバー攻撃などで中断した重要業務を継続・復旧するための具体的計画。例：薬局で停電時の処方受付方法、代替拠点、連絡先、復旧優先度を定める。BCMは計画の策定・訓練・改善を含む管理活動全体。"
   },
   {
     "abbr": "BCM",
     "full": "Business Continuity Management",
     "ja": "事業継続マネジメント",
     "cat": "セキュリティ管理",
-    "detail": "Business Continuity Management。事業継続マネジメント。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Business Continuity Management。災害やシステム停止に備え、重要業務の特定、BIA（事業影響度分析）、RTO/RPO設定、BCP策定、訓練、見直しを継続的に回す管理活動。例：薬局の停電訓練で発覚した連絡網不備を改善する。BCPは計画書、BCMは運用・改善する仕組み。ISO 22301は事業継続マネジメントシステムの要求事項。"
   },
   {
     "abbr": "RTO",
@@ -809,119 +809,119 @@
     "full": "Authentication, Authorization and Accounting",
     "ja": "認証・認可・課金（利用記録）",
     "cat": "認証",
-    "detail": "Authentication, Authorization and Accounting。認証・認可・課金（利用記録）。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Authentication（認証）・Authorization（認可）・Accounting（利用記録）。例：無線LANで利用者を認証し、利用可能なネットワークを制御し、接続時間を記録する。Accountingは料金請求に限定されない。"
   },
   {
     "abbr": "RADIUS",
     "full": "Remote Authentication Dial-In User Service",
     "ja": "ネットワークアクセスの認証・認可・利用記録",
     "cat": "認証",
-    "detail": "Remote Authentication Dial-In User Service。ネットワークアクセスの認証・認可・利用記録。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Remote Authentication Dial-In User Service。NASと認証サーバー間で認証・認可・Accountingを行うプロトコル。企業無線LANの802.1Xなどに利用。クライアント端末が直接RADIUSとやり取りするとは限らない。"
   },
   {
     "abbr": "EAP",
     "full": "Extensible Authentication Protocol",
     "ja": "拡張認証プロトコル",
     "cat": "認証",
-    "detail": "Extensible Authentication Protocol。拡張認証プロトコル。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Extensible Authentication Protocol。認証方式を載せる枠組みで、EAP-TLS（証明書認証）、EAP-TTLSなど多様な方式を運べる。802.1XではEAPOLとして端末と認証装置間を運ぶ。EAP自体は暗号方式ではない。"
   },
   {
     "abbr": "NAS",
     "full": "Network Access Server",
     "ja": "ネットワークアクセスサーバ",
     "cat": "認証",
-    "detail": "Network Access Server。ネットワークアクセスサーバ。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Network Access Server。接続端末からのアクセスを受け、認証要求をRADIUS等へ中継する装置。例：Wi-FiアクセスポイントやVPNゲートウェイ。NASはNetwork Attached Storage（ネットワーク接続ストレージ）の略でもあるので文脈に注意。"
   },
   {
     "abbr": "TACACS+",
     "full": "Terminal Access Controller Access-Control System Plus",
     "ja": "ネットワーク機器管理向けAAAプロトコル",
     "cat": "認証",
-    "detail": "Terminal Access Controller Access-Control System Plus。ネットワーク機器管理向けAAAプロトコル。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Terminal Access Controller Access-Control System Plus。ルータ・スイッチへの管理者ログインやコマンド実行の認可に用いるAAAプロトコル。RADIUSがネットワークアクセス認証で広く用いられるのと用途を対比する。"
   },
   {
     "abbr": "MFA",
     "full": "Multi-Factor Authentication",
     "ja": "多要素認証",
     "cat": "認証",
-    "detail": "Multi-Factor Authentication。多要素認証。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Multi-Factor Authentication。知識（パスワード）、所持（スマホ・セキュリティキー）、生体（指紋）など異なる種類の要素を2種類以上組み合わせる。パスワード＋秘密の質問は知識要素同士でMFAではない。"
   },
   {
     "abbr": "2FA",
     "full": "Two-Factor Authentication",
     "ja": "二要素認証",
     "cat": "認証",
-    "detail": "Two-Factor Authentication。二要素認証。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Two-Factor Authentication。異なる種類の認証要素をちょうど2種類使う多要素認証。例：パスワード（知識）＋認証アプリのワンタイムコード（所持）。MFAは2要素以上を広く指す。"
   },
   {
     "abbr": "SSO",
     "full": "Single Sign-On",
     "ja": "シングルサインオン",
     "cat": "認証",
-    "detail": "Single Sign-On。シングルサインオン。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Single Sign-On。一度の認証により複数サービスを利用できる仕組み。例：県薬アプリから会員サイトへ再ログインせず移動する。SAMLやOIDCで実現できるが、SSO自体はプロトコル名ではない。"
   },
   {
     "abbr": "SAML",
     "full": "Security Assertion Markup Language",
     "ja": "認証・認可情報の交換に使うXML規格",
     "cat": "認証",
-    "detail": "Security Assertion Markup Language。認証・認可情報の交換に使うXML規格。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Security Assertion Markup Language。IdPが認証結果などをXMLのアサーションとしてSPへ伝える標準。企業向けWeb SSOでよく利用される。OIDCはJSON/REST系の仕組みを使う点が異なる。"
   },
   {
     "abbr": "OIDC",
     "full": "OpenID Connect",
     "ja": "OAuth 2.0を基盤とする認証レイヤー",
     "cat": "認証",
-    "detail": "OpenID Connect。OAuth 2.0を基盤とする認証レイヤー。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "OpenID Connect。OAuth 2.0を基盤に認証機能を追加した仕様で、IDトークン（通常JWT）を利用して利用者の認証情報を伝える。OAuth単体のアクセス権委譲とは目的が違う。"
   },
   {
     "abbr": "OAuth",
     "full": "Open Authorization",
     "ja": "権限委譲のための枠組み（通称の展開形）",
     "cat": "認証",
-    "detail": "Open Authorization。権限委譲のための枠組み（通称の展開形）。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "OAuth 2.0は他サービスの資源への限定的アクセス権を委譲する枠組み。例：写真アプリがGoogleドライブへの読取り権限だけ得る。アクセストークンは認可用であり、それだけを本人認証の証明として扱わない。"
   },
   {
     "abbr": "FIDO",
     "full": "Fast IDentity Online",
     "ja": "パスワードレス認証などの標準化を進める枠組み",
     "cat": "認証",
-    "detail": "Fast IDentity Online。パスワードレス認証などの標準化を進める枠組み。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Fast IDentity Online。公開鍵暗号でパスワード依存を減らす認証標準の枠組み。FIDO2はWebAuthnとCTAPを用い、端末に保持した秘密鍵でチャレンジに署名する。パスキーはこの仕組みを使う。"
   },
   {
     "abbr": "PKI",
     "full": "Public Key Infrastructure",
     "ja": "公開鍵基盤",
     "cat": "認証",
-    "detail": "Public Key Infrastructure。公開鍵基盤。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Public Key Infrastructure。CAが公開鍵と主体の結び付きを証明書へ署名し、検証側が信頼済みルートまで証明書チェーンを検証する。RAは本人確認、CRL/OCSPは失効確認。TLSのサーバー認証やHPKIに利用される。"
   },
   {
     "abbr": "CA",
     "full": "Certification Authority",
     "ja": "電子証明書を発行する認証局",
     "cat": "認証",
-    "detail": "Certification Authority。電子証明書を発行する認証局。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Certification Authority。公開鍵と主体の情報を結び付けた電子証明書を自身の秘密鍵で署名・発行する。実際の申請者審査をRAに委ねる場合もある。ルートCAと中間CAが階層を構成する。"
   },
   {
     "abbr": "CRL",
     "full": "Certificate Revocation List",
     "ja": "証明書失効リスト",
     "cat": "認証",
-    "detail": "Certificate Revocation List。証明書失効リスト。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Certificate Revocation List。CAが失効した証明書のシリアル番号などを署名付き一覧として公開する。検証側が取得・照合する。個々の証明書の状態を問い合わせるOCSPと対比する。"
   },
   {
     "abbr": "OCSP",
     "full": "Online Certificate Status Protocol",
     "ja": "証明書の失効状態確認プロトコル",
     "cat": "認証",
-    "detail": "Online Certificate Status Protocol。証明書の失効状態確認プロトコル。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "Online Certificate Status Protocol。証明書のシリアル番号等を指定して状態を問い合わせる仕組み。応答にはgood・revoked・unknownなどがある。CRLは失効証明書一覧を取得する方式。応答の取得失敗時の扱いは実装依存。"
   },
   {
     "abbr": "OTP",
     "full": "One-Time Password",
     "ja": "ワンタイムパスワード",
     "cat": "認証",
-    "detail": "One-Time Password。ワンタイムパスワード。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "One-Time Password。短時間または1回限り有効なパスワード。TOTPは時刻に基づき、HOTPはカウンタに基づいて生成する。使い捨てでも中間者によるリアルタイムのフィッシングを完全に防げるわけではない。"
   },
   {
     "abbr": "MITM",
@@ -1033,21 +1033,21 @@
     "full": "Failover",
     "ja": "主系の障害時に待機系へ処理を切替",
     "cat": "信頼性・可用性",
-    "detail": "Failover。主系の障害時に待機系へ処理を切替。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "主系に障害が発生したとき待機系へ自動または手動で切替える。例：DB主サーバー故障時にレプリカへ切替。復旧後に元の主系へ戻すフェールバックとは異なる。"
   },
   {
     "abbr": "フェールバック",
     "full": "Failback",
     "ja": "障害復旧後に元の系へ処理を戻す",
     "cat": "信頼性・可用性",
-    "detail": "Failback。障害復旧後に元の系へ処理を戻す。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "フェールオーバー後に元の主系が復旧した際、業務を元の構成へ戻すこと。切戻し前にデータ同期・整合性確認が必要。障害時に待機系へ切り替えるフェールオーバーと区別。"
   },
   {
     "abbr": "グレースフルデグラデーション",
     "full": "Graceful Degradation",
     "ja": "性能や機能を段階的に落として動作を継続",
     "cat": "信頼性・可用性",
-    "detail": "Graceful Degradation。性能や機能を段階的に落として動作を継続。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "一部障害や資源不足でも性能・機能を段階的に下げながら重要機能を継続する。例：検索推薦機能を停止して注文処理を維持する。安全な状態へ移すフェールセーフと目的が異なる。"
   },
   {
     "abbr": "デュアルシステム",
@@ -1075,7 +1075,7 @@
     "full": "Warm Standby",
     "ja": "一部準備した待機系を障害後に立ち上げる",
     "cat": "信頼性・可用性",
-    "detail": "Warm Standby。一部準備した待機系を障害後に立ち上げる。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "待機系を一部起動・準備した状態で維持し、障害時に不足処理を行って切り替える。ホットより切替が遅くコストが低め、コールドより切替が速いことが多い。定義の範囲は製品で異なる。"
   },
   {
     "abbr": "コールドスタンバイ",
@@ -1089,63 +1089,63 @@
     "full": "Active-Active",
     "ja": "複数の稼働系が通常時から処理を担当",
     "cat": "信頼性・可用性",
-    "detail": "Active-Active。複数の稼働系が通常時から処理を担当。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "複数システムが通常時から同時に処理を担当する方式。例：2台のWebサーバーへロードバランサで振り分け。能力を活用できるが、状態共有や負荷分散、共通障害の対策が必要。"
   },
   {
     "abbr": "アクティブ・スタンバイ",
     "full": "Active-Standby",
     "ja": "稼働系と障害時用の待機系を設ける",
     "cat": "信頼性・可用性",
-    "detail": "Active-Standby。稼働系と障害時用の待機系を設ける。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "通常は主系が処理し、待機系は障害時の切替に備える方式。例：主系DBと待機系DB。アクティブ・アクティブは複数系が通常時から処理する。"
   },
   {
     "abbr": "直列システム",
     "full": "Series System",
     "ja": "全構成要素が動作して初めて全体が稼働",
     "cat": "信頼性・可用性",
-    "detail": "Series System。全構成要素が動作して初めて全体が稼働。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "全構成要素が正常でないとシステムが機能しない構成。独立故障で各要素の稼働率が0.99なら2台直列の稼働率は0.99×0.99=0.9801。単一障害点が増え得る。"
   },
   {
     "abbr": "並列システム",
     "full": "Parallel System",
     "ja": "いずれかの系が動けば全体を稼働可能",
     "cat": "信頼性・可用性",
-    "detail": "Parallel System。いずれかの系が動けば全体を稼働可能。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "冗長構成で一つ以上の系が動けば全体が稼働する構成。独立故障で各系の稼働率が0.99なら2台並列の稼働率は1-(0.01×0.01)=0.9999。共通原因故障がある場合は単純計算できない。"
   },
   {
     "abbr": "冗長化",
     "full": "Redundancy",
     "ja": "予備装置や経路を設け単一故障の影響を抑える",
     "cat": "信頼性・可用性",
-    "detail": "Redundancy。予備装置や経路を設け単一故障の影響を抑える。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "同じ機能を持つ装置・回線・電源等を複数持ち、一部故障でも継続できるようにする。例：二重電源、冗長スイッチ、RAID1。共通の電源盤や建屋がSPOFにならないかも確認が必要。"
   },
   {
     "abbr": "ミラーリング",
     "full": "Mirroring",
     "ja": "同一データを複数ディスクに複製",
     "cat": "ストレージ",
-    "detail": "Mirroring。同一データを複数ディスクに複製。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "同じデータを複数ディスクへ複製する方式でRAID1などが例。一方のディスク故障から継続できるが、誤削除も両方へ反映されるためバックアップの代わりではない。"
   },
   {
     "abbr": "ストライピング",
     "full": "Striping",
     "ja": "データを分割して複数ディスクへ分散",
     "cat": "ストレージ",
-    "detail": "Striping。データを分割して複数ディスクへ分散。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "データをブロック単位などで複数ディスクへ分散配置する。RAID0で使われ並列アクセスにより性能向上が期待できるが、単独では冗長性がない。RAID5などはパリティとも組み合わせる。"
   },
   {
     "abbr": "パリティ",
     "full": "Parity",
     "ja": "データ故障時の復元に利用する冗長情報",
     "cat": "ストレージ",
-    "detail": "Parity。データ故障時の復元に利用する冗長情報。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "ビットの排他的論理和（XOR）等から算出する冗長情報。RAID5では1台分のディスク故障に対応可能。パリティは暗号化ではなく、故障時の再構築に使う。"
   },
   {
     "abbr": "リビルド",
     "full": "Rebuild",
     "ja": "故障ディスク交換後に冗長情報からデータを再構築",
     "cat": "ストレージ",
-    "detail": "Rebuild。故障ディスク交換後に冗長情報からデータを再構築。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "RAIDの故障ディスクを交換した後、生存ディスクのデータやパリティから内容を再生成する作業。再構築中は冗長性が低下する場合があり、別ディスク故障でデータ喪失リスクが高まる。"
   },
   {
     "abbr": "アノマリ検知",
@@ -1159,42 +1159,42 @@
     "full": "Signature-Based Detection",
     "ja": "既知の攻撃パターンに照合して検出",
     "cat": "検知・監視",
-    "detail": "Signature-Based Detection。既知の攻撃パターンに照合して検出。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "既知のマルウェアのハッシュや通信パターン等と一致するかで攻撃を検出する。既知攻撃に強いが未知・変形攻撃は見逃しやすい。通常動作からの逸脱を検出するアノマリ検知と対比。"
   },
   {
     "abbr": "偽陽性",
     "full": "False Positive",
     "ja": "正常なものを異常と誤判定",
     "cat": "検知・監視",
-    "detail": "False Positive。正常なものを異常と誤判定。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "実際は正常なのに異常と判定すること（False Positive）。例：正常なログインを侵害と誤検知。増えると調査負担や業務停止が増す。偽陰性は攻撃の見逃し。"
   },
   {
     "abbr": "偽陰性",
     "full": "False Negative",
     "ja": "異常なものを正常と誤判定して見逃す",
     "cat": "検知・監視",
-    "detail": "False Negative。異常なものを正常と誤判定して見逃す。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "実際は異常なのに正常と判定すること（False Negative）。例：不正アクセスを検知できない。セキュリティでは見逃しの損害が大きい場合がある。偽陽性は正常を誤検知。"
   },
   {
     "abbr": "真陽性",
     "full": "True Positive",
     "ja": "異常を正しく異常と判断",
     "cat": "検知・監視",
-    "detail": "True Positive。異常を正しく異常と判断。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "実際に異常な事象を正しく異常と判定すること（True Positive）。例：実際のマルウェア感染を検知。再現率=TP/(TP+FN)、適合率=TP/(TP+FP)の計算に使う。"
   },
   {
     "abbr": "真陰性",
     "full": "True Negative",
     "ja": "正常を正しく正常と判断",
     "cat": "検知・監視",
-    "detail": "True Negative。正常を正しく正常と判断。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "実際に正常な事象を正しく正常と判定すること（True Negative）。例：正常な通信を正常と判断。特異度=TN/(TN+FP)の計算に使う。"
   },
   {
     "abbr": "ソフトウェアライフサイクルプロセス",
     "full": "Software Life Cycle Processes",
     "ja": "取得から開発・運用・保守・廃棄までの活動体系",
     "cat": "開発・管理",
-    "detail": "Software Life Cycle Processes。取得から開発・運用・保守・廃棄までの活動体系。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "ISO/IEC/IEEE 12207などが扱うソフトウェアの取得・供給・開発・運用・保守・廃棄等のプロセス体系。特定の開発手法そのものではない。SLCPはこの概念の略称。"
   },
   {
     "abbr": "ソフトウェア実装プロセス",
@@ -1208,140 +1208,140 @@
     "full": "Software Architectural Design",
     "ja": "ソフトウェア全体の構造とインターフェースの設計",
     "cat": "開発・管理",
-    "detail": "Software Architectural Design。ソフトウェア全体の構造とインターフェースの設計。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "ソフトウェア全体をどのモジュールに分け、各モジュールがどのデータ・インターフェースで連携するかを設計する。例：薬局システムの受付・在庫・請求を3サービスへ分割。内部アルゴリズムを決める詳細設計と違う。"
   },
   {
     "abbr": "ソフトウェア詳細設計",
     "full": "Software Detailed Design",
     "ja": "構成要素の内部処理とデータ構造を設計",
     "cat": "開発・管理",
-    "detail": "Software Detailed Design。構成要素の内部処理とデータ構造を設計。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "方式設計で決めた各構成要素について、データ構造、関数、例外処理、アルゴリズム等を具体化する。例：在庫引当のSQL、戻り値、エラー条件を定める。全体分割を決める方式設計の次。"
   },
   {
     "abbr": "ソフトウェア結合",
     "full": "Software Integration",
     "ja": "構成要素を組み合わせ相互の動作を確認",
     "cat": "開発・管理",
-    "detail": "Software Integration。構成要素を組み合わせ相互の動作を確認。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "個別に作成・テストしたモジュールを組み合わせて、インターフェースやデータ授受が正しく動作するか確認する。単体テストでは見えなかったAPI項目の不一致などを発見する。"
   },
   {
     "abbr": "適格性確認テスト",
     "full": "Qualification Testing",
     "ja": "ソフトウェアが定められた要求を満たすか試験",
     "cat": "開発・管理",
-    "detail": "Qualification Testing。ソフトウェアが定められた要求を満たすか試験。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "開発したソフトウェアが規定された要求事項を満たすことを確認する試験。例：『同時に100件処理可能』という要件をテストする。結合テストは部品間連携、適格性確認は要求充足が主眼。"
   },
   {
     "abbr": "検証",
     "full": "Verification",
     "ja": "仕様に正しく従って作られているか確認",
     "cat": "開発・管理",
-    "detail": "Verification。仕様に正しく従って作られているか確認。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Verification。『仕様どおりに正しく作ったか』を確認する。例：設計書で定めた計算式どおり実装されているか。妥当性確認は『利用者の目的に合うか』という別の観点。"
   },
   {
     "abbr": "妥当性確認",
     "full": "Validation",
     "ja": "利用目的や利用者のニーズを満たすか確認",
     "cat": "開発・管理",
-    "detail": "Validation。利用目的や利用者のニーズを満たすか確認。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Validation。『利用者が必要とするものを作ったか』を確認する。例：薬局の実運用で在庫検索が十分速く使いやすいか。検証（Verification）は仕様との一致を確認する。"
   },
   {
     "abbr": "シフトレフト",
     "full": "Shift Left",
     "ja": "テストやセキュリティ対策を開発の早期から実施",
     "cat": "開発・管理",
-    "detail": "Shift Left。テストやセキュリティ対策を開発の早期から実施。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "開発後期に偏りがちなテストやセキュリティ確認を設計・実装の早期へ前倒しする。例：要件定義時の脅威分析、コミット時のSAST。脆弱性を早く発見し手戻り費用を減らす。"
   },
   {
     "abbr": "ウォーターフォール",
     "full": "Waterfall Model",
     "ja": "工程を原則として順に進める開発モデル",
     "cat": "開発・管理",
-    "detail": "Waterfall Model。工程を原則として順に進める開発モデル。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "要求定義→設計→実装→試験の工程を原則順番に進める開発モデル。大規模調達などで計画や成果物を管理しやすい一方、後半での要件変更にコストがかかりやすい。"
   },
   {
     "abbr": "アジャイル",
     "full": "Agile Development",
     "ja": "短い反復で開発し変化に柔軟に対応",
     "cat": "開発・管理",
-    "detail": "Agile Development。短い反復で開発し変化に柔軟に対応。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "短い反復で動くソフトウェアを提供し、利用者のフィードバックで要求を見直す開発思想。例：2週間のスプリントごとに画面を改善。スクラムはアジャイルを実践するフレームワークの一つ。"
   },
   {
     "abbr": "疎結合",
     "full": "Loose Coupling",
     "ja": "サービスや部品間の依存を小さくする設計",
     "cat": "アーキテクチャ",
-    "detail": "Loose Coupling。サービスや部品間の依存を小さくする設計。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "構成要素同士の依存を小さくする設計。例：API仕様だけで連携することで内部DBの変更を他サービスに波及させにくい。密結合は他要素の詳細に依存し改修が広範囲に及びやすい。"
   },
   {
     "abbr": "マイクロサービス",
     "full": "Microservices",
     "ja": "小さな独立サービスで構成するアーキテクチャ",
     "cat": "アーキテクチャ",
-    "detail": "Microservices。小さな独立サービスで構成するアーキテクチャ。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "小さな業務機能ごとに独立デプロイ可能なサービスへ分割する設計。例：認証・在庫・通知を別サービス化。独立性を得る一方、通信障害や分散トランザクション管理が複雑になる。SOAと関連するが細粒度・独立運用を重視。"
   },
   {
     "abbr": "サービス指向アーキテクチャ",
     "full": "Service-Oriented Architecture",
     "ja": "業務機能を独立サービスとして公開し組み合わせる",
     "cat": "アーキテクチャ",
-    "detail": "Service-Oriented Architecture。業務機能を独立サービスとして公開し組み合わせる。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "SOA。業務機能をサービスとして公開し標準インターフェースで再利用・組合せを行う。例：患者マスタ参照サービスを複数業務で利用。マイクロサービスより大きな単位にも適用できる。"
   },
   {
     "abbr": "ゼロトラスト",
     "full": "Zero Trust",
     "ja": "ネットワーク位置だけで信頼せず都度検証",
     "cat": "セキュリティ設計",
-    "detail": "Zero Trust。ネットワーク位置だけで信頼せず都度検証。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
+    "detail": "社内ネットワーク内だから安全とせず、利用者・端末・要求ごとに継続的に検証し最小権限でアクセスを認める考え方。例：VPN接続済みでも端末健全性とMFAを確認する。製品名ではなく設計原則。"
   },
   {
     "abbr": "最小権限の原則",
     "full": "Principle of Least Privilege",
     "ja": "利用者やプロセスに必要最小限の権限だけ付与",
     "cat": "セキュリティ設計",
-    "detail": "Principle of Least Privilege。利用者やプロセスに必要最小限の権限だけ付与。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
+    "detail": "業務に必要な権限だけを与える原則。例：薬局事務は処方受付情報を参照できてもユーザー管理者権限は持たせない。権限分離、定期見直し、特権アクセス管理と組み合わせる。"
   },
   {
     "abbr": "多要素認証",
     "full": "Multi-Factor Authentication",
     "ja": "異なる種類の認証要素を二つ以上使う",
     "cat": "認証",
-    "detail": "Multi-Factor Authentication。異なる種類の認証要素を二つ以上使う。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "知識・所持・生体など異なる種類の要素を2つ以上要求する。例：パスワード＋セキュリティキー。同一要素のパスワード＋秘密の質問は多要素認証にならない。"
   },
   {
     "abbr": "リモートアテステーション",
     "full": "Remote Attestation",
     "ja": "遠隔から実行環境の状態や正当性を検証",
     "cat": "先端技術",
-    "detail": "Remote Attestation。遠隔から実行環境の状態や正当性を検証。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "遠隔の検証者が、端末やTEEの実行状態を署名付き測定値・証拠などで確認する。例：クラウド上の隔離VMが期待したコードで起動したか検証してから秘密鍵を渡す。単なるユーザー認証と異なる。"
   },
   {
     "abbr": "信頼できる実行環境",
     "full": "Trusted Execution Environment",
     "ja": "保護された領域でコードとデータを実行",
     "cat": "先端技術",
-    "detail": "Trusted Execution Environment。保護された領域でコードとデータを実行。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "TEE。通常OSや他プロセスから隔離された領域で重要コード・データを処理する。例：Arm TrustZone、Intel SGX。隔離・鍵保護を提供するが全攻撃を防ぐものではない。"
   },
   {
     "abbr": "コンフィデンシャルコンピューティング",
     "full": "Confidential Computing",
     "ja": "処理中のデータも保護する計算技術",
     "cat": "先端技術",
-    "detail": "Confidential Computing。処理中のデータも保護する計算技術。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "計算中のデータ（data in use）をCPUやTEEの機構で保護する技術。例：AMD SEV-SNP、Intel TDXでVMメモリを保護。保存時暗号化・通信時TLSに加えて処理中も守る。"
   },
   {
     "abbr": "エアギャップ",
     "full": "Air Gap",
     "ja": "ネットワークから物理的または論理的に分離する",
     "cat": "セキュリティ設計",
-    "detail": "Air Gap。ネットワークから物理的または論理的に分離する。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
+    "detail": "重要システムを外部ネットワークから切り離す構成。例：機密研究設備をインターネット非接続にする。USB媒体の持込み、内部者、電磁的漏えいなどの経路が残るため絶対安全ではない。"
   },
   {
     "abbr": "シャドーIT",
     "full": "Shadow IT",
     "ja": "組織の承認・管理外で使われるIT資産やサービス",
     "cat": "運用・管理",
-    "detail": "Shadow IT。組織の承認・管理外で使われるIT資産やサービス。予防・検知・対応・復旧のどの段階で使うかを意識しよう。"
+    "detail": "管理部門が承認・把握していないSaaSや端末の業務利用。例：職員が私用クラウドへ患者データをアップロード。CASB等の可視化、利用しやすい正式ツール、教育が対策。"
   },
   {
     "abbr": "カミンスキー攻撃",
@@ -1376,49 +1376,49 @@
     "full": "Copy-on-Write",
     "ja": "書き込み時に初めてデータの複製を作る",
     "cat": "OS・計算機",
-    "detail": "Copy-on-Write。書き込み時に初めてデータの複製を作る。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "Copy-on-Write。データを複製せず参照を共有し、書込みが生じた部分だけ新しい領域へコピーする。例：仮想マシンスナップショットやfork後のメモリ共有。コピーの初期コストを抑える。"
   },
   {
     "abbr": "メモリインタリーブ",
     "full": "Memory Interleaving",
     "ja": "複数メモリバンクにアクセスを分散し性能を向上",
     "cat": "OS・計算機",
-    "detail": "Memory Interleaving。複数メモリバンクにアクセスを分散し性能を向上。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "連続アドレスを複数のメモリバンクに分散させ、並列アクセスで実効帯域を改善する。例：交互にバンク0・1へ配置する。単にRAM容量を増やす仕組みではない。"
   },
   {
     "abbr": "ダイレクトメモリアクセス",
     "full": "Direct Memory Access",
     "ja": "CPUを介さず周辺機器が主記憶とデータ転送",
     "cat": "OS・計算機",
-    "detail": "Direct Memory Access。CPUを介さず周辺機器が主記憶とデータ転送。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "DMA。周辺機器が主記憶とのデータ転送を直接実施し、CPUの転送作業を軽減する。例：NICが受信パケットをメモリに配置。CPUは設定や完了処理に関与し、IOMMUでアクセス先を制限できる。"
   },
   {
     "abbr": "先入れ先出し",
     "full": "First In, First Out",
     "ja": "先に入れたデータを先に取り出す方式",
     "cat": "アルゴリズム",
-    "detail": "First In, First Out。先に入れたデータを先に取り出す方式。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "FIFO（First In, First Out）。先に入ったものを先に取り出す。例：印刷待ちキュー。ページ置換では最も古く入ったページを退避するが、利用頻度を考えないためBeladyの異常が起こる場合がある。"
   },
   {
     "abbr": "最長未使用ページ置換",
     "full": "Least Recently Used",
     "ja": "最も長く参照されないページを置換",
     "cat": "アルゴリズム",
-    "detail": "Least Recently Used。最も長く参照されないページを置換。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "LRU（Least Recently Used）。最後の参照から最も時間が経ったページを置換する。FIFOは入った順、LFUは参照頻度が少ない順に置換する点が違う。"
   },
   {
     "abbr": "アムダールの法則",
     "full": "Amdahl's Law",
     "ja": "並列化できない部分が高速化の上限を決める",
     "cat": "性能評価",
-    "detail": "Amdahl's Law。並列化できない部分が高速化の上限を決める。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "並列化できない逐次部分が全体の高速化の上限を定める。逐次部分が20%ならプロセッサを無限に増やしても理論上の最大高速化は1/0.2=5倍。式は1/((1-p)+p/n)。"
   },
   {
     "abbr": "カルノー図",
     "full": "Karnaugh Map",
     "ja": "論理関数を視覚的に簡単化する表",
     "cat": "論理回路",
-    "detail": "Karnaugh Map。論理関数を視覚的に簡単化する表。この用語が何を対象とし、関連する方式とどう異なるかを具体例とともに確認しよう。"
+    "detail": "真理値表から隣接する1を2のべき乗個でまとめ、論理式を簡単化する図。例：AB + A¬B = A。隣り合うセルでは1変数のみが変化し、端同士も隣接する。"
   },
   {
     "abbr": "情報理論的安全性",
@@ -1432,7 +1432,7 @@
     "full": "Passkey",
     "ja": "公開鍵暗号によるフィッシング耐性のある認証資格情報",
     "cat": "認証",
-    "detail": "Passkey。公開鍵暗号によるフィッシング耐性のある認証資格情報。認証（本人確認）と認可（何ができるか）の違い、秘密情報の扱いを押さえよう。"
+    "detail": "FIDO2/WebAuthnに基づく公開鍵認証資格情報。サービスごとに秘密鍵を端末等が保持し、サーバーは公開鍵を保存する。オリジンとの結び付けで偽サイトのフィッシングに強い。同期型とデバイス固定型がある。"
   },
   {
     "abbr": "電子署名",
@@ -1481,21 +1481,21 @@
     "full": "Incident Response",
     "ja": "検知・分析・封じ込め・復旧などの対応活動",
     "cat": "運用・管理",
-    "detail": "Incident Response。検知・分析・封じ込め・復旧などの対応活動。予防・検知・対応・復旧のどの段階で使うかを意識しよう。"
+    "detail": "侵害発見後に検知・分析、封じ込め、根絶、復旧、事後改善を実施する。例：ランサムウェア感染PCを隔離し証拠保全、復元、原因調査する。BCPは業務継続の計画でありインシデント対応とは目的が異なる。"
   },
   {
     "abbr": "リスクアセスメント",
     "full": "Risk Assessment",
     "ja": "リスクの特定・分析・評価を行う",
     "cat": "運用・管理",
-    "detail": "Risk Assessment。リスクの特定・分析・評価を行う。予防・検知・対応・復旧のどの段階で使うかを意識しよう。"
+    "detail": "守る資産・脅威・脆弱性を把握し、発生可能性と影響からリスクを分析・評価する。例：薬局のPC故障が調剤業務へ与える影響を評価。対応は低減・回避・移転・受容など。"
   },
   {
     "abbr": "セキュリティバイデザイン",
     "full": "Security by Design",
     "ja": "設計初期からセキュリティを組み込む考え方",
     "cat": "セキュリティ設計",
-    "detail": "Security by Design。設計初期からセキュリティを組み込む考え方。守る対象、障害・誤操作への振る舞い、残留リスクを意識しよう。"
+    "detail": "設計初期から脅威や悪用可能性を考慮して対策を組み込む。例：薬歴システム開発で権限分離、監査ログ、暗号化を要件に入れる。完成後に後付けするより手戻りを減らす。"
   },
   {
     "abbr": "コネクションプーリング",
