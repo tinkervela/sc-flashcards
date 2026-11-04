@@ -4,6 +4,16 @@
 <section class="panel hidden" id="dashboard" tabindex="-1"><div style="display:flex;align-items:center;justify-content:space-between;gap:8px"><h2 style="font-size:20px;margin:0">学習ダッシュボード</h2><button class="ghost" id="closeDashboard" type="button">閉じる</button></div>
 <p id="activitySync" class="dash-note">回答履歴はこの端末に記録します。クラウド同期には設定が必要です。</p>
 <div id="dashMetrics" class="dash-grid" style="margin:12px 0"></div>
+<div style="border:1px solid #dbe5ef;border-radius:12px;padding:14px;margin:14px 0">
+<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><strong>今日の学習目標</strong><span id="goalSummary" class="dash-note"></span></div>
+<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0">
+<label for="dailyGoalInput" style="font-size:13px">1日の回答目標</label>
+<input id="dailyGoalInput" type="number" min="1" max="500" step="1" inputmode="numeric" style="width:86px;padding:8px;border-radius:8px;border:1px solid #cbd5e1" value="20">
+<span style="font-size:13px">件</span><button id="saveDailyGoal" class="secondary" type="button">目標を保存</button>
+</div><div class="progress" style="height:14px"><div class="fill" id="dailyGoalFill" style="width:0%"></div></div>
+<p id="goalMessage" class="dash-note" aria-live="polite" style="margin:8px 0 0"></p>
+<p id="goalSyncState" class="dash-note" style="margin:4px 0 0">目標設定はこの端末に保存されます。</p>
+</div>
 <h3 style="font-size:15px">学習カレンダー <span id="calendarMonth" style="font-size:12px;color:#64748b"></span></h3>
 <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px"><button class="ghost" id="prevMonth" type="button">前月</button><button class="ghost" id="nextMonth" type="button">次月</button><span class="dash-note">日付にカーソルを合わせると件数が分かります</span></div>
 <div class="calendar-grid" id="calendarGrid"></div>
@@ -75,7 +85,7 @@ async function updateAuth(session){
  document.getElementById('authForm').classList.toggle('hidden',!!activeUser);
  document.getElementById('signedIn').classList.toggle('hidden',!activeUser);
  document.getElementById('signedEmail').textContent=activeUser?.email||'';
- if(activeUser){await syncProgress();await syncNotes();await syncEvents()}else{syncState('未ログイン・この端末に保存中');noteSyncState('未ログイン：メモはこの端末に保存中')}
+ if(activeUser){await syncProgress();await syncNotes();await syncEvents();await syncGoalSetting()}else{syncState('未ログイン・この端末に保存中');noteSyncState('未ログイン：メモはこの端末に保存中')}
 }
 if(db){
  db.auth.onAuthStateChange((event,session)=>{
@@ -98,7 +108,7 @@ if(db){
   catch(e){syncState('登録処理エラー：'+e.message)}
  };
  document.getElementById('logout').onclick=async()=>{const {error}=await db.auth.signOut();if(error)syncState(error.message);};
- document.getElementById('syncNow').onclick=async()=>{await syncProgress();await syncNotes();await syncEvents();};
+ document.getElementById('syncNow').onclick=async()=>{await syncProgress();await syncNotes();await syncEvents();await syncGoalSetting();};
 }else {syncState('Supabaseライブラリの読み込み失敗。ページを再読み込みしてください'); document.getElementById('register').onclick=()=>alert('認証ライブラリを読み込めていません。ページを再読み込みしてください。'); document.getElementById('login').onclick=()=>alert('認証ライブラリを読み込めていません。ページを再読み込みしてください。');}
 let TERMS=[];
 const STORE='sc_abbr_quiz_v2', OLD='sc_abbr_quiz_v1', NOTES_STORE='sc_term_notes_v1';
@@ -178,6 +188,29 @@ try {
     if(!(k in history)) history[k]={status:v==='good'?'good':'bad',step:v==='good'?0:-1,due:today(),last:today(),count:1};
   }
 }catch{}
+const GOAL_STORE='sc_daily_goal_v1';
+let goalSetting={value:20,updated_at:''};
+try{const saved=JSON.parse(localStorage.getItem(GOAL_STORE)||'null');if(saved&&Number.isInteger(saved.value)&&saved.value>=1&&saved.value<=500)goalSetting={value:saved.value,updated_at:typeof saved.updated_at==='string'?saved.updated_at:''};}catch{}
+function persistGoal(){try{localStorage.setItem(GOAL_STORE,JSON.stringify(goalSetting));return true}catch{return false}}
+function goalState(message){const el=$('goalSyncState');if(el)el.textContent=message}
+let goalSyncRunning=false;
+async function syncGoalSetting(){
+ if(!db||!activeUser||goalSyncRunning)return;
+ goalSyncRunning=true;
+ try{
+  const server=activeUser.user_metadata?.sc_daily_goal_v1;
+  const valid=server&&Number.isInteger(server.value)&&server.value>=1&&server.value<=500&&typeof server.updated_at==='string';
+  if(valid&&server.updated_at>goalSetting.updated_at){goalSetting={value:server.value,updated_at:server.updated_at};persistGoal();}
+  else if(goalSetting.updated_at&&(!valid||goalSetting.updated_at>server.updated_at)){
+   const {data,error}=await db.auth.updateUser({data:{sc_daily_goal_v1:goalSetting}});
+   if(error)throw error;if(data?.user)activeUser=data.user;
+  }
+  if($('dailyGoalInput'))$('dailyGoalInput').value=goalSetting.value;
+  if($('dashboard')&&!$('dashboard').classList.contains('hidden'))renderDashboard();
+  goalState('学習目標は端末・アカウントに同期済み');
+ }catch(e){goalState('学習目標は端末に保存済み。アカウント同期は未完了：'+e.message);}
+ finally{goalSyncRunning=false;}
+}
 const ACTIVITY_STORE='sc_review_events_v1';
 let reviewEvents={};
 try{const stored=JSON.parse(localStorage.getItem(ACTIVITY_STORE)||'{}');if(stored&&typeof stored==='object'&&!Array.isArray(stored))reviewEvents=stored}catch{}
@@ -221,6 +254,11 @@ function renderDashboard(){
  if(!counts[day])d.setDate(d.getDate()-1);
  while(streak<10000){const k=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');if(!counts[k])break;streak++;d.setDate(d.getDate()-1);}
  const metrics=[['今日の回答',current+'件'],['累計回答',events.length+'件'],['学習した日',Object.keys(counts).length+'日'],['連続学習',streak+'日']];
+ const goal=goalSetting.value,percent=Math.min(100,Math.round(current/goal*100));
+ $('goalSummary').textContent=current+' / '+goal+'件（'+Math.round(current/goal*100)+'%）';
+ $('dailyGoalFill').style.width=percent+'%';
+ $('dailyGoalFill').style.background=current>=goal?'#238766':'#4775cf';
+ $('goalMessage').textContent=current>=goal?'今日の目標達成！ '+(current-goal)+'件上回っています。':'あと'+(goal-current)+'件で今日の目標を達成できます。';
  $('dashMetrics').replaceChildren();
  for(const [label,value] of metrics){const box=document.createElement('div');box.className='dash-metric';const a=document.createElement('span');a.textContent=label;const b=document.createElement('b');b.textContent=value;box.append(a,b);$('dashMetrics').append(box);}
  const now=new Date(),month=new Date(now.getFullYear(),now.getMonth()+calendarOffset,1),y=month.getFullYear(),m=month.getMonth();
@@ -275,6 +313,16 @@ function renderPriorityTerms(){
   row.append(name,stats);container.append(row);}
 }
 $('startPriority').onclick=()=>{$('scope').value='priority';refresh();$('dashboard').classList.add('hidden');$('prompt').scrollIntoView({behavior:'smooth',block:'center'});};
+$('saveDailyGoal').onclick=async()=>{
+ const value=Number($('dailyGoalInput').value);
+ if(!Number.isInteger(value)||value<1||value>500){goalState('1〜500の整数で目標を設定してください');return;}
+ const previous={...goalSetting};
+ goalSetting={value,updated_at:new Date().toISOString()};
+ if(!persistGoal()){goalSetting=previous;goalState('端末への保存に失敗しました');return;}
+ renderDashboard();
+ goalState(activeUser?'設定を端末に保存しました。同期中…':'設定をこの端末に保存しました（ログインすると同期できます）');
+ if(activeUser)await syncGoalSetting();
+};
 $('openDashboard').onclick=()=>{$('dashboard').classList.remove('hidden');renderDashboard();$('dashboard').scrollIntoView({behavior:'smooth',block:'start'})};
 $('closeDashboard').onclick=()=>$('dashboard').classList.add('hidden');
 $('prevMonth').onclick=()=>{calendarOffset--;renderDashboard()};
@@ -392,7 +440,7 @@ function rate(v){
 $('reveal').onclick=reveal;$('wrong').onclick=()=>rate('bad');$('unsure').onclick=()=>rate('unsure');$('right').onclick=()=>rate('good');$('shuffle').onclick=refresh;
 ['category','mode','scope'].forEach(id=>$(id).addEventListener('change',refresh));
 $('export').onclick=()=>{
- const file=new Blob([JSON.stringify({version:3,exported:today(),history,review_events:eventList(),term_notes:termNotes},null,2)],{type:'application/json'});
+ const file=new Blob([JSON.stringify({version:3,exported:today(),history,review_events:eventList(),term_notes:termNotes,daily_goal:goalSetting},null,2)],{type:'application/json'});
  const url=URL.createObjectURL(file),a=document.createElement('a');a.href=url;a.download=`SC_学習履歴_${today()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);
 };
 $('import').onchange=async e=>{
@@ -407,7 +455,8 @@ $('import').onchange=async e=>{
   }
   if(Array.isArray(data.review_events)){for(const e of data.review_events){if(e&&typeof e.id==='string'&&typeof e.term_id==='string'&&['good','unsure','bad'].includes(e.rating)&&!isNaN(Date.parse(e.occurred_at)))reviewEvents[e.id]={id:e.id,term_id:e.term_id,rating:e.rating,occurred_at:e.occurred_at};}storeEvents();}
   if(data.term_notes&&typeof data.term_notes==='object'&&!Array.isArray(data.term_notes)){for(const [key,n] of Object.entries(data.term_notes)){if(n&&typeof n.note==='string'&&(!termNotes[key]||String(n.updated_at||'')>String(termNotes[key].updated_at||'')))termNotes[key]={note:n.note,updated_at:n.updated_at||new Date().toISOString()};}persistNotes();}
-  save();refresh();if(activeUser){await syncProgress();await syncNotes();await syncEvents();}if(!$('dashboard').classList.contains('hidden'))renderDashboard();alert('学習履歴と対応する追加データを統合しました。既存履歴は削除していません。');
+  if(data.daily_goal&&Number.isInteger(data.daily_goal.value)&&data.daily_goal.value>=1&&data.daily_goal.value<=500&&String(data.daily_goal.updated_at||'')>goalSetting.updated_at){goalSetting={value:data.daily_goal.value,updated_at:data.daily_goal.updated_at};persistGoal();}
+  save();refresh();if(activeUser){await syncProgress();await syncNotes();await syncEvents();await syncGoalSetting();}if(!$('dashboard').classList.contains('hidden'))renderDashboard();alert('学習履歴と対応する追加データを統合しました。既存履歴は削除していません。');
  }catch(err){alert('読み込みに失敗しました: '+err.message)}
  e.target.value='';
 };
