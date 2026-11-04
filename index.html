@@ -186,7 +186,7 @@ function newEvent(key,rating){
 }
 async function saveEventToCloud(e){
  if(!e||!db||!activeUser)return;
- try{const {error}=await db.from('review_events').upsert({...e,user_id:activeUser.id},{onConflict:'user_id,id'});
+ try{const {error}=await db.from('review_events').upsert({...e,user_id:activeUser.id},{onConflict:'user_id,id',ignoreDuplicates:true});
  if(error)throw error;activityState('回答履歴は端末・クラウドに保存されています');}
  catch(err){activityState('回答履歴は端末に保存済み。クラウド保存は未完了：'+err.message);}
 }
@@ -200,7 +200,7 @@ async function syncEvents(){
   const remoteIds=new Set(remote.map(e=>e.id));
   for(const e of remote)if(!reviewEvents[e.id])reviewEvents[e.id]=e;
   const pending=eventList().filter(e=>!remoteIds.has(e.id));
-  for(let i=0;i<pending.length;i+=200){const {error}=await db.from('review_events').upsert(pending.slice(i,i+200).map(e=>({...e,user_id:activeUser.id})),{onConflict:'user_id,id'});if(error)throw error;}
+  for(let i=0;i<pending.length;i+=200){const {error}=await db.from('review_events').upsert(pending.slice(i,i+200).map(e=>({...e,user_id:activeUser.id})),{onConflict:'user_id,id',ignoreDuplicates:true});if(error)throw error;}
   storeEvents();activityState('回答履歴のクラウド同期済み：'+eventList().length+'件');
   if(!$('dashboard').classList.contains('hidden'))renderDashboard();
  }catch(err){activityState('回答履歴は端末に保存中。クラウド同期は未完了：'+err.message);}
