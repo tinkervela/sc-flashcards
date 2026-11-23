@@ -865,14 +865,14 @@
     "full": "Security Assertion Markup Language",
     "ja": "認証・認可情報の交換に使うXML規格",
     "cat": "認証",
-    "detail": "Security Assertion Markup Language。IdPが認証結果などをXMLのアサーションとしてSPへ伝える標準。企業向けWeb SSOでよく利用される。OIDCはJSON/REST系の仕組みを使う点が異なる。"
+    "detail": "SAML（Security Assertion Markup Language）は、IdP（Identity Provider）が利用者を認証し、SP（Service Provider）へ認証結果・属性などをSAMLアサーション（XML）として伝えるフェデレーション仕様。企業向けWeb SSOで多用され、ブラウザを介するHTTP Redirect/POSTバインディング等がある。SPはXML署名、発行者、Audience、Recipient/Destination、有効期間、InResponseToなどをプロファイルと構成に応じて正しく検証する。XML署名の検証対象の取り違え（署名ラッピング）にも注意。【OIDCとの違い】SAMLはXMLベースで、OIDCはOAuth 2.0を拡張しIDトークン（通常JWT）を利用する。どちらも認証連携に利用できるが、OAuth 2.0そのものは認可の委譲が主目的。"
   },
   {
     "abbr": "OIDC",
     "full": "OpenID Connect",
     "ja": "OAuth 2.0を基盤とする認証レイヤー",
     "cat": "認証",
-    "detail": "OpenID Connect。OAuth 2.0を基盤に認証機能を追加した仕様で、IDトークン（通常JWT）を利用して利用者の認証情報を伝える。OAuth単体のアクセス権委譲とは目的が違う。"
+    "detail": "OIDC（OpenID Connect）はOAuth 2.0上の認証レイヤー。OP（OpenID Provider）が認証し、RP（Relying Party）がIDトークン（一般に署名付きJWT）を検証してログインを成立させる。IDトークンの署名・iss（発行者）・aud（受信者）・exp（期限）・必要時のnonceを確認する。ブラウザ・スマホアプリで認可コードフロー＋PKCEが広く使われる。OAuth 2.0のアクセストークンはAPIへのアクセス権を表すもので、単独では利用者認証の証明にならない。【SAMLとの違い】OIDCはOAuth 2.0/JSON/JWTを基盤とし、SAMLはXMLアサーションを使う独立したフェデレーション仕様。"
   },
   {
     "abbr": "OAuth",
