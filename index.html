@@ -29,7 +29,7 @@
 <div id="priorityTerms" class="dash-note"></div><div style="margin:12px 0"><button id="startPriority" class="secondary" type="button">重点復習モードで学ぶ</button></div>
 <h3 style="font-size:15px">分野別の習得状況</h3><div id="categoryChart"></div>
 <h3 style="font-size:15px">これからの復習予定</h3><p id="dueForecast" class="dash-note"></p>
-<p class="dash-note">「覚えた」は自己評価に基づく分類で、長期記憶の定着率を直接測定したものではありません。</p></section><section class="panel"><div class="filters"><div><label for="category">分野</label><select id="category"><option value="all">全分野</option></select></div><div><label for="mode">出題形式</label><select id="mode"><option value="abbr">略語・用語 → 正式名称・意味</option><option value="ja">日本語の意味 → 用語</option><option value="full">英語名称 → 略語・用語</option></select></div><div><label for="scope">学習対象</label><select id="scope"><option value="due">今日の復習＋未学習</option><option value="review">今日の復習のみ</option><option value="unseen">未学習のみ</option><option value="missed">苦手のみ</option><option value="priority">重点復習（繰り返し苦手）</option><option value="unsure">あやふやのみ</option><option value="all">全問題</option></select></div></div><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px"><button class="secondary" id="backToNormal" type="button">↩ 通常モードに戻る</button><span id="studyModeLabel" class="note" style="margin:0"></span></div><div class="stats"><span id="counter">読み込み中…</span><span id="progressText"></span><span id="nextDue"></span></div><div class="progress"><div class="fill" id="bar"></div></div><p id="scheduleFeedback" class="note" style="margin:6px 0 0">復習間隔：過去の回答傾向から次回予定を調整します。</p></section><section class="quiz" aria-live="polite"><div class="kind" id="kind"></div><div class="prompt" id="prompt"></div><div class="hint" id="hint"></div><button id="emptyBackToNormal" class="secondary hidden" type="button" style="margin:12px 0">通常モードで学習する</button><button id="reveal">答えを見る</button><div class="answer hidden" id="answer"><div class="full" id="full"></div><div class="ja" id="ja"></div><div class="hint" id="detail" style="text-align:left;background:#f5f8ff;border-radius:12px;padding:13px;margin:15px 0 0;line-height:1.8"></div><div class="personal-note" id="quizNoteSection"><div class="note-header"><strong>自分のメモ</strong><button class="secondary" id="quizNoteEdit" type="button">✎ 編集する</button></div><p class="personal-note-text" id="quizNoteText">メモはまだありません。</p><div class="hidden note-editor" id="quizNoteEditor"><label for="quizNoteInput">メモを編集（元の解説は変更されません）</label><textarea id="quizNoteInput" rows="4" maxlength="10000" placeholder="気づいたことや覚え方を自由に記録"></textarea><div class="actions"><button class="secondary" id="quizNoteCancel" type="button">キャンセル</button><button id="quizNoteSave" type="button">メモを保存</button></div></div></div><div class="actions"><button class="bad" id="wrong">× 覚えていない</button><button class="secondary" id="unsure">△ あやふや</button><button class="good" id="right">✓ 覚えた</button></div></div><div class="kbd">PCなら Space で答えを表示、1 で ×、2 で △、3 で ✓</div></section><section class="bottom"><button class="secondary" id="shuffle">出題を更新・シャッフル</button><button class="ghost" id="export">学習履歴を保存</button><label class="importLabel">学習履歴を読み込む<input type="file" id="import" accept="application/json" hidden></label></section><section class="panel" id="management" tabindex="-1"><div style="display:flex;gap:8px;justify-content:space-between;align-items:center;flex-wrap:wrap"><strong>学習状況一覧</strong><span class="note" style="margin:0">個別に「最初から復習」を設定できます</span></div><div class="filters" style="margin-top:12px"><div><label for="listFilter">状態</label><select id="listFilter"><option value="all">すべて</option><option value="good">覚えた</option><option value="bad">苦手</option><option value="unsure">あやふや</option><option value="unseen">未学習</option></select></div><div style="grid-column:span 2"><label for="listSearch">用語を検索</label><input id="listSearch" placeholder="例：RAID、フェールセーフ"></div></div><p id="listCount" class="note"></p><div style="max-height:420px;overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="text-align:left"><th>用語</th><th>状態</th><th>前回から</th><th>次回</th><th>解説</th><th>操作</th></tr></thead><tbody id="listBody"></tbody></table></div><div id="termDetail" class="hidden" role="dialog" aria-modal="true" aria-labelledby="termDetailTitle" style="margin-top:14px;padding:16px;border:1px solid #cbd5e1;border-radius:14px;background:#f5f8ff"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><strong id="termDetailTitle"></strong><button id="closeTermDetail" type="button" class="ghost">閉じる</button></div><p id="termDetailFull" style="font-weight:700;overflow-wrap:anywhere"></p><p id="termDetailJa"></p><p id="termDetailDesc" style="white-space:pre-wrap;line-height:1.9"></p><div class="personal-note" id="listNoteSection"><div class="note-header"><strong>自分のメモ</strong><button class="secondary" id="listNoteEdit" type="button">✎ 編集する</button></div><p class="personal-note-text" id="listNoteText">メモはまだありません。</p><div class="hidden note-editor" id="listNoteEditor"><label for="listNoteInput">メモを編集（元の解説は変更されません）</label><textarea id="listNoteInput" rows="4" maxlength="10000" placeholder="気づいたことや覚え方を自由に記録"></textarea><div class="actions"><button class="secondary" id="listNoteCancel" type="button">キャンセル</button><button id="listNoteSave" type="button">メモを保存</button></div></div></div></div></section><p class="note">復習は「覚えた」で基本3→7→14→30→60→120→240日後とし、回答履歴に応じて次回までの日数を調整します。「あやふや」で2日後、「覚えていない」で翌日に設定。期限が来た語を自動的に優先します。学習履歴はブラウザ内に保存され、ログインすると端末間同期できます。未ログイン時は保存・読み込みで移行できます。既存の問題データや履歴は削除しません。公開URLにアクセスして学習できます。プロジェクトで確認できた用語を中心に、SC試験の関連略語も追加しています。略語には複数の展開形を持つものもあり、代表的なIT・セキュリティ分野での意味を採用しています。</p></main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script>
+<p class="dash-note">「覚えた」は自己評価に基づく分類で、長期記憶の定着率を直接測定したものではありません。</p></section><section class="panel"><div class="filters"><div><label for="category">分野</label><select id="category"><option value="all">全分野</option></select></div><div><label for="mode">出題形式</label><select id="mode"><option value="abbr">略語・用語 → 正式名称・意味</option><option value="ja">日本語の意味 → 用語</option><option value="full">英語名称 → 略語・用語</option></select></div><div><label for="scope">学習対象</label><select id="scope"><option value="due">今日の復習＋未学習</option><option value="review">今日の復習のみ</option><option value="unseen">未学習のみ</option><option value="missed">苦手のみ</option><option value="priority">重点復習（繰り返し苦手）</option><option value="unsure">あやふやのみ</option><option value="all">全問題</option></select></div></div><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px"><button class="secondary" id="backToNormal" type="button">↩ 通常モードに戻る</button><span id="studyModeLabel" class="note" style="margin:0"></span></div><div class="stats"><span id="counter">読み込み中…</span><span id="progressText"></span><span id="nextDue"></span></div><div class="progress"><div class="fill" id="bar"></div></div><p id="scheduleFeedback" class="note" style="margin:6px 0 0">復習間隔：過去の回答傾向から次回予定を調整します。</p></section><section class="quiz" aria-live="polite"><div class="kind" id="kind"></div><div class="prompt" id="prompt"></div><div class="hint" id="hint"></div><button id="emptyBackToNormal" class="secondary hidden" type="button" style="margin:12px 0">通常モードで学習する</button><div class="actions" style="margin:8px 0 12px;justify-content:center"><button id="previousQuestion" class="ghost" type="button" disabled>← 1つ前へ</button><button id="forwardQuestion" class="ghost" type="button" disabled>次の問題へ →</button></div><p id="questionNavInfo" class="note" style="margin:0 0 8px">回答後も前の用語を確認できます。</p><button id="reveal">答えを見る</button><div class="answer hidden" id="answer"><div class="full" id="full"></div><div class="ja" id="ja"></div><div class="hint" id="detail" style="text-align:left;background:#f5f8ff;border-radius:12px;padding:13px;margin:15px 0 0;line-height:1.8"></div><div class="personal-note" id="quizNoteSection"><div class="note-header"><strong>自分のメモ</strong><button class="secondary" id="quizNoteEdit" type="button">✎ 編集する</button></div><p class="personal-note-text" id="quizNoteText">メモはまだありません。</p><div class="hidden note-editor" id="quizNoteEditor"><label for="quizNoteInput">メモを編集（元の解説は変更されません）</label><textarea id="quizNoteInput" rows="4" maxlength="10000" placeholder="気づいたことや覚え方を自由に記録"></textarea><div class="actions"><button class="secondary" id="quizNoteCancel" type="button">キャンセル</button><button id="quizNoteSave" type="button">メモを保存</button></div></div></div><div class="actions"><button class="bad" id="wrong">× 覚えていない</button><button class="secondary" id="unsure">△ あやふや</button><button class="good" id="right">✓ 覚えた</button></div></div><div class="kbd">PCなら Space で答えを表示、1 で ×、2 で △、3 で ✓</div></section><section class="bottom"><button class="secondary" id="shuffle">出題を更新・シャッフル</button><button class="ghost" id="export">学習履歴を保存</button><label class="importLabel">学習履歴を読み込む<input type="file" id="import" accept="application/json" hidden></label></section><section class="panel" id="management" tabindex="-1"><div style="display:flex;gap:8px;justify-content:space-between;align-items:center;flex-wrap:wrap"><strong>学習状況一覧</strong><span class="note" style="margin:0">個別に「最初から復習」を設定できます</span></div><div class="filters" style="margin-top:12px"><div><label for="listFilter">状態</label><select id="listFilter"><option value="all">すべて</option><option value="good">覚えた</option><option value="bad">苦手</option><option value="unsure">あやふや</option><option value="unseen">未学習</option></select></div><div style="grid-column:span 2"><label for="listSearch">用語を検索</label><input id="listSearch" placeholder="例：RAID、フェールセーフ"></div></div><p id="listCount" class="note"></p><div style="max-height:420px;overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="text-align:left"><th>用語</th><th>状態</th><th>前回から</th><th>次回</th><th>解説</th><th>操作</th></tr></thead><tbody id="listBody"></tbody></table></div><div id="termDetail" class="hidden" role="dialog" aria-modal="true" aria-labelledby="termDetailTitle" style="margin-top:14px;padding:16px;border:1px solid #cbd5e1;border-radius:14px;background:#f5f8ff"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><strong id="termDetailTitle"></strong><button id="closeTermDetail" type="button" class="ghost">閉じる</button></div><p id="termDetailFull" style="font-weight:700;overflow-wrap:anywhere"></p><p id="termDetailJa"></p><p id="termDetailDesc" style="white-space:pre-wrap;line-height:1.9"></p><div class="personal-note" id="listNoteSection"><div class="note-header"><strong>自分のメモ</strong><button class="secondary" id="listNoteEdit" type="button">✎ 編集する</button></div><p class="personal-note-text" id="listNoteText">メモはまだありません。</p><div class="hidden note-editor" id="listNoteEditor"><label for="listNoteInput">メモを編集（元の解説は変更されません）</label><textarea id="listNoteInput" rows="4" maxlength="10000" placeholder="気づいたことや覚え方を自由に記録"></textarea><div class="actions"><button class="secondary" id="listNoteCancel" type="button">キャンセル</button><button id="listNoteSave" type="button">メモを保存</button></div></div></div></div></section><p class="note">復習は「覚えた」で基本3→7→14→30→60→120→240日後とし、回答履歴に応じて次回までの日数を調整します。「あやふや」で2日後、「覚えていない」で翌日に設定。期限が来た語を自動的に優先します。学習履歴はブラウザ内に保存され、ログインすると端末間同期できます。未ログイン時は保存・読み込みで移行できます。既存の問題データや履歴は削除しません。公開URLにアクセスして学習できます。プロジェクトで確認できた用語を中心に、SC試験の関連略語も追加しています。略語には複数の展開形を持つものもあり、代表的なIT・セキュリティ分野での意味を採用しています。</p></main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script>
 const SUPABASE_URL='https://mksaewcibovfxfvqcbuk.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY='sb_publishable_Q0gbzMJhxhokJ0iQvyzQwA_qKBpKRNU';
 const db = window.supabase?.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
@@ -69,7 +69,7 @@ async function syncProgress(){
    const {error}=await db.from('learning_progress').upsert(writes,{onConflict:'user_id,term_id'});
    if(error)throw error;
   }
-  save();refresh();syncState('同期済み '+new Date().toLocaleTimeString('ja-JP'));
+  save();stats();renderList();syncState('同期済み '+new Date().toLocaleTimeString('ja-JP'));
  }catch(err){syncState('同期失敗：'+(err.message||err));}
  finally{syncRunning=false}
 }
@@ -127,18 +127,18 @@ function updateNoteViews(key){if(queue[cursor]?.abbr===key)displayNote('quiz',ke
 function setupNoteEditor(prefix,getKey){
  $(prefix+'NoteEdit').onclick=()=>{
   const key=getKey();if(!key)return;
-  $(prefix+'NoteInput').value=noteFor(key);
+  $(prefix+'NoteInput').value=prefix==='quiz'&&Object.prototype.hasOwnProperty.call(noteDrafts,key)?noteDrafts[key]:noteFor(key);
   $(prefix+'NoteEditor').classList.remove('hidden');$(prefix+'NoteEdit').classList.add('hidden');
   $(prefix+'NoteInput').focus();
  };
- $(prefix+'NoteCancel').onclick=()=>{const key=getKey();if(key)displayNote(prefix,key);};
+ $(prefix+'NoteCancel').onclick=()=>{const key=getKey();if(key){if(prefix==='quiz'){delete noteDrafts[key];saveDrafts();}displayNote(prefix,key);}};
  $(prefix+'NoteSave').onclick=async()=>{
   const key=getKey();if(!key)return;
   const note=$(prefix+'NoteInput').value.trim();
   const prev=termNotes[key];
   termNotes[key]={note,updated_at:new Date().toISOString()};
   if(!persistNotes()){if(prev)termNotes[key]=prev;else delete termNotes[key];return;}
-  updateNoteViews(key);noteSyncState(activeUser?'メモを端末に保存しました。クラウドへ同期中…':'メモをこの端末に保存しました');
+  if(prefix==='quiz'){delete noteDrafts[key];saveDrafts();}updateNoteViews(key);noteSyncState(activeUser?'メモを端末に保存しました。クラウドへ同期中…':'メモをこの端末に保存しました');
   if(activeUser)await saveNoteToCloud(key,termNotes[key]);
  };
 }
@@ -347,7 +347,32 @@ $('openDashboard').onclick=()=>{$('dashboard').classList.remove('hidden');render
 $('closeDashboard').onclick=()=>$('dashboard').classList.add('hidden');
 $('prevMonth').onclick=()=>{calendarOffset--;renderDashboard()};
 $('nextMonth').onclick=()=>{calendarOffset++;renderDashboard()};
-let queue=[],cursor=0,shown=false,doneCount=0;
+const SESSION_STORE='sc_current_session_v1',DRAFT_STORE='sc_note_drafts_v1';
+let queue=[],cursor=0,frontier=0,shown=false,doneCount=0,sessionReady=false;
+let noteDrafts={};
+try{const v=JSON.parse(localStorage.getItem(DRAFT_STORE)||'{}');if(v&&typeof v==='object'&&!Array.isArray(v))noteDrafts=v;}catch{}
+function saveSession(){
+ if(!sessionReady)return;
+ try{localStorage.setItem(SESSION_STORE,JSON.stringify({version:1,queue:queue.map(t=>t.abbr),cursor,frontier,shown,category:$('category').value,scope:$('scope').value,mode:$('mode').value}))}catch{}
+}
+function restoreSession(){
+ let v;try{v=JSON.parse(localStorage.getItem(SESSION_STORE)||'null')}catch{return false}
+ if(!v||v.version!==1||!Array.isArray(v.queue)||!v.queue.length||!Number.isInteger(v.cursor)||!Number.isInteger(v.frontier))return false;
+ const lookup=new Map(TERMS.map(t=>[t.abbr,t]));
+ if(v.queue.some(k=>typeof k!=='string'||!lookup.has(k)))return false;
+ queue=v.queue.map(k=>lookup.get(k));
+ cursor=Math.min(Math.max(0,v.cursor),queue.length);frontier=Math.min(Math.max(cursor,v.frontier),queue.length);
+ const category=[...$('category').options].some(o=>o.value===v.category)?v.category:'all';
+ const scope=[...$('scope').options].some(o=>o.value===v.scope)?v.scope:'due';
+ const mode=[...$('mode').options].some(o=>o.value===v.mode)?v.mode:'abbr';
+ $('category').value=category;$('scope').value=scope;$('mode').value=mode;
+ shown=!!v.shown&&cursor<queue.length;doneCount=frontier;sessionReady=true;
+ render();renderList();return true;
+}
+function saveDrafts(){try{localStorage.setItem(DRAFT_STORE,JSON.stringify(noteDrafts))}catch{}}
+function saveActiveNoteDraft(){const editor=$('quizNoteEditor'),term=queue[cursor];if(!term||editor.classList.contains('hidden'))return;noteDrafts[term.abbr]=$('quizNoteInput').value;saveDrafts();}
+$('quizNoteInput').addEventListener('input',saveActiveNoteDraft);
+window.addEventListener('pagehide',()=>{saveActiveNoteDraft();saveSession()});
 setupNoteEditor('quiz',()=>queue[cursor]?.abbr);
 setupNoteEditor('list',()=>listOpenTerm?.abbr);
 function save(){try{localStorage.setItem(STORE,JSON.stringify(history))}catch{}}
@@ -421,7 +446,7 @@ function refresh(){
  const newOnes=shuffle(queue.filter(t=>!state(t)));
  const other=shuffle(queue.filter(t=>state(t)&&!isDue(t)));
  queue=scope==='priority'?queue.sort((a,b)=>priorityScore(b,priorityCounts)-priorityScore(a,priorityCounts)): [...due,...newOnes,...other];
- cursor=0;doneCount=0;render();renderList();
+ cursor=0;frontier=0;doneCount=0;shown=false;sessionReady=true;render();renderList();saveSession();
 }
 function stats(){
  const reviewed=TERMS.filter(t=>state(t));
@@ -435,7 +460,12 @@ function stats(){
  $('bar').style.width=`${queue.length?Math.min(cursor/queue.length,1)*100:0}%`;
 }
 function render(){
- shown=false;$('answer').classList.add('hidden');$('reveal').classList.remove('hidden');
+ $('answer').classList.toggle('hidden',!shown);$('reveal').classList.toggle('hidden',shown);
+ const past=cursor<frontier;
+ $('previousQuestion').disabled=cursor<=0;
+ $('forwardQuestion').disabled=cursor>=frontier;
+ $('questionNavInfo').textContent=past?'回答済みの問題を見直し中（再採点はしません）。「次の問題へ」で学習位置へ戻れます。':'現在の問題と表示状態は、タブ切替えや再読み込み後も復元できます。';
+ for(const id of ['wrong','unsure','right'])$(id).disabled=past;
  const total=queue.length;stats();
  const priorityMode=$('scope').value==='priority';
  $('backToNormal').classList.toggle('hidden',!priorityMode);
@@ -459,20 +489,26 @@ function render(){
  $('detail').textContent=t.detail||t.ja;
  displayNote('quiz',t.abbr);
 }
-function reveal(){if(cursor>=queue.length)return;shown=true;$('answer').classList.remove('hidden');$('reveal').classList.add('hidden')}
+function reveal(){if(cursor>=queue.length)return;shown=true;$('answer').classList.remove('hidden');$('reveal').classList.add('hidden');saveSession()}
 function rate(v){
- if(!shown||cursor>=queue.length)return;
+ if(!shown||cursor>=queue.length||cursor<frontier)return;
  const key=queue[cursor].abbr,h=history[key]||{step:-1,count:0};
  const step=v==='good'?Math.min((h.status==='good'?(h.step??0)+1:1),intervals.length-1):v==='unsure'?-2:-1;
  const status=v==='good'?'good':'bad';
  const scheduled=adaptiveInterval(key,v,step);
  history[key]={status,step,due:addDays(scheduled.days),last:today(),count:(h.count||0)+1};
  $('scheduleFeedback').textContent=key+'：次回 '+scheduled.days+'日後（'+scheduled.reason+'）';
- save();saveReview(key);const event=newEvent(key,v);if(event)saveEventToCloud(event);cursor++;doneCount++;render();renderList();
+ save();saveReview(key);const event=newEvent(key,v);if(event)saveEventToCloud(event);cursor++;frontier=cursor;doneCount++;shown=false;render();saveSession();renderList();
  if(!$('dashboard').classList.contains('hidden'))renderDashboard();
 }
+function navigateQuestion(direction){
+ const target=cursor+direction;if(target<0||target>frontier||target>queue.length)return;
+ saveActiveNoteDraft();cursor=target;shown=cursor<frontier;render();saveSession();
+}
+$('previousQuestion').onclick=()=>navigateQuestion(-1);
+$('forwardQuestion').onclick=()=>navigateQuestion(1);
 $('reveal').onclick=reveal;$('wrong').onclick=()=>rate('bad');$('unsure').onclick=()=>rate('unsure');$('right').onclick=()=>rate('good');$('shuffle').onclick=()=>{if($('scope').value==='priority')returnToNormal();else refresh();};
-['category','mode','scope'].forEach(id=>$(id).addEventListener('change',refresh));
+['category','scope'].forEach(id=>$(id).addEventListener('change',()=>{saveActiveNoteDraft();refresh()}));$('mode').addEventListener('change',()=>{saveActiveNoteDraft();render();saveSession()});
 $('export').onclick=()=>{
  const file=new Blob([JSON.stringify({version:3,exported:today(),history,review_events:eventList(),term_notes:termNotes,daily_goal:goalSetting},null,2)],{type:'application/json'});
  const url=URL.createObjectURL(file),a=document.createElement('a');a.href=url;a.download=`SC_学習履歴_${today()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000);
@@ -544,6 +580,6 @@ document.addEventListener('keydown',e=>{
 });
 fetch('./sc_abbreviations.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
  if(!Array.isArray(data))throw Error('データ形式');
- TERMS=data;save();initCategories();refresh();
+ TERMS=data;save();initCategories();if(!restoreSession())refresh();
 }).catch(e=>{$('counter').textContent='問題データを読み込めませんでした';$('prompt').textContent='公開設定・ファイル配置を確認してください';$('hint').textContent=String(e);$('reveal').classList.add('hidden')});
 </script></body></html>
