@@ -3771,5 +3771,670 @@
     "ja": "サービスのホスト名・ポート番号などを示すDNSレコード",
     "cat": "ネットワーク",
     "detail": "サービス探索に利用。優先度・重み・ポート・ターゲットを指定。A/AAAAレコードとは異なる。"
+  },
+  {
+    "abbr": "CWE-79",
+    "full": "Improper Neutralization of Input During Web Page Generation",
+    "ja": "XSSに対応するCWE分類",
+    "cat": "Webセキュリティ",
+    "detail": "Webページ生成時に入力を適切に無害化できない弱点。格納型・反射型・DOM-based XSSなどを理解し、文脈ごとの出力エスケープや安全なDOM APIを使う。"
+  },
+  {
+    "abbr": "CWE-89",
+    "full": "Improper Neutralization of Special Elements used in an SQL Command",
+    "ja": "SQLインジェクションに対応するCWE分類",
+    "cat": "Webセキュリティ",
+    "detail": "利用者入力をSQL命令に連結してSQL構文として解釈される弱点。プリペアドステートメントとプレースホルダでSQL構文と値を分離する。"
+  },
+  {
+    "abbr": "CWE-352",
+    "full": "Cross-Site Request Forgery",
+    "ja": "CSRFに対応するCWE分類",
+    "cat": "Webセキュリティ",
+    "detail": "ログイン中の被害者ブラウザに意図しない状態変更要求を送らせる。CSRFトークン、SameSite Cookie、Origin検証などを組み合わせる。"
+  },
+  {
+    "abbr": "CWE-918",
+    "full": "Server-Side Request Forgery",
+    "ja": "SSRFに対応するCWE分類",
+    "cat": "Webセキュリティ",
+    "detail": "サーバが利用者指定URLなどへアクセスする機能を悪用して内部サービスやメタデータを取得させる。送信先の許可リスト、ネットワーク制限、リダイレクト検査が重要。"
+  },
+  {
+    "abbr": "CWE-287",
+    "full": "Improper Authentication",
+    "ja": "認証処理が不適切な弱点分類",
+    "cat": "Webセキュリティ",
+    "detail": "正しく本人確認できず、他人になりすまされる等の問題。認可不備CWE-862等とは区別する。"
+  },
+  {
+    "abbr": "CWE-862",
+    "full": "Missing Authorization",
+    "ja": "認可チェックの欠落",
+    "cat": "Webセキュリティ",
+    "detail": "認証済みでもアクセス権を十分に確認せず、権限外の資源・機能を操作できてしまう弱点。"
+  },
+  {
+    "abbr": "CWE-639",
+    "full": "Authorization Bypass Through User-Controlled Key",
+    "ja": "利用者が指定する識別子による認可回避",
+    "cat": "Webセキュリティ",
+    "detail": "注文IDやユーザーIDを変更して他人のデータへアクセスできる問題。各オブジェクトへの認可をサーバ側で検証する。"
+  },
+  {
+    "abbr": "CWE-78",
+    "full": "Improper Neutralization of Special Elements used in an OS Command",
+    "ja": "OSコマンドインジェクション",
+    "cat": "Webセキュリティ",
+    "detail": "入力をシェルコマンド等の一部として解釈させる弱点。シェルを介さない安全なAPI、引数分離、権限の制限が基本。"
+  },
+  {
+    "abbr": "CWE-434",
+    "full": "Unrestricted Upload of File with Dangerous Type",
+    "ja": "危険なファイルをアップロードできる弱点",
+    "cat": "Webセキュリティ",
+    "detail": "アップロードしたスクリプト等がサーバで実行される可能性。拡張子だけでなく内容検査、保存領域分離、実行禁止、認証・サイズ制限が必要。"
+  },
+  {
+    "abbr": "CWE-601",
+    "full": "URL Redirection to Untrusted Site",
+    "ja": "オープンリダイレクト",
+    "cat": "Webセキュリティ",
+    "detail": "利用者が指定した遷移先に無制限にリダイレクトし、フィッシング等に悪用される。遷移先の許可リストなどで対処。"
+  },
+  {
+    "abbr": "CWE-502",
+    "full": "Deserialization of Untrusted Data",
+    "ja": "信頼できないデータの危険なデシリアライズ",
+    "cat": "Webセキュリティ",
+    "detail": "外部のシリアライズデータを復元する際、任意のオブジェクト生成や危険な処理が起こり得る。安全な形式・型制限などで対策。"
+  },
+  {
+    "abbr": "CWE-200",
+    "full": "Exposure of Sensitive Information to an Unauthorized Actor",
+    "ja": "認可されていない主体への機密情報の露出",
+    "cat": "Webセキュリティ",
+    "detail": "エラー表示・ログ・デバッグ情報・設定ファイルなどから秘密情報が漏れる弱点。情報の公開範囲とアクセス制御を確認する。"
+  },
+  {
+    "abbr": "CWE-306",
+    "full": "Missing Authentication for Critical Function",
+    "ja": "重要機能で認証が欠けている弱点",
+    "cat": "Webセキュリティ",
+    "detail": "管理者操作などの重要な機能が認証なしで呼び出せる問題。認証と認可の両方を検証する。"
+  },
+  {
+    "abbr": "CWE-798",
+    "full": "Use of Hard-coded Credentials",
+    "ja": "認証情報のハードコード",
+    "cat": "Webセキュリティ",
+    "detail": "ソースコード・ファームウェア等に固定パスワードや鍵を埋め込む弱点。秘密情報管理やローテーションが困難になる。"
+  },
+  {
+    "abbr": "CWE-20",
+    "full": "Improper Input Validation",
+    "ja": "入力検証の不備",
+    "cat": "Webセキュリティ",
+    "detail": "形式・長さ・型・範囲などの検証が不十分で不正な状態になる。入力検証は出力エスケープや認可チェックを代替しない。"
+  },
+  {
+    "abbr": "CWE-119",
+    "full": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+    "ja": "メモリバッファ境界内の操作制限不備",
+    "cat": "Webセキュリティ",
+    "detail": "バッファ範囲外の読み書きにつながる弱点群。CWE-120やCWE-787などの分類と関係。"
+  },
+  {
+    "abbr": "CWE-787",
+    "full": "Out-of-bounds Write",
+    "ja": "境界外へのメモリ書込み",
+    "cat": "Webセキュリティ",
+    "detail": "バッファの範囲外を書き換える問題。異常終了やコード実行の原因になり得る。境界検証とメモリ安全な言語が対策。"
+  },
+  {
+    "abbr": "CWE-125",
+    "full": "Out-of-bounds Read",
+    "ja": "境界外メモリの読込み",
+    "cat": "Webセキュリティ",
+    "detail": "本来読めない範囲を参照して機密情報漏えいなどにつながる弱点。Heartbleedのような情報漏えいとの関連を理解する。"
+  },
+  {
+    "abbr": "CWE-416",
+    "full": "Use After Free",
+    "ja": "解放済みメモリを使用する弱点",
+    "cat": "Webセキュリティ",
+    "detail": "解放した領域を再利用して予期しない動作を起こす。メモリ破壊やコード実行につながる。所有権管理などが重要。"
+  },
+  {
+    "abbr": "OSコマンドインジェクション",
+    "full": "OS Command Injection",
+    "ja": "外部入力をOSコマンドとして実行させる攻撃",
+    "cat": "攻撃",
+    "detail": "文字列連結でシェルコマンドを構築する実装が危険。シェルを使わず引数を分離するAPIを利用し、実行権限も最小化する。"
+  },
+  {
+    "abbr": "HTTPリクエストスマグリング",
+    "full": "HTTP Request Smuggling",
+    "ja": "HTTP要求の境界解釈差を悪用する攻撃",
+    "cat": "攻撃",
+    "detail": "フロント側とバックエンド側でContent-LengthやTransfer-Encoding等の解釈が異なると、別の要求を紛れ込ませられることがある。"
+  },
+  {
+    "abbr": "HTTPヘッダインジェクション",
+    "full": "HTTP Header Injection",
+    "ja": "HTTPヘッダに改行等を混入させる攻撃",
+    "cat": "攻撃",
+    "detail": "未検証の入力がHTTPヘッダに使われ、応答分割や不正なヘッダ追加につながる。CRLFなどの制御文字処理が重要。"
+  },
+  {
+    "abbr": "CRLFインジェクション",
+    "full": "Carriage Return Line Feed Injection",
+    "ja": "改行制御文字を使った構造の注入",
+    "cat": "攻撃",
+    "detail": "CR・LFをHTTPヘッダやログに混入させて境界を崩す。ログ偽装や応答分割の原因になる。"
+  },
+  {
+    "abbr": "XXE",
+    "full": "XML External Entity Injection",
+    "ja": "XML外部実体参照を悪用する攻撃",
+    "cat": "攻撃",
+    "detail": "XMLパーサの外部実体解決を悪用しファイル読取りやSSRFなどにつながる。DTDや外部実体解決の無効化を検討する。"
+  },
+  {
+    "abbr": "LDAPインジェクション",
+    "full": "LDAP Injection",
+    "ja": "LDAP検索条件などへ悪意ある文字列を注入する攻撃",
+    "cat": "攻撃",
+    "detail": "LDAPフィルタを文字列連結で構築すると検索条件が変わる。安全なエスケープやAPIを利用する。"
+  },
+  {
+    "abbr": "XPathインジェクション",
+    "full": "XPath Injection",
+    "ja": "XPath式に入力を混入させる攻撃",
+    "cat": "攻撃",
+    "detail": "XML文書検索の式を連結で構築すると条件を改変される。適切な変数束縛や文字列処理を用いる。"
+  },
+  {
+    "abbr": "プロトタイプ汚染",
+    "full": "Prototype Pollution",
+    "ja": "JavaScriptのプロトタイプを攻撃者が改変する問題",
+    "cat": "攻撃",
+    "detail": "__proto__等の危険なプロパティがオブジェクトに混入し、設定値や処理に影響する。安全なマージとプロパティ検証が対策。"
+  },
+  {
+    "abbr": "サプライチェーン攻撃",
+    "full": "Supply Chain Attack",
+    "ja": "供給元・委託先・ソフトウェア更新経路を悪用する攻撃",
+    "cat": "攻撃",
+    "detail": "開発依存パッケージ、更新サーバ、MSPなどの侵害を通じ標的に影響を及ぼす。署名検証・SBOM・供給元評価が重要。"
+  },
+  {
+    "abbr": "タイポスクワッティング",
+    "full": "Typosquatting",
+    "ja": "似たドメイン名・パッケージ名で誘導する手口",
+    "cat": "攻撃",
+    "detail": "タイプミスしやすい名前を登録し、偽サイトや悪意あるソフトへ誘導する。公式配布元やパッケージ依存の確認が必要。"
+  },
+  {
+    "abbr": "依存関係混乱攻撃",
+    "full": "Dependency Confusion",
+    "ja": "内部パッケージ名を外部レジストリで奪う攻撃",
+    "cat": "攻撃",
+    "detail": "社内依存パッケージと同名の公開パッケージを用意し、ビルド時に誤取得させる。レジストリ優先順位・名前空間を管理する。"
+  },
+  {
+    "abbr": "リバースシェル",
+    "full": "Reverse Shell",
+    "ja": "侵害先から攻撃者側へ接続する遠隔操作手法",
+    "cat": "攻撃",
+    "detail": "侵害された端末が外部の攻撃者ホストへ接続してコマンド入出力を通す。アウトバウンド通信の監視やプロセス調査が重要。"
+  },
+  {
+    "abbr": "パスワードスプレー",
+    "full": "Password Spraying",
+    "ja": "少数の候補パスワードを多数アカウントで試す攻撃",
+    "cat": "攻撃",
+    "detail": "アカウントロックを避けるため一つのIDへの試行を分散する。MFAとログ監視が重要。"
+  },
+  {
+    "abbr": "クレデンシャルスタッフィング",
+    "full": "Credential Stuffing",
+    "ja": "漏えい済みID・パスワードの組を使うログイン攻撃",
+    "cat": "攻撃",
+    "detail": "パスワード使い回しを悪用する。MFA、漏えいパスワード検知、レート制限が対策。"
+  },
+  {
+    "abbr": "ブルートフォース攻撃",
+    "full": "Brute Force Attack",
+    "ja": "候補を総当たりして秘密値を推測する攻撃",
+    "cat": "攻撃",
+    "detail": "オンライン攻撃にはレート制限・MFA、オフラインパスワード推測には強いKDFや長いパスワードが重要。"
+  },
+  {
+    "abbr": "辞書攻撃",
+    "full": "Dictionary Attack",
+    "ja": "単語リストを使ったパスワード推測攻撃",
+    "cat": "攻撃",
+    "detail": "人が使いがちな語や過去の漏えいパスワードを優先して試す。総当たり攻撃との違いを押さえる。"
+  },
+  {
+    "abbr": "フィッシング",
+    "full": "Phishing",
+    "ja": "偽の連絡やサイトに誘導して情報を盗む攻撃",
+    "cat": "攻撃",
+    "detail": "メール・SMS・SNS等で偽ログイン画面へ誘導する。パスキー等のフィッシング耐性ある認証やドメイン確認が有効。"
+  },
+  {
+    "abbr": "スピアフィッシング",
+    "full": "Spear Phishing",
+    "ja": "個人・組織を狙った標的型フィッシング",
+    "cat": "攻撃",
+    "detail": "部署や担当業務に合わせて内容を偽装する。送信元認証だけで全てのなりすましを防げるわけではない。"
+  },
+  {
+    "abbr": "スミッシング",
+    "full": "Smishing",
+    "ja": "SMSを使ったフィッシング",
+    "cat": "攻撃",
+    "detail": "配達通知などを偽装するSMSで偽サイトに誘導。リンク遷移先確認や多要素認証が重要。"
+  },
+  {
+    "abbr": "ビッシング",
+    "full": "Vishing",
+    "ja": "電話音声を使ったフィッシング",
+    "cat": "攻撃",
+    "detail": "金融機関やサポートを装い暗証番号や認証コードを聞き出す。正規窓口へかけ直して検証する。"
+  },
+  {
+    "abbr": "QRコードフィッシング",
+    "full": "QR Code Phishing",
+    "ja": "QRコードによる偽サイトへの誘導",
+    "cat": "攻撃",
+    "detail": "QRコードからアクセス先URLを隠して誘導する手口。読み取り後のURLと認証要求を確認する。"
+  },
+  {
+    "abbr": "MFA疲労攻撃",
+    "full": "MFA Fatigue Attack",
+    "ja": "大量の認証承認要求で誤承認を狙う攻撃",
+    "cat": "攻撃",
+    "detail": "プッシュ通知を連打して利用者の承認を引き出す。番号一致方式・フィッシング耐性ある認証などを検討。"
+  },
+  {
+    "abbr": "セッション固定攻撃",
+    "full": "Session Fixation",
+    "ja": "攻撃者が既知のセッションIDを被害者に使わせる攻撃",
+    "cat": "攻撃",
+    "detail": "ログイン前後でセッションIDを再発行しないと、既知のIDでログイン後のセッションを乗っ取られる可能性がある。"
+  },
+  {
+    "abbr": "オープンリダイレクト",
+    "full": "Open Redirect",
+    "ja": "任意の外部サイトへリダイレクトできる弱点",
+    "cat": "攻撃",
+    "detail": "redirectパラメータ等で攻撃者サイトへ転送し、フィッシングなどに悪用。遷移先の検証を行う。"
+  },
+  {
+    "abbr": "パディングオラクル攻撃",
+    "full": "Padding Oracle Attack",
+    "ja": "復号時のパディング判定差から平文情報を推測する攻撃",
+    "cat": "攻撃",
+    "detail": "復号エラーの応答やタイミングの違いを利用。認証付き暗号の採用などで対策。"
+  },
+  {
+    "abbr": "DNSリバインディング",
+    "full": "DNS Rebinding",
+    "ja": "DNS回答を変更してブラウザから内部機器への到達を狙う攻撃",
+    "cat": "攻撃",
+    "detail": "同一生成元の扱いやDNS名前解決を悪用して内部サービスへ要求する。Host・Origin検証等が対策。"
+  },
+  {
+    "abbr": "ARPスプーフィング",
+    "full": "ARP Spoofing",
+    "ja": "偽ARP応答でIPとMACの対応を偽装する攻撃",
+    "cat": "攻撃",
+    "detail": "LAN内で通信を攻撃者へ誘導する。Dynamic ARP Inspectionやネットワーク分離等が対策。"
+  },
+  {
+    "abbr": "Evil Twin",
+    "full": "Evil Twin Access Point",
+    "ja": "正規Wi-Fiを模倣した偽アクセスポイント",
+    "cat": "攻撃",
+    "detail": "同じSSID等を使い接続させ、通信傍受や偽ログインを狙う。サーバ証明書検証や802.1Xが重要。"
+  },
+  {
+    "abbr": "KRACK",
+    "full": "Key Reinstallation Attack",
+    "ja": "WPA2の鍵再インストールを悪用する攻撃",
+    "cat": "攻撃",
+    "detail": "4ウェイハンドシェイク中の再送などを悪用する。実装の更新・パッチが重要。"
+  },
+  {
+    "abbr": "SQLiのブラインド型",
+    "full": "Blind SQL Injection",
+    "ja": "応答の差や時間からSQL結果を推測する攻撃",
+    "cat": "攻撃",
+    "detail": "エラーや検索結果が直接表示されなくても真偽応答・遅延からデータを推測。プリペアドステートメントが基本。"
+  },
+  {
+    "abbr": "SSRFによるメタデータ攻撃",
+    "full": "SSRF Cloud Metadata Abuse",
+    "ja": "クラウドのインスタンスメタデータへ不正アクセスする手口",
+    "cat": "攻撃",
+    "detail": "URL取得機能などのSSRFからクラウドメタデータAPIを狙う。送信先の制限やIMDSv2などでリスク低減。"
+  },
+  {
+    "abbr": "CSP",
+    "full": "Content Security Policy",
+    "ja": "ブラウザが読み込めるスクリプトなどを制限するポリシー",
+    "cat": "Webセキュリティ",
+    "detail": "HTTPレスポンスヘッダ等でscript-srcなどの実行元を制御。XSSの被害軽減に役立つが適切な出力エスケープは依然必要。"
+  },
+  {
+    "abbr": "CORS",
+    "full": "Cross-Origin Resource Sharing",
+    "ja": "ブラウザに許可するクロスオリジンアクセスの仕組み",
+    "cat": "Webセキュリティ",
+    "detail": "サーバがAccess-Control-Allow-Origin等を返し、ブラウザが応答の利用を判断。認証・認可の代わりではなく、サーバ間通信を防ぐものでもない。"
+  },
+  {
+    "abbr": "SOP",
+    "full": "Same-Origin Policy",
+    "ja": "異なるオリジン間の読み取りなどを制限するブラウザの原則",
+    "cat": "Webセキュリティ",
+    "detail": "スキーム・ホスト・ポートが一致することを同一オリジンとする。CORSは条件付きの制限緩和。"
+  },
+  {
+    "abbr": "SameSite Cookie",
+    "full": "SameSite Cookie Attribute",
+    "ja": "クロスサイト要求でCookie送信を制御する属性",
+    "cat": "Webセキュリティ",
+    "detail": "Strict・Lax・NoneがありCSRF対策の一要素。NoneはSecure属性が必要。CSRFトークン等の代替とみなさない。"
+  },
+  {
+    "abbr": "HttpOnly Cookie",
+    "full": "HttpOnly Cookie Attribute",
+    "ja": "JavaScriptからCookieを読み出しにくくする属性",
+    "cat": "Webセキュリティ",
+    "detail": "document.cookie経由の取得を禁止する。XSSが発生してもCookieの直接窃取を抑えるが、ブラウザ経由の不正操作までは防げない。"
+  },
+  {
+    "abbr": "Secure Cookie",
+    "full": "Secure Cookie Attribute",
+    "ja": "HTTPS接続時に限り送信するCookie属性",
+    "cat": "Webセキュリティ",
+    "detail": "平文HTTPへのCookie送信を抑える。XSSやCSRFを直接防ぐ属性ではない。"
+  },
+  {
+    "abbr": "CSRFトークン",
+    "full": "Cross-Site Request Forgery Token",
+    "ja": "要求の正当性を検証するためのランダム値",
+    "cat": "Webセキュリティ",
+    "detail": "セッション等に紐づく予測困難なトークンを検証して意図しない状態変更要求を防ぐ。GETで状態変更しない設計も重要。"
+  },
+  {
+    "abbr": "クリックジャッキング対策",
+    "full": "Frame Ancestors Restriction",
+    "ja": "他サイトへの埋込みを制限する設定",
+    "cat": "Webセキュリティ",
+    "detail": "CSPのframe-ancestorsやX-Frame-Optionsを利用。重ね合わせた見えないUIのクリック誘導を防ぐ。"
+  },
+  {
+    "abbr": "プリペアドステートメント",
+    "full": "Prepared Statement",
+    "ja": "SQL命令と入力値を分離して実行する仕組み",
+    "cat": "Webセキュリティ",
+    "detail": "プレースホルダへのパラメータバインドでSQLインジェクションを防止する。識別子など値として束縛できない箇所は別途制御。"
+  },
+  {
+    "abbr": "出力エスケープ",
+    "full": "Contextual Output Encoding",
+    "ja": "出力先の文脈に合わせて危険な文字を適切に処理すること",
+    "cat": "Webセキュリティ",
+    "detail": "HTML本文、属性、JavaScript、URLでは安全な表現方法が異なる。XSS対策の基本。入力検証だけで代替しない。"
+  },
+  {
+    "abbr": "シリアライズ",
+    "full": "Serialization",
+    "ja": "オブジェクト等を保存・転送向けの形式へ変換すること",
+    "cat": "Webセキュリティ",
+    "detail": "JSON等への変換。逆変換のデシリアライズで信頼できないオブジェクトが危険な処理を起こす場合がある。"
+  },
+  {
+    "abbr": "デシリアライズ",
+    "full": "Deserialization",
+    "ja": "保存・転送データからオブジェクト等を復元すること",
+    "cat": "Webセキュリティ",
+    "detail": "危険なオブジェクト型やメソッド実行を許すと任意コード実行につながる。安全な形式と型制限が重要。"
+  },
+  {
+    "abbr": "ファイルアップロード検証",
+    "full": "File Upload Validation",
+    "ja": "危険ファイルの受入れ・実行を防ぐ検証",
+    "cat": "Webセキュリティ",
+    "detail": "MIME・内容・サイズ・拡張子・保存先・権限を多層的に検証する。クライアント側だけのチェックは信用できない。"
+  },
+  {
+    "abbr": "APIレート制限",
+    "full": "API Rate Limiting",
+    "ja": "一定時間内のAPIリクエスト数を制御すること",
+    "cat": "Webセキュリティ",
+    "detail": "総当たり攻撃・大量リクエストの軽減に使う。利用者やキーごとの制限が重要。認可の欠陥は直せない。"
+  },
+  {
+    "abbr": "BFF",
+    "full": "Backend for Frontend",
+    "ja": "フロントエンド専用のバックエンド構成",
+    "cat": "Webセキュリティ",
+    "detail": "クライアントに直接トークンを長期間保持させず、サーバ側でトークンを管理する構成などに利用できる。"
+  },
+  {
+    "abbr": "API Gateway",
+    "full": "Application Programming Interface Gateway",
+    "ja": "APIへの共通入口となるコンポーネント",
+    "cat": "Webセキュリティ",
+    "detail": "認証、レート制限、経路制御、ログなどを集約。ただし各APIでのオブジェクト単位の認可確認は別途必要。"
+  },
+  {
+    "abbr": "GraphQL",
+    "full": "Graph Query Language",
+    "ja": "必要なデータを指定して取得・変更するAPIクエリ言語",
+    "cat": "Webセキュリティ",
+    "detail": "過度に深いクエリ、フィールド単位の認可不備、情報公開などに注意。深さ制限や認可・複雑度制限が必要。"
+  },
+  {
+    "abbr": "BASIC認証",
+    "full": "HTTP Basic Authentication",
+    "ja": "HTTPヘッダでIDとパスワードを送る認証方式",
+    "cat": "Webセキュリティ",
+    "detail": "Authorization: BasicにBase64表現を使うだけで暗号化ではない。必ずHTTPS等と組み合わせる。"
+  },
+  {
+    "abbr": "Digest認証",
+    "full": "HTTP Digest Authentication",
+    "ja": "チャレンジとハッシュ値を用いるHTTP認証方式",
+    "cat": "Webセキュリティ",
+    "detail": "Basic認証と異なりパスワードそのものを送らない。古い方式・アルゴリズムの制約があり通常はTLS上の認証方式を使う。"
+  },
+  {
+    "abbr": "HTTPステータス401",
+    "full": "HTTP 401 Unauthorized",
+    "ja": "認証が必要または有効な認証情報がない応答",
+    "cat": "Webセキュリティ",
+    "detail": "名称はUnauthorizedだが通常は未認証・認証失敗を示す。403 Forbiddenとの区別が試験で重要。"
+  },
+  {
+    "abbr": "HTTPステータス403",
+    "full": "HTTP 403 Forbidden",
+    "ja": "サーバが要求を理解したが許可しない応答",
+    "cat": "Webセキュリティ",
+    "detail": "認証済みユーザーの権限不足などで返る。401が必ず認証方式を限定するわけではない。"
+  },
+  {
+    "abbr": "HTTPステータス429",
+    "full": "HTTP 429 Too Many Requests",
+    "ja": "要求回数制限に達したときの応答",
+    "cat": "Webセキュリティ",
+    "detail": "レート制限で使用。Retry-Afterで再試行可能時刻などを通知できる。Webサービスの負荷制御と関連。"
+  },
+  {
+    "abbr": "WPA2",
+    "full": "Wi-Fi Protected Access 2",
+    "ja": "AES-CCMPなどを用いる無線LANセキュリティ規格",
+    "cat": "ネットワークセキュリティ",
+    "detail": "WPA2-Personalの事前共有鍵とEnterpriseの802.1X認証を区別。古い暗号方式や弱いパスフレーズは危険。"
+  },
+  {
+    "abbr": "WPA3",
+    "full": "Wi-Fi Protected Access 3",
+    "ja": "新しい無線LANのセキュリティ規格",
+    "cat": "ネットワークセキュリティ",
+    "detail": "WPA3-PersonalはSAEを用いてオフライン辞書攻撃への耐性を高める。PMF対応も重要。"
+  },
+  {
+    "abbr": "SAE",
+    "full": "Simultaneous Authentication of Equals",
+    "ja": "WPA3-Personalで使うパスワード認証鍵交換",
+    "cat": "ネットワークセキュリティ",
+    "detail": "Dragonfly方式を基にしたPAKE。WPA2-PSKのような盗聴からのオフライン辞書攻撃を抑える。"
+  },
+  {
+    "abbr": "802.1X",
+    "full": "IEEE 802.1X Port-Based Network Access Control",
+    "ja": "有線・無線LANのポートベース認証",
+    "cat": "ネットワークセキュリティ",
+    "detail": "端末（サプリカント）、認証装置（オーセンティケータ）、認証サーバが関与。EAPを運びRADIUS等が使われる。"
+  },
+  {
+    "abbr": "EAP-TLS",
+    "full": "Extensible Authentication Protocol-Transport Layer Security",
+    "ja": "TLSと証明書を使うEAP認証方式",
+    "cat": "ネットワークセキュリティ",
+    "detail": "クライアント・サーバ間の証明書認証を利用。端末証明書配布と正しいサーバ証明書検証が重要。"
+  },
+  {
+    "abbr": "PEAP",
+    "full": "Protected Extensible Authentication Protocol",
+    "ja": "TLSトンネル内で認証を行うEAP方式",
+    "cat": "ネットワークセキュリティ",
+    "detail": "サーバ証明書検証が不十分だと偽AP等から認証情報を狙われる。EAP-TLSと違い内側でパスワード認証を使う構成もある。"
+  },
+  {
+    "abbr": "PMF",
+    "full": "Protected Management Frames",
+    "ja": "Wi-Fiの特定管理フレームを保護する仕組み",
+    "cat": "ネットワークセキュリティ",
+    "detail": "802.11wに由来し、偽造された切断要求等への耐性を高める。すべての管理フレームが暗号化されるわけではない。"
+  },
+  {
+    "abbr": "DPI",
+    "full": "Deep Packet Inspection",
+    "ja": "パケットの上位層まで解析する検査技術",
+    "cat": "ネットワークセキュリティ",
+    "detail": "プロトコルやアプリデータの内容に基づいて判定。暗号化通信では復号の有無により確認可能範囲が異なる。"
+  },
+  {
+    "abbr": "NAC",
+    "full": "Network Access Control",
+    "ja": "端末の接続を認証・検査して制御する仕組み",
+    "cat": "ネットワークセキュリティ",
+    "detail": "端末認証、パッチ状況、EDR導入などの条件を使い接続許可を判断。802.1Xや検疫ネットワークと関連。"
+  },
+  {
+    "abbr": "DMZ",
+    "full": "Demilitarized Zone",
+    "ja": "外部公開サーバを内部ネットワークと分離する領域",
+    "cat": "ネットワークセキュリティ",
+    "detail": "インターネットと内部LANの間に設ける中間ネットワーク。FW規則で必要最小限の通信だけ許可する。"
+  },
+  {
+    "abbr": "リバースプロキシ",
+    "full": "Reverse Proxy",
+    "ja": "クライアント要求を代理でバックエンドへ送るサーバ",
+    "cat": "ネットワークセキュリティ",
+    "detail": "TLS終端、認証、負荷分散やWAFとの連携に使う。正しいX-Forwarded-For等の信頼設定が重要。"
+  },
+  {
+    "abbr": "プロキシサーバ",
+    "full": "Forward Proxy",
+    "ja": "クライアントの代わりに外部へアクセスするサーバ",
+    "cat": "ネットワークセキュリティ",
+    "detail": "送信元のアクセス制御や通信ログの取得に使う。リバースプロキシは受信側の代理。"
+  },
+  {
+    "abbr": "ZT",
+    "full": "Zero Trust",
+    "ja": "ネットワーク内外を問わず継続的に信頼を検証する考え方",
+    "cat": "ネットワークセキュリティ",
+    "detail": "場所だけを根拠に自動的に信用しない。主体・端末・資源・状況に応じて明示的にアクセス判断を行う。"
+  },
+  {
+    "abbr": "SASE",
+    "full": "Secure Access Service Edge",
+    "ja": "ネットワーク機能とセキュリティ機能をクラウド中心に統合する構成",
+    "cat": "ネットワークセキュリティ",
+    "detail": "SD-WANとSSE機能等を組み合わせるアーキテクチャ。ZTNA・SWG・CASB・FWaaSなどが関係。"
+  },
+  {
+    "abbr": "SSE",
+    "full": "Security Service Edge",
+    "ja": "クラウド提供型セキュリティ機能の統合領域",
+    "cat": "ネットワークセキュリティ",
+    "detail": "ZTNA・SWG・CASB等を含むことが多い。ネットワーク最適化のSD-WANを加えたSASEと区別。"
+  },
+  {
+    "abbr": "SWG",
+    "full": "Secure Web Gateway",
+    "ja": "Webアクセスの検査・制御を行うゲートウェイ",
+    "cat": "ネットワークセキュリティ",
+    "detail": "URLカテゴリ、マルウェア検査、外部Webアクセスのポリシー適用などを担う。"
+  },
+  {
+    "abbr": "マイクロセグメンテーション",
+    "full": "Microsegmentation",
+    "ja": "細粒度にネットワーク・ワークロード間通信を制限すること",
+    "cat": "ネットワークセキュリティ",
+    "detail": "侵害後の横展開を抑える。資源単位の許可・拒否を設計し、ゼロトラストと関連する。"
+  },
+  {
+    "abbr": "東西トラフィック",
+    "full": "East-West Traffic",
+    "ja": "同一環境内のサーバ・端末間通信",
+    "cat": "ネットワークセキュリティ",
+    "detail": "データセンタやクラウド内の横方向通信。南北トラフィックは外部との出入りを指すことが多い。"
+  },
+  {
+    "abbr": "南北トラフィック",
+    "full": "North-South Traffic",
+    "ja": "内部環境と外部との間の通信",
+    "cat": "ネットワークセキュリティ",
+    "detail": "境界FWやインターネットゲートウェイで管理されることが多い。東西通信の横展開対策と区別。"
+  },
+  {
+    "abbr": "IPsec ESP",
+    "full": "Encapsulating Security Payload",
+    "ja": "IPsecの暗号化と認証等を提供するプロトコル",
+    "cat": "ネットワークセキュリティ",
+    "detail": "IPパケットのペイロードを暗号化でき、整合性保護なども行う。トランスポートモードとトンネルモードがある。"
+  },
+  {
+    "abbr": "IPsec AH",
+    "full": "Authentication Header",
+    "ja": "IPsecで認証・完全性を提供するプロトコル",
+    "cat": "ネットワークセキュリティ",
+    "detail": "原則暗号化は提供せず、ヘッダの一部とペイロードの認証を扱う。NATとの相性問題がある。"
+  },
+  {
+    "abbr": "IKEv2",
+    "full": "Internet Key Exchange version 2",
+    "ja": "IPsecの認証・鍵交換・SA確立を行うプロトコル",
+    "cat": "ネットワークセキュリティ",
+    "detail": "IKE_SA_INIT等で鍵共有し、IKE_AUTHで認証などを行う。ESP/AHのセキュリティアソシエーションを管理。"
+  },
+  {
+    "abbr": "NAT-T",
+    "full": "NAT Traversal",
+    "ja": "IPsecがNATを越えるための仕組み",
+    "cat": "ネットワークセキュリティ",
+    "detail": "ESPをUDP/4500でカプセル化する方法などを使う。NAT環境でのIPsec VPN接続に重要。"
   }
 ]
