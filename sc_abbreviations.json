@@ -4436,5 +4436,852 @@
     "ja": "IPsecがNATを越えるための仕組み",
     "cat": "ネットワークセキュリティ",
     "detail": "ESPをUDP/4500でカプセル化する方法などを使う。NAT環境でのIPsec VPN接続に重要。"
+  },
+  {
+    "abbr": "CIA",
+    "full": "Confidentiality Integrity Availability",
+    "ja": "情報セキュリティの機密性・完全性・可用性",
+    "cat": "セキュリティ管理",
+    "detail": "機密性は許可されない開示の防止、完全性は改ざん・破壊の防止、可用性は必要なときの利用可能性。三要素をバランス良く設計。"
+  },
+  {
+    "abbr": "AAAモデル",
+    "full": "Authentication Authorization Accounting",
+    "ja": "認証・認可・記録の3要素",
+    "cat": "セキュリティ管理",
+    "detail": "本人確認、操作権限の判断、利用状況の記録を分けて考える。認証済みでも認可は別途必要。"
+  },
+  {
+    "abbr": "NIST SP 800-53",
+    "full": "Security and Privacy Controls for Information Systems and Organizations",
+    "ja": "セキュリティ・プライバシー管理策の体系",
+    "cat": "セキュリティ管理",
+    "detail": "組織やシステムでのアクセス制御、監査、継続計画など広い管理策を整理する文書。"
+  },
+  {
+    "abbr": "NIST SP 800-61",
+    "full": "Computer Security Incident Handling Guide",
+    "ja": "インシデント対応ガイド",
+    "cat": "セキュリティ管理",
+    "detail": "インシデント対応能力の整備・検知・分析・封じ込め・復旧・事後改善などを扱う。版によって章立ては異なる。"
+  },
+  {
+    "abbr": "ISO/IEC 27001",
+    "full": "Information Security Management Systems Requirements",
+    "ja": "ISMSに関する要求事項の国際規格",
+    "cat": "セキュリティ管理",
+    "detail": "組織の情報セキュリティマネジメントシステムを構築・運用・改善するための認証規格。管理策の詳細はISO/IEC 27002と関連。"
+  },
+  {
+    "abbr": "ISO/IEC 27002",
+    "full": "Information Security Controls",
+    "ja": "情報セキュリティ管理策の実施指針",
+    "cat": "セキュリティ管理",
+    "detail": "アクセス制御やログ、物理セキュリティ等の管理策を解説。ISO/IEC 27001の要求事項と区別。"
+  },
+  {
+    "abbr": "ISO/IEC 27017",
+    "full": "Code of Practice for Information Security Controls for Cloud Services",
+    "ja": "クラウドサービスの情報セキュリティ管理策指針",
+    "cat": "セキュリティ管理",
+    "detail": "クラウド利用者と事業者の責任分担などの管理策を補足する。責任共有モデルと関連。"
+  },
+  {
+    "abbr": "ISO/IEC 27018",
+    "full": "Protection of Personally Identifiable Information in Public Clouds",
+    "ja": "パブリッククラウド上のPII保護の指針",
+    "cat": "セキュリティ管理",
+    "detail": "PII処理者としてのパブリッククラウド事業者に関する個人情報保護管理策を扱う。"
+  },
+  {
+    "abbr": "ISO/IEC 27701",
+    "full": "Privacy Information Management System",
+    "ja": "プライバシー情報マネジメントの国際規格",
+    "cat": "セキュリティ管理",
+    "detail": "プライバシー情報マネジメントシステム（PIMS）に関する規格。個人情報の管理においてISMSと関係する。"
+  },
+  {
+    "abbr": "ISO 31000",
+    "full": "Risk Management Guidelines",
+    "ja": "リスクマネジメントの指針",
+    "cat": "セキュリティ管理",
+    "detail": "組織全体のリスク管理に関する原則・枠組み・プロセスを示す。セキュリティに限らない。"
+  },
+  {
+    "abbr": "ISO/IEC 15408",
+    "full": "Common Criteria for Information Technology Security Evaluation",
+    "ja": "ITセキュリティ評価基準",
+    "cat": "セキュリティ管理",
+    "detail": "CCとして知られる規格。PP・ST・EALなどを用いてセキュリティ機能や保証を評価。"
+  },
+  {
+    "abbr": "リスク対応",
+    "full": "Risk Treatment",
+    "ja": "リスクに対して実施する意思決定・対策",
+    "cat": "セキュリティ管理",
+    "detail": "低減・回避・移転（共有）・受容など。費用対効果、リスク許容度と関連。"
+  },
+  {
+    "abbr": "リスク受容",
+    "full": "Risk Acceptance",
+    "ja": "リスクを認識したうえで受け入れる判断",
+    "cat": "セキュリティ管理",
+    "detail": "対策コストや残余リスクを踏まえて責任者が判断する。放置や見逃しとは異なる。"
+  },
+  {
+    "abbr": "残余リスク",
+    "full": "Residual Risk",
+    "ja": "対策後にも残っているリスク",
+    "cat": "セキュリティ管理",
+    "detail": "リスク対策後でも完全にゼロになるとは限らない。受容可能な水準か評価する必要がある。"
+  },
+  {
+    "abbr": "リスク保有者",
+    "full": "Risk Owner",
+    "ja": "リスクへの対応を説明・決定する責任を持つ人",
+    "cat": "セキュリティ管理",
+    "detail": "技術担当者とは限らず、事業上の責任者が受容判断などを行う。リスクと資産の所有者は一致しない場合がある。"
+  },
+  {
+    "abbr": "リスクマトリクス",
+    "full": "Risk Matrix",
+    "ja": "影響度と発生可能性でリスクを評価する表",
+    "cat": "セキュリティ管理",
+    "detail": "定性評価によく使う。低頻度・高影響などを可視化するが、数値の掛け算だけが唯一の評価方法ではない。"
+  },
+  {
+    "abbr": "脅威モデリング",
+    "full": "Threat Modeling",
+    "ja": "設計段階で脅威と悪用経路を体系的に考える方法",
+    "cat": "セキュリティ管理",
+    "detail": "DFDやSTRIDEなどを使い、信頼境界・データフロー・攻撃面を整理して必要な管理策を検討。"
+  },
+  {
+    "abbr": "STRIDE",
+    "full": "Spoofing Tampering Repudiation Information disclosure Denial of service Elevation of privilege",
+    "ja": "6種類の脅威カテゴリに分類するモデル",
+    "cat": "セキュリティ管理",
+    "detail": "なりすまし、改ざん、否認、情報漏えい、サービス拒否、権限昇格。設計時の脅威分析に使う。"
+  },
+  {
+    "abbr": "DREAD",
+    "full": "Damage Reproducibility Exploitability Affected users Discoverability",
+    "ja": "脆弱性・脅威の評価モデル",
+    "cat": "セキュリティ管理",
+    "detail": "被害、再現性、攻撃容易性、影響人数、発見容易性で評価する考え方。CVSSとは異なる。"
+  },
+  {
+    "abbr": "攻撃面",
+    "full": "Attack Surface",
+    "ja": "攻撃者が接触・悪用できる入口の集合",
+    "cat": "セキュリティ管理",
+    "detail": "公開ポート、API、アカウント、管理画面、依存関係など。縮小と継続把握が対策。"
+  },
+  {
+    "abbr": "ASM",
+    "full": "Attack Surface Management",
+    "ja": "公開資産や露出を継続的に把握する活動",
+    "cat": "セキュリティ管理",
+    "detail": "インターネット公開サービスや忘れたサブドメイン等を調査・評価・改善する。資産台帳との突合が重要。"
+  },
+  {
+    "abbr": "EASM",
+    "full": "External Attack Surface Management",
+    "ja": "組織外から見える攻撃面の管理",
+    "cat": "セキュリティ管理",
+    "detail": "公開IP・ドメイン・クラウド資産等の露出を継続確認し、シャドーITや設定ミスを検出する。"
+  },
+  {
+    "abbr": "BIA",
+    "full": "Business Impact Analysis",
+    "ja": "事業影響度分析",
+    "cat": "セキュリティ管理",
+    "detail": "停止による損失や業務への影響を時間軸で分析し、復旧優先順位やRTO・RPOなどを定める基礎。"
+  },
+  {
+    "abbr": "MTPD",
+    "full": "Maximum Tolerable Period of Disruption",
+    "ja": "最大許容停止期間",
+    "cat": "セキュリティ管理",
+    "detail": "業務を停止していられる最長期間。RTOは通常この範囲内で設定する。表記はMTPDやMAOなど。"
+  },
+  {
+    "abbr": "PDCA",
+    "full": "Plan Do Check Act",
+    "ja": "計画・実行・評価・改善のマネジメントサイクル",
+    "cat": "セキュリティ管理",
+    "detail": "ISMS等で継続改善を進める基本手法。運用状況の監査やレビューを改善へつなぐ。"
+  },
+  {
+    "abbr": "SoD",
+    "full": "Segregation of Duties",
+    "ja": "職務分離",
+    "cat": "セキュリティ管理",
+    "detail": "権限を一人に集中させず、申請・承認・実行・監査などを分離。内部不正・誤操作を抑える。"
+  },
+  {
+    "abbr": "情報セキュリティポリシー",
+    "full": "Information Security Policy",
+    "ja": "組織の情報セキュリティに関する方針・規則",
+    "cat": "セキュリティ管理",
+    "detail": "基本方針・対策基準・実施手順などに分けて管理することがある。規定の策定だけでなく周知・定着・見直しが重要。"
+  },
+  {
+    "abbr": "PCI DSS",
+    "full": "Payment Card Industry Data Security Standard",
+    "ja": "カード会員データ保護のためのセキュリティ基準",
+    "cat": "セキュリティ管理",
+    "detail": "カード情報を扱う組織向けの技術的・運用的要求事項。ISO/IEC 27001と目的・適用範囲が異なる。"
+  },
+  {
+    "abbr": "NDA",
+    "full": "Non-Disclosure Agreement",
+    "ja": "秘密保持契約",
+    "cat": "セキュリティ管理",
+    "detail": "開示される秘密情報の扱いと禁止行為などを定める。契約だけで適切なアクセス制御が不要になるわけではない。"
+  },
+  {
+    "abbr": "DPA",
+    "full": "Data Processing Agreement",
+    "ja": "個人データ処理に関する契約",
+    "cat": "セキュリティ管理",
+    "detail": "個人データの処理目的・責任・安全管理などを委託者と受託者が定める。"
+  },
+  {
+    "abbr": "MDR",
+    "full": "Managed Detection and Response",
+    "ja": "外部専門サービスによる脅威監視・対応支援",
+    "cat": "検知・対応",
+    "detail": "EDRなどの検知技術と監視・分析・対処の人的サービスを組み合わせる。EDR製品だけの導入と異なる。"
+  },
+  {
+    "abbr": "CTI",
+    "full": "Cyber Threat Intelligence",
+    "ja": "意思決定に活用するサイバー脅威情報",
+    "cat": "検知・対応",
+    "detail": "攻撃者のTTP、IoC、背景情報などを整理し防御へ活用。生ログとは異なる。"
+  },
+  {
+    "abbr": "IOA",
+    "full": "Indicator of Attack",
+    "ja": "攻撃活動を示す振る舞いの兆候",
+    "cat": "検知・対応",
+    "detail": "既知のハッシュやIP等を用いるIoCに対し、攻撃行動・プロセスの連鎖に着目する。"
+  },
+  {
+    "abbr": "YARA",
+    "full": "YARA Rule Language",
+    "ja": "マルウェア等のパターン検出に使うルール表現",
+    "cat": "検知・対応",
+    "detail": "バイナリや文字列等の条件でファイルを分類・検出する。過剰一致・過少一致に注意。"
+  },
+  {
+    "abbr": "Sigma",
+    "full": "Sigma Detection Rule Format",
+    "ja": "ログ検知のルールを記述する汎用形式",
+    "cat": "検知・対応",
+    "detail": "製品依存の異なるSIEM向けの検知ルールを共通記法で表現する。実際のフィールド対応が重要。"
+  },
+  {
+    "abbr": "Sysmon",
+    "full": "System Monitor",
+    "ja": "Windowsの詳細イベント記録ツール",
+    "cat": "検知・対応",
+    "detail": "プロセス生成、ネットワーク接続などをWindowsイベントログに記録でき、検知・フォレンジックスに利用。"
+  },
+  {
+    "abbr": "WindowsイベントID 4624",
+    "full": "Windows Successful Logon Event",
+    "ja": "Windowsのログオン成功イベント",
+    "cat": "検知・対応",
+    "detail": "ログオン種別やアカウント・送信元等を確認。ログオン失敗4625と対比し、不審なアクセスを調査する。"
+  },
+  {
+    "abbr": "WindowsイベントID 4625",
+    "full": "Windows Failed Logon Event",
+    "ja": "Windowsのログオン失敗イベント",
+    "cat": "検知・対応",
+    "detail": "ログオン失敗回数や送信元を調査して総当たり攻撃などを検知。失敗だけで侵害とは断定しない。"
+  },
+  {
+    "abbr": "WindowsイベントID 4688",
+    "full": "Windows Process Creation Event",
+    "ja": "Windowsのプロセス生成イベント",
+    "cat": "検知・対応",
+    "detail": "監査設定により実行ファイル・コマンドラインなどを調べる。プロセス連鎖の分析に有用。"
+  },
+  {
+    "abbr": "ログの正規化",
+    "full": "Log Normalization",
+    "ja": "異種ログを共通形式へ変換する処理",
+    "cat": "検知・対応",
+    "detail": "時刻・送信元IP・ユーザIDなどを統一し相関分析を容易にする。元のログも証拠として保全する。"
+  },
+  {
+    "abbr": "時刻同期",
+    "full": "Time Synchronization",
+    "ja": "複数機器のログ時刻を一致させる管理",
+    "cat": "検知・対応",
+    "detail": "NTP等で時計を同期し、ログ相関やインシデント時系列分析の精度を確保。時刻帯・タイムゾーンに注意。"
+  },
+  {
+    "abbr": "チェーンオブカストディ",
+    "full": "Chain of Custody",
+    "ja": "デジタル証拠の取得・移送・保管の履歴管理",
+    "cat": "検知・対応",
+    "detail": "証拠の取扱者・日時・作業内容を記録し証拠の真正性を説明できるようにする。"
+  },
+  {
+    "abbr": "ディスクイメージ",
+    "full": "Forensic Disk Image",
+    "ja": "記録媒体を調査用に複製したデータ",
+    "cat": "検知・対応",
+    "detail": "解析前に証拠媒体の保全とハッシュ検証を行い、原本への変更を避ける。論理イメージ・物理イメージの違いがある。"
+  },
+  {
+    "abbr": "メモリフォレンジックス",
+    "full": "Memory Forensics",
+    "ja": "メモリ内容から実行中の活動を解析する手法",
+    "cat": "検知・対応",
+    "detail": "プロセス、ネットワーク接続、復号鍵など揮発性情報を調査。電源断で失われる可能性がある。"
+  },
+  {
+    "abbr": "封じ込め",
+    "full": "Containment",
+    "ja": "インシデントの拡大を防ぐ対応",
+    "cat": "検知・対応",
+    "detail": "感染端末隔離、資格情報無効化、通信遮断など。証拠保全や業務継続とのバランスが必要。"
+  },
+  {
+    "abbr": "根絶",
+    "full": "Eradication",
+    "ja": "侵害原因やマルウェアなどを除去する対応",
+    "cat": "検知・対応",
+    "detail": "侵害アカウント、バックドア、脆弱性などを除去して再発経路を断つ。封じ込めとは段階が異なる。"
+  },
+  {
+    "abbr": "事後レビュー",
+    "full": "Post-Incident Review",
+    "ja": "インシデント対応を振り返る改善活動",
+    "cat": "検知・対応",
+    "detail": "根本原因と対応上の課題を整理し、手順・監視・教育を改善。個人の責任追及のみで終えない。"
+  },
+  {
+    "abbr": "ハンティング",
+    "full": "Threat Hunting",
+    "ja": "既存検知に依存せず潜在脅威を能動的に探す活動",
+    "cat": "検知・対応",
+    "detail": "仮説を立ててログ・端末・ネットワークから未知の侵害兆候を探索。アラート対応と区別する。"
+  },
+  {
+    "abbr": "トリアージ",
+    "full": "Security Incident Triage",
+    "ja": "アラートや事案の緊急度・重要度を仕分けすること",
+    "cat": "検知・対応",
+    "detail": "影響度、信頼性、攻撃段階などから優先順位を決める。すべてのアラートを同じ順番で処理しない。"
+  },
+  {
+    "abbr": "プレイブック",
+    "full": "Incident Response Playbook",
+    "ja": "特定の事案に対する具体的対応手順",
+    "cat": "検知・対応",
+    "detail": "ランサムウェア・フィッシングなどに応じ、担当者・判断基準・連絡先・封じ込め手順を記載。BCP等と整合させる。"
+  },
+  {
+    "abbr": "ランブック",
+    "full": "Operations Runbook",
+    "ja": "運用時の繰返し作業を実施するための手順書",
+    "cat": "検知・対応",
+    "detail": "監視・復旧・バックアップなどの手順を具体化する。インシデント対応用のプレイブックと重なるが主眼は運用手順。"
+  },
+  {
+    "abbr": "脆弱性スキャン",
+    "full": "Vulnerability Scanning",
+    "ja": "システムの既知脆弱性・設定不備を探索する検査",
+    "cat": "検知・対応",
+    "detail": "バージョンや設定に基づいて既知の弱点を確認。実際の侵入可能性や業務影響は別途評価する。"
+  },
+  {
+    "abbr": "ペネトレーションテスト",
+    "full": "Penetration Testing",
+    "ja": "攻撃者視点で侵入・悪用可能性を検証する試験",
+    "cat": "検知・対応",
+    "detail": "合意された範囲で実際の侵害シナリオを試す。網羅的な脆弱性診断や本番環境の無制限攻撃とは異なる。"
+  },
+  {
+    "abbr": "レッドチーム",
+    "full": "Red Team",
+    "ja": "攻撃者を模した演習チーム",
+    "cat": "検知・対応",
+    "detail": "組織の検知・対応能力を試すため、現実の攻撃に近いシナリオを実行。ブルーチームと対比。"
+  },
+  {
+    "abbr": "ブルーチーム",
+    "full": "Blue Team",
+    "ja": "検知・防御・対応を担う演習チーム",
+    "cat": "検知・対応",
+    "detail": "SOCやCSIRT等の防御側活動を演習する。レッドチームとの協働や改善が重要。"
+  },
+  {
+    "abbr": "パープルチーム",
+    "full": "Purple Team",
+    "ja": "攻撃側と防御側が協力して検知・対応能力を改善する活動",
+    "cat": "検知・対応",
+    "detail": "演習結果を共有し検知ルールや対応を改善する。単なる攻撃・防御の勝敗より継続改善を重視。"
+  },
+  {
+    "abbr": "EDR隔離",
+    "full": "Endpoint Isolation",
+    "ja": "EDRから端末のネットワーク通信を制限する封じ込め機能",
+    "cat": "検知・対応",
+    "detail": "侵害の横展開を抑えるが、業務影響や管理用通信の例外、証拠保全に注意する。"
+  },
+  {
+    "abbr": "IOCフィード",
+    "full": "Indicator of Compromise Feed",
+    "ja": "既知侵害指標を継続提供する情報源",
+    "cat": "検知・対応",
+    "detail": "悪性IP・ドメイン・ハッシュ等を更新して検知に使う。偽陽性や古い指標への依存に注意。"
+  },
+  {
+    "abbr": "CVSS基本値",
+    "full": "CVSS Base Score",
+    "ja": "脆弱性の本質的特徴から算出する評価値",
+    "cat": "検知・対応",
+    "detail": "攻撃条件や影響範囲等を評価する。組織内の露出・対策状況や脅威の活発さを別途考慮する。"
+  },
+  {
+    "abbr": "CVSS環境値",
+    "full": "CVSS Environmental Score",
+    "ja": "利用環境の条件を反映する評価値",
+    "cat": "検知・対応",
+    "detail": "資産の重要度や緩和策などで優先順位を調整する。基本値だけで修正順序を決めない。"
+  },
+  {
+    "abbr": "CISA KEV",
+    "full": "Known Exploited Vulnerabilities Catalog",
+    "ja": "悪用の確認された脆弱性を収載するカタログ",
+    "cat": "検知・対応",
+    "detail": "脅威情報に基づく優先順位付けで参考にする。全脆弱性が登録されるわけではない。"
+  },
+  {
+    "abbr": "SSVC",
+    "full": "Stakeholder-Specific Vulnerability Categorization",
+    "ja": "ステークホルダーの状況に合わせた脆弱性対応判断",
+    "cat": "検知・対応",
+    "detail": "悪用状況、影響、公開状況などから対応の優先度を判断する枠組み。CVSSだけの判断を補う。"
+  },
+  {
+    "abbr": "DevSecOps",
+    "full": "Development Security Operations",
+    "ja": "開発・セキュリティ・運用を統合する実践",
+    "cat": "開発",
+    "detail": "設計からデプロイまで脅威分析・自動検査・修正を組み込み、開発速度と安全性を両立する。"
+  },
+  {
+    "abbr": "DAST検査",
+    "full": "Dynamic Application Security Testing",
+    "ja": "稼働するアプリへ入力して弱点を検査する手法",
+    "cat": "開発",
+    "detail": "外部から動作を検査。SASTはソースコード等を静的解析。両方とも未検出の弱点は残り得る。"
+  },
+  {
+    "abbr": "SCA",
+    "full": "Software Composition Analysis",
+    "ja": "依存ライブラリ等の既知脆弱性・ライセンスを調べる手法",
+    "cat": "開発",
+    "detail": "パッケージのバージョンを解析し脆弱性やライセンス問題を把握。SBOMと関連。"
+  },
+  {
+    "abbr": "IAST",
+    "full": "Interactive Application Security Testing",
+    "ja": "実行時情報を利用してアプリの弱点を検査する方式",
+    "cat": "開発",
+    "detail": "アプリ内部の計測情報と動作試験を組み合わせる。SAST・DASTとアプローチが異なる。"
+  },
+  {
+    "abbr": "RASP",
+    "full": "Runtime Application Self-Protection",
+    "ja": "実行時にアプリの不正動作を検知・防御する機能",
+    "cat": "開発",
+    "detail": "アプリの実行環境で攻撃兆候を監視・阻止。コード修正や安全な設計の代替ではない。"
+  },
+  {
+    "abbr": "シークレットスキャン",
+    "full": "Secret Scanning",
+    "ja": "ソース等に混入した認証情報を検出する検査",
+    "cat": "開発",
+    "detail": "リポジトリやCIログ中のAPIキー・秘密鍵を検出。漏えい時は削除だけでなく失効・再発行が必要。"
+  },
+  {
+    "abbr": "依存関係ロックファイル",
+    "full": "Dependency Lockfile",
+    "ja": "依存ソフトの解決済みバージョンを固定する情報",
+    "cat": "開発",
+    "detail": "意図しない依存バージョン変化を抑える。悪意ある依存を防ぐにはレジストリ・署名などの管理も必要。"
+  },
+  {
+    "abbr": "コード署名",
+    "full": "Code Signing",
+    "ja": "ソフトウェアの発行元と完全性を検証する署名",
+    "cat": "開発",
+    "detail": "更新パッケージ・実行ファイルの改ざん検出に使う。鍵が盗まれると攻撃者も正規署名を付け得る。"
+  },
+  {
+    "abbr": "CI/CD",
+    "full": "Continuous Integration and Continuous Delivery/Deployment",
+    "ja": "継続的な統合とリリースを自動化する仕組み",
+    "cat": "開発",
+    "detail": "ソース変更を自動ビルド・テスト・配布につなぐ。パイプラインの秘密鍵や権限設定が攻撃対象になる。"
+  },
+  {
+    "abbr": "GitOps",
+    "full": "Git-based Operations",
+    "ja": "Git上の宣言的構成を運用の正とする方式",
+    "cat": "開発",
+    "detail": "構成変更をPR・レビュー・同期で管理し、差分検出と監査を容易にする。リポジトリ保護が重要。"
+  },
+  {
+    "abbr": "IaC",
+    "full": "Infrastructure as Code",
+    "ja": "サーバやネットワーク設定をコードとして管理する方法",
+    "cat": "開発",
+    "detail": "Terraformなどでインフラを宣言的に記述・再現。誤設定の自動展開を防ぐ検査・レビューが必要。"
+  },
+  {
+    "abbr": "SLSA",
+    "full": "Supply-chain Levels for Software Artifacts",
+    "ja": "ソフトウェア供給網の安全性向上の枠組み",
+    "cat": "開発",
+    "detail": "ビルドの来歴・改ざん防止などを段階的に強化する。SBOMとは異なる目的。"
+  },
+  {
+    "abbr": "アーティファクト署名",
+    "full": "Artifact Signing",
+    "ja": "成果物の完全性・発行元の検証のための署名",
+    "cat": "開発",
+    "detail": "ビルドしたコンテナや配布物へ署名しデプロイ前に検証。鍵管理・信頼する発行主体の確認が重要。"
+  },
+  {
+    "abbr": "コンテナイメージスキャン",
+    "full": "Container Image Scanning",
+    "ja": "コンテナイメージの既知弱点や秘密情報を検査",
+    "cat": "開発",
+    "detail": "ベースイメージや依存パッケージの脆弱性を確認。実行時の権限やネットワーク制御も必要。"
+  },
+  {
+    "abbr": "セキュアコーディング",
+    "full": "Secure Coding",
+    "ja": "脆弱性を作り込まない実装上の実践",
+    "cat": "開発",
+    "detail": "入力処理、認証認可、秘密管理、エラー処理、ロギング、依存管理などを設計・レビューで実施。"
+  },
+  {
+    "abbr": "単体テスト",
+    "full": "Unit Testing",
+    "ja": "関数やクラスなど小さな単位で行うテスト",
+    "cat": "開発",
+    "detail": "個々のロジックを切り分けて検証。結合・総合テストとは対象範囲が違う。"
+  },
+  {
+    "abbr": "結合テスト",
+    "full": "Integration Testing",
+    "ja": "複数モジュールやサービスの連携を検証するテスト",
+    "cat": "開発",
+    "detail": "APIやDBとの接続・データ受渡し・異常処理を確かめる。単体テストで見逃す連携障害を検出。"
+  },
+  {
+    "abbr": "システムテスト",
+    "full": "System Testing",
+    "ja": "システム全体として要求を満たすか検証するテスト",
+    "cat": "開発",
+    "detail": "機能・性能・セキュリティなどを実際に近い構成で検証。受入テストとは責任主体が異なることがある。"
+  },
+  {
+    "abbr": "受入テスト",
+    "full": "Acceptance Testing",
+    "ja": "利用者側の業務要件を満たすことを確認するテスト",
+    "cat": "開発",
+    "detail": "ユーザ受入テスト（UAT）など。開発者の単体テストと目的が異なる。"
+  },
+  {
+    "abbr": "境界値分析",
+    "full": "Boundary Value Analysis",
+    "ja": "入力範囲の境界付近を重点的に試すテスト設計",
+    "cat": "開発",
+    "detail": "最小値・最大値とその前後の値を試す。入力制約の境界で不具合が生じやすい。"
+  },
+  {
+    "abbr": "同値分割",
+    "full": "Equivalence Partitioning",
+    "ja": "同じ動作が期待される入力群に分けるテスト設計",
+    "cat": "開発",
+    "detail": "有効・無効な同値クラスから代表値を選ぶ。境界値分析と組み合わせる。"
+  },
+  {
+    "abbr": "状態遷移テスト",
+    "full": "State Transition Testing",
+    "ja": "状態とイベントの遷移規則を検証するテスト",
+    "cat": "開発",
+    "detail": "認証状態や注文状態などで、許可される遷移・禁止される遷移を確認する。"
+  },
+  {
+    "abbr": "負荷試験",
+    "full": "Load Testing",
+    "ja": "想定される利用負荷で性能を確認する試験",
+    "cat": "開発",
+    "detail": "同時利用者数や処理量を増やして応答時間などを評価。限界超過のストレス試験とは区別。"
+  },
+  {
+    "abbr": "ファジング",
+    "full": "Fuzz Testing",
+    "ja": "異常・ランダム入力を大量投入して欠陥を探す試験",
+    "cat": "開発",
+    "detail": "パーサ・プロトコル実装などへ入力を与えクラッシュやメモリ不正を検出。カバレッジ誘導方式もある。"
+  },
+  {
+    "abbr": "変更管理",
+    "full": "Change Management",
+    "ja": "システム変更を評価・承認・記録する手続",
+    "cat": "運用・管理",
+    "detail": "変更による影響とリスクを見積もり、承認・実行・検証・ロールバックを管理する。"
+  },
+  {
+    "abbr": "構成管理",
+    "full": "Configuration Management",
+    "ja": "システム資産と設定の構成を把握・管理する活動",
+    "cat": "運用・管理",
+    "detail": "構成項目の関係や変更履歴を管理し、障害・脆弱性への影響範囲を追跡できるようにする。"
+  },
+  {
+    "abbr": "CMDB",
+    "full": "Configuration Management Database",
+    "ja": "構成管理データベース",
+    "cat": "運用・管理",
+    "detail": "サーバ、サービス、ソフトウェアなど構成項目と関係を記録。台帳の鮮度と責任者管理が重要。"
+  },
+  {
+    "abbr": "問題管理",
+    "full": "Problem Management",
+    "ja": "インシデントの根本原因の分析と再発防止",
+    "cat": "運用・管理",
+    "detail": "インシデント管理が早期復旧に主眼を置くのに対し、問題管理は原因除去に重点を置く。"
+  },
+  {
+    "abbr": "サービス要求管理",
+    "full": "Service Request Management",
+    "ja": "定型的なサービス利用要求を扱う管理活動",
+    "cat": "運用・管理",
+    "detail": "アクセス権付与や情報提供などを承認・履歴管理する。障害対応とは目的が異なる。"
+  },
+  {
+    "abbr": "CAB",
+    "full": "Change Advisory Board",
+    "ja": "変更の影響を助言・審議する組織",
+    "cat": "運用・管理",
+    "detail": "ITサービスの変更に関するリスク・影響を検討する。緊急変更の扱いは組織手順による。"
+  },
+  {
+    "abbr": "SRE",
+    "full": "Site Reliability Engineering",
+    "ja": "信頼性目標をソフトウェア技術で実現する運用実践",
+    "cat": "運用・管理",
+    "detail": "SLI・SLO・エラーバジェットなどに基づき、開発と運用を改善する。"
+  },
+  {
+    "abbr": "SLI",
+    "full": "Service Level Indicator",
+    "ja": "サービス品質の測定指標",
+    "cat": "運用・管理",
+    "detail": "成功率や応答時間など計測値を使う。SLOはその目標、SLAは契約上の合意。"
+  },
+  {
+    "abbr": "エラーバジェット",
+    "full": "Error Budget",
+    "ja": "許容される信頼性目標未達の余地",
+    "cat": "運用・管理",
+    "detail": "SLOに基づき新機能リリースと安定性改善のバランスを管理する考え方。"
+  },
+  {
+    "abbr": "MTTD",
+    "full": "Mean Time to Detect",
+    "ja": "問題の発生から検知までの平均時間",
+    "cat": "運用・管理",
+    "detail": "監視の有効性を測る指標。復旧までのMTTRと区別。"
+  },
+  {
+    "abbr": "MTTA",
+    "full": "Mean Time to Acknowledge",
+    "ja": "アラート発生から担当者が認知するまでの平均時間",
+    "cat": "運用・管理",
+    "detail": "運用監視・オンコール対応の迅速さを評価する指標。"
+  },
+  {
+    "abbr": "バックアップ3-2-1",
+    "full": "3-2-1 Backup Rule",
+    "ja": "3コピー・2種類の媒体・1つを別拠点に保管する原則",
+    "cat": "運用・管理",
+    "detail": "ランサムウェア対策ではイミュータブル保管やオフライン保管なども検討。バックアップは復元試験が不可欠。"
+  },
+  {
+    "abbr": "イミュータブルバックアップ",
+    "full": "Immutable Backup",
+    "ja": "一定期間変更・削除できないバックアップ",
+    "cat": "運用・管理",
+    "detail": "攻撃者にバックアップを書き換えられる危険を軽減。アクセス制御と復元可能性の確認が必要。"
+  },
+  {
+    "abbr": "スナップショットバックアップ",
+    "full": "Snapshot Backup",
+    "ja": "ある時点の状態を記録するバックアップ方式",
+    "cat": "運用・管理",
+    "detail": "迅速な復元に使えるが同じ基盤上だけでは災害・侵害時に同時喪失する恐れがある。"
+  },
+  {
+    "abbr": "フェールバック計画",
+    "full": "Failback Planning",
+    "ja": "代替環境から本来の環境へ戻すための計画",
+    "cat": "運用・管理",
+    "detail": "フェールオーバー後のデータ整合性・切替時間・業務停止を考慮する。"
+  },
+  {
+    "abbr": "パッチ管理",
+    "full": "Patch Management",
+    "ja": "更新の評価・検証・適用・確認の継続活動",
+    "cat": "運用・管理",
+    "detail": "脆弱性の悪用状況と資産重要度から優先付けする。適用できない場合は代替の緩和策を検討。"
+  },
+  {
+    "abbr": "EOL",
+    "full": "End of Life",
+    "ja": "製品・サービスの提供終了",
+    "cat": "運用・管理",
+    "detail": "EOL後は更新やサポートが受けられないことがある。EOSとの違いは事業者の定義に従う。"
+  },
+  {
+    "abbr": "EOS",
+    "full": "End of Support",
+    "ja": "製品サポートの終了",
+    "cat": "運用・管理",
+    "detail": "セキュリティパッチなどの提供が止まり、脆弱性が残る危険がある。移行計画が必要。"
+  },
+  {
+    "abbr": "IAM",
+    "full": "Identity and Access Management",
+    "ja": "クラウド等の利用者・権限を管理する仕組み",
+    "cat": "クラウド",
+    "detail": "ユーザー・ロール・ポリシーを用いアクセスを認可する。最小権限と認証・監査の組合せが重要。"
+  },
+  {
+    "abbr": "クラウドネイティブ",
+    "full": "Cloud Native",
+    "ja": "クラウドの自動化・拡張性を活用する設計思想",
+    "cat": "クラウド",
+    "detail": "コンテナ・マイクロサービス・IaCなどと相性がよいが、すべての技術の採用が必須ではない。"
+  },
+  {
+    "abbr": "Kubernetes",
+    "full": "Kubernetes Container Orchestration",
+    "ja": "コンテナの配置・スケール・運用を自動化する基盤",
+    "cat": "クラウド",
+    "detail": "Pod、Deployment、Service、RBAC、NetworkPolicyなどの理解が重要。設定不備が攻撃面になる。"
+  },
+  {
+    "abbr": "Pod",
+    "full": "Kubernetes Pod",
+    "ja": "Kubernetesでコンテナを配置する基本単位",
+    "cat": "クラウド",
+    "detail": "単一または複数コンテナがネットワーク名前空間などを共有する。Podへの権限付与に注意。"
+  },
+  {
+    "abbr": "Namespace",
+    "full": "Kubernetes Namespace",
+    "ja": "Kubernetes内の論理的な資源区分",
+    "cat": "クラウド",
+    "detail": "同じクラスター内で名称や管理対象を分ける。Namespace自体が強力なセキュリティ境界とは限らない。"
+  },
+  {
+    "abbr": "NetworkPolicy",
+    "full": "Kubernetes Network Policy",
+    "ja": "Pod間や外部への通信を許可・制御するポリシー",
+    "cat": "クラウド",
+    "detail": "CNIなどネットワーク実装が対応する必要がある。既定許可から明示許可へ切替える設計が重要。"
+  },
+  {
+    "abbr": "CNI",
+    "full": "Container Network Interface",
+    "ja": "コンテナのネットワークを構成する仕様",
+    "cat": "クラウド",
+    "detail": "KubernetesなどでPodネットワークを設定するプラグインを実装する。通信制御機能は製品・実装による。"
+  },
+  {
+    "abbr": "RBAC for Kubernetes",
+    "full": "Kubernetes Role-Based Access Control",
+    "ja": "Kubernetes APIのロールベース認可",
+    "cat": "クラウド",
+    "detail": "Role・ClusterRole・Bindingを使い操作権限を与える。ServiceAccountの過剰権限に注意。"
+  },
+  {
+    "abbr": "ServiceAccount",
+    "full": "Kubernetes Service Account",
+    "ja": "Pod等がKubernetes APIへアクセスする際のID",
+    "cat": "クラウド",
+    "detail": "不要なトークン自動マウントや過剰RBAC権限を避ける。クラウドIAMとの連携もある。"
+  },
+  {
+    "abbr": "Docker",
+    "full": "Docker Container Platform",
+    "ja": "コンテナの作成・配布・実行に使われる技術",
+    "cat": "クラウド",
+    "detail": "イメージとコンテナを区別。特権実行やDockerソケット公開は危険。Dockerfileのベースイメージ更新も重要。"
+  },
+  {
+    "abbr": "OCI",
+    "full": "Open Container Initiative",
+    "ja": "コンテナイメージと実行時仕様の標準化団体・仕様",
+    "cat": "クラウド",
+    "detail": "イメージ形式とランタイム仕様の互換性を定める。OpenID ConnectのOIDCとは異なる。"
+  },
+  {
+    "abbr": "イメージレジストリ",
+    "full": "Container Image Registry",
+    "ja": "コンテナイメージを保管・配布するサービス",
+    "cat": "クラウド",
+    "detail": "署名検証、脆弱性スキャン、アクセス制御、イメージの固定化が重要。"
+  },
+  {
+    "abbr": "IMDS",
+    "full": "Instance Metadata Service",
+    "ja": "クラウドVMにメタデータを提供するサービス",
+    "cat": "クラウド",
+    "detail": "インスタンス認証情報等が取得可能な場合があり、SSRFからの悪用を防ぐ制限が重要。"
+  },
+  {
+    "abbr": "IMDSv2",
+    "full": "Instance Metadata Service version 2",
+    "ja": "AWSのトークンを利用するインスタンスメタデータ方式",
+    "cat": "クラウド",
+    "detail": "セッショントークンを要求し、単純なSSRF等による悪用を減らす。構成全体のSSRF対策はなお必要。"
+  },
+  {
+    "abbr": "マネージドサービス",
+    "full": "Managed Service",
+    "ja": "基盤やソフトウェア運用の一部を提供者が担当するサービス",
+    "cat": "クラウド",
+    "detail": "OS更新やバックアップなどの責任はサービスにより異なる。責任共有モデルで分担を確認する。"
+  },
+  {
+    "abbr": "サーバレス",
+    "full": "Serverless Computing",
+    "ja": "サーバ運用を抽象化した実行モデル",
+    "cat": "クラウド",
+    "detail": "利用者はコード・権限・データを管理し、基盤の保守を事業者が担う。実行ロールやイベント入力を保護する。"
+  },
+  {
+    "abbr": "FaaS",
+    "full": "Function as a Service",
+    "ja": "イベント等で小さな関数を実行するクラウドサービス",
+    "cat": "クラウド",
+    "detail": "利用者のコードが要求・イベントで起動。過剰権限、秘密管理、依存ライブラリの更新が重要。"
   }
 ]
