@@ -3558,9 +3558,9 @@
   {
     "abbr": "ALPN",
     "full": "Application-Layer Protocol Negotiation",
-    "ja": "TLS上で使用するアプリプロトコルを交渉する拡張",
+    "ja": "TLS接続時にHTTP/1.1・HTTP/2など使用するアプリケーションプロトコルを交渉する仕組み",
     "cat": "TLS",
-    "detail": "HTTP/2やHTTP/1.1などをTLSハンドシェイクで選択する。サーバ名を伝えるSNIとは異なる。"
+    "detail": "ALPN（Application-Layer Protocol Negotiation：アプリケーション層プロトコルネゴシエーション、RFC 7301）。TLSの接続確立時に、上位で使うアプリケーションプロトコルを選ぶための拡張。クライアントはClientHelloのALPN拡張に対応候補（例：h2、http/1.1）を列挙し、サーバは双方が対応する中から1つ選ぶ。TLS 1.2では選択結果をServerHelloのALPN拡張で通知するが、TLS 1.3では暗号化されたEncryptedExtensionsで通知する。共通候補がない場合はno_application_protocolという致命的アラートとなる。【識別子】http/1.1＝HTTP/1.1、h2＝HTTP/2（通常TLS over TCP）、h3＝HTTP/3（QUIC内のTLS 1.3を使った交渉。HTTP/3はTCP上ではない）。【SNIとの違い】SNI（Server Name Indication）は接続したいホスト名を通知する拡張、ALPNは使用したいアプリケーションプロトコルの交渉。どちらもClientHelloに登場する。【セキュリティ】ALPN自身は暗号化やユーザー認証を提供する方式ではなく、TLSが交渉を保護する。TLS 1.3のClientHelloにある候補一覧は通常観測可能だが、サーバの選択結果はEncryptedExtensionsで保護される。"
   },
   {
     "abbr": "0-RTT",
